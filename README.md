@@ -59,3 +59,33 @@
       <p> </p>
   </li>
 </ul>
+<table>
+  <thead>
+    <tr>
+      <th>1 Never attended school or only kindergarten</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2 Grades 1 through 8 (Elementary)</td>
+    </tr>
+    <tr>
+      <td>3 Grades 9 through 11 (Some high school)</td>
+    </tr>
+    <tr>
+      <td>4 Grade 12 or GED (High school graduate)</td>
+    </tr>
+    <tr>
+      <td>5 College 1 year to 3 years (Some college or technical school)</td>
+    </tr>
+    <tr>
+      <td>6 College 4 years or more (College graduate)</td>
+    </tr>
+    <tr>
+      <td>9 Refused</td>
+    </tr>
+    <tr>
+      <td>BLANK Not asked or Missing 1,770</td>
+    </tr>
+  </tbody>
+</table>
