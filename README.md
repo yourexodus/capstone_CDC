@@ -9,7 +9,7 @@
 <img src="gif/MeowMidwest.gif" alt="MeowMidwest" height="382px">
 </p>
 
-<p>I have developed a diabetis predictor program in Python which classifies given emails as spam or ham using Multi-class classfication models.</p>
+<p>I have built a Supervised Learning Classification model to predict the probabilty of diabetis given age and physical activity data.  Will be using Python to feed data into my Machine Learning model to obtain my diabetes prediction.</p>
 
 
 
