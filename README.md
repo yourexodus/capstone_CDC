@@ -11,26 +11,29 @@
 
 <p>I have built a Supervised Learning Classification model to predict the probabilty of diabetis given age and physical activity data.  Will be using Python to feed data into my Machine Learning model to obtain my diabetes prediction.</p>
 
-<h2>Project Outline </h2>
+<h2>Overview: </h2>
 <ul>
    
   <li><p>Frame my Hypothesis: </p>
       <p></p>
   </li>
-  <li><p> Prepare my data</p>
+  <li><p>Prepare my data using Jupyter Notebook</p>
       <p>Available:  </p>
   </li>
-  <li><p>Anyalyze using visuals</p>
+  <li><p>Anyalyze using visuals using Jupyter Notebook</p>
       <p> </p>
   </li>
-  <li><p>Make an interpretation</p>
+  <li><p>Make an interpretation using Jupyter Notebook</p>
       <p> </p>
   </li>
-  <li><p>Communicate my results</p>
+  <li><p>Communicate my results:</p>
+      <p> Jupyter Notebook</p>
       <p> </p>
   </li>
-  <li><p> </p>
-      <p> </p>
+  <li><p>Build my app</p>
+      <p> Pycharm:  transfer jupyter notebook ipynb files to py files
+      <p> Make graphs interactive </p>
+      <p> Launch app to render.com </p>
   </li>
 </ul>
 
