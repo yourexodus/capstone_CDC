@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"> Diabetis Predictor </h1>
 <h3 align="center"> Python Developer Capstone 1</h3>
-<h5 align="center"> Python Developer Career Training Course <a href="https://www.nwmissouri.edu/pdcenter/courses/python-developer.htm">Northwest Missouri State University</a> (Summer 2024) </h5>
+<h5 align="center"> Python Developer Career Training Course <a href="https://www.nwmissouri.edu/pdcenter/courses/python-developer.htm">Northwest Missouri State University</a>  (2024) </h5>
 
 <p align="center"> 
 <img src="gif/MeowMidwest.gif" alt="MeowMidwest" height="382px">
