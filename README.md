@@ -37,7 +37,7 @@
   </li>
 </ul>
 
-<h2> </h2>
+<h2>References</h2>
 <ul>
   <img src="images/sites.PNG" alt="sites" height="50px"> 
   <li><p>Design Inspiration, Author:Mohammad Amin Shamshiri </p>
