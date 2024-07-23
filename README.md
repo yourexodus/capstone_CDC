@@ -40,17 +40,17 @@
 <h2> </h2>
 <ul>
   <img src="images/sites.PNG" alt="sites" height="50px"> 
-  <li><p>Mohammad Amin Shamshiri, Design Inspiration </p>
-      <p>Available: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
+  <li><p>Design Inspiration, Author:Mohammad Amin Shamshiri </p>
+      <p>link: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
   </li>
   <li><p> </p>
-      <p>Available:  </p>
+      <p>link:  </p>
   </li>
   <li><p>Gemini - Used AI to generate cat Images for gif file. [Online].</p>
-      <p>Available:  https://gemini.google.com/app/6bc72f678cfc0140 </p>
+      <p>link:  https://gemini.google.com/app/6bc72f678cfc0140 </p>
   </li>
   <li><p>Canva, 'Designed gif file'. [Online].</p>
-      <p>Available: https://www.canva.com/design/DAGLuuM3ZFw/T0YXntR7e4ji-2wUPw-zYw/edit </p>
+      <p>link: https://www.canva.com/design/DAGLuuM3ZFw/T0YXntR7e4ji-2wUPw-zYw/edit </p>
   </li>
   <li><p> </p>
       <p> </p>
