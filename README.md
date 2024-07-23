@@ -32,7 +32,7 @@
   </li>
   <li><p>Build my app</p>
       <p> Pycharm:  transfer jupyter notebook ipynb files to py files
-      <p> Pycharm:  Make graphs interactive </p>
+      <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
       <p> Pycharm: Launch app to render.com </p>
   </li>
 </ul>
