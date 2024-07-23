@@ -15,11 +15,11 @@
 
 <h2> :books: References</h2>
 <ul>
-  <li><p>Jonathan Lee, 'Notes on Naive Bayes Classifiers for Spam Filtering'. [Online].</p>
+  <li><p>Mohammad Amin Shamshiri, Design Inspiration </p>
       <p>Available: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
   </li>
-  <li><p>Wikipedia.org, 'Naive Bayes Classifier'. [Online].</p>
-      <p>Available: https://en.wikipedia.org/wiki/Naive_Bayes_classifier</p>
+  <li><p> </p>
+      <p>Available:  </p>
   </li>
   <li><p>Gemini, Cat Images. [Online].</p>
       <p>Available:  https://gemini.google.com/app/6bc72f678cfc0140 </p>
