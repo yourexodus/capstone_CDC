@@ -11,7 +11,28 @@
 
 <p>I have built a Supervised Learning Classification model to predict the probabilty of diabetis given age and physical activity data.  Will be using Python to feed data into my Machine Learning model to obtain my diabetes prediction.</p>
 
-
+<h2>Project Outline </h2>
+<ul>
+   
+  <li><p>Frame my Hypothesis: </p>
+      <p></p>
+  </li>
+  <li><p> Prepare my data</p>
+      <p>Available:  </p>
+  </li>
+  <li><p>Anyalyze using visuals</p>
+      <p> </p>
+  </li>
+  <li><p>Make an interpretation</p>
+      <p> </p>
+  </li>
+  <li><p>Communicate my results</p>
+      <p> </p>
+  </li>
+  <li><p> </p>
+      <p> </p>
+  </li>
+</ul>
 
 <h2> </h2>
 <ul>
