@@ -22,7 +22,7 @@
   <li><p> </p>
       <p>Available:  </p>
   </li>
-  <li><p>Gemini, Cat Images. [Online].</p>
+  <li><p>Gemini - Used AI to generate cat Images for gif file. [Online].</p>
       <p>Available:  https://gemini.google.com/app/6bc72f678cfc0140 </p>
   </li>
   <li><p>Canva, 'Designed gif file'. [Online].</p>
