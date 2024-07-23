@@ -9,7 +9,7 @@
 <img src="gif/MeowMidwest.gif" alt="MeowMidwest" height="382px">
 </p>
 
-<p>I have developed a diabetis detector program in Python which classifies given emails as spam or ham using Multi-class classfication models.</p>
+<p>I have developed a diabetis predictor program in Python which classifies given emails as spam or ham using Multi-class classfication models.</p>
 
 
 
