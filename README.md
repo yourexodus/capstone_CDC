@@ -62,10 +62,13 @@
 <table>
   <thead>
     <tr>
-      <th>1 Never attended school or only kindergarten</th>
+      <th>Data: Education Level codes:</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>1 Never attended school or only kindergarten</td>
+    </tr>
     <tr>
       <td>2 Grades 1 through 8 (Elementary)</td>
     </tr>
