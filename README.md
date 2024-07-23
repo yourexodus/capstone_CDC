@@ -13,7 +13,7 @@
 
 
 
-<h2> <img src="images/references.png" alt="references" >: References</h2>
+<h2> <img src="images/references.png" alt="references" height="100px">: References</h2>
 <ul>
   <li><p>Mohammad Amin Shamshiri, Design Inspiration </p>
       <p>Available: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
