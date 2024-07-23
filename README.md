@@ -46,11 +46,11 @@
   <li><p> </p>
       <p>link:  </p>
   </li>
-  <li><p>Gemini - Used AI to generate cat Images for gif file. [Online].</p>
-      <p>link:  https://gemini.google.com/app/6bc72f678cfc0140 </p>
+  <li><p>Gemini - Used AI to generate cat Images</p>
+      <p>link:  https://gemini.google.com</p>
   </li>
-  <li><p>Canva, 'Designed gif file'. [Online].</p>
-      <p>link: https://www.canva.com/design/DAGLuuM3ZFw/T0YXntR7e4ji-2wUPw-zYw/edit </p>
+  <li><p>Canva,  create my gif file using my cat images from Gemini</p>
+      <p>link: https://www.canva.com </p>
   </li>
   <li><p> </p>
       <p> </p>
