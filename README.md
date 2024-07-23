@@ -13,8 +13,9 @@
 
 
 
-<h2> <img src="images/sites.PNG" alt="sites" height="100px"> Sites:</h2>
+<h2> </h2>
 <ul>
+  <img src="images/sites.PNG" alt="sites" height="50px"> 
   <li><p>Mohammad Amin Shamshiri, Design Inspiration </p>
       <p>Available: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
   </li>
