@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"> Diabetis Predictor </h1>
 <h3 align="center"> Python Developer Capstone 1</h3>
-<h5 align="center"> Python Developer Career Training Course <a href="https://www.concordia.ca/](https://www.nwmissouri.edu/pdcenter/courses/python-developer.htm">Northwest Missouri State University</a> (Summer 2024) </h5>
+<h5 align="center"> Python Developer Career Training Course <a href="https://www.nwmissouri.edu/pdcenter/courses/python-developer.htm">Northwest Missouri State University</a> (Summer 2024) </h5>
 
 <p align="center"> 
 <img src="gif/MeowMidwest.gif" alt="MeowMidwest" height="382px">
@@ -13,7 +13,7 @@
 
 
 
-<h2> <img src="images/references.png" alt="references" height="100px">: References</h2>
+<h2> <img src="images/sites.png" alt="sites" height="100px"> Sites:</h2>
 <ul>
   <li><p>Mohammad Amin Shamshiri, Design Inspiration </p>
       <p>Available: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
