@@ -59,6 +59,7 @@
       <p> </p>
   </li>
 </ul>
+
 <table>
   <thead>
     <tr>
@@ -89,6 +90,142 @@
     </tr>
     <tr>
       <td>BLANK Not asked or Missing 1,770</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>General Health Codes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 Excellent</td>
+    </tr>
+    <tr>
+      <td>2 Very good</td>
+    </tr>
+    <tr>
+      <td>3 Good</td>
+    </tr>
+    <tr>
+      <td>4 Fair</td>
+    </tr>
+    <tr>
+      <td>5 Poor</td>
+    </tr>
+    <tr>
+      <td>7 Don’t know/Not Sure</td>
+    </tr>
+    <tr>
+      <td>9 Refused</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mental health code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 - 30 Number of days</td>
+    </tr>
+    <tr>
+      <td>88 None</td>
+    </tr>
+    <tr>
+      <td>77 Don’t know/Not sure</td>
+    </tr>
+    <tr>
+      <td>99 Refused</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Difficulty Walking or Climbing Stairs (DiffWalk)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 - 30 Number of days</td>
+    </tr>
+    <tr>
+      <td>88 None</td>
+    </tr>
+    <tr>
+      <td>77 Don’t know/Not sure</td>
+    </tr>
+    <tr>
+      <td>99 Refused</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Difficulty Walking or Climbing Stairs (DiffWalk)</th>
+      <th>Income</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 - 30 Number of days</td>
+      <td>1  - Less than $10,000</td>
+    </tr>
+    <tr>
+      <td>88 None</td>
+      <td>2  - Less than $15,000 ($10,000 to less than $15,000)</td>
+    </tr>
+    <tr>
+      <td>77 Don’t know/Not sure</td>
+      <td>3  - Less than $20,000 ($15,000 to less than $20,000)</td>
+    </tr>
+    <tr>
+      <td>99 Refused</td>
+      <td>4  - Less than $25,000 ($20,000 to less than $25,000)</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>5 -  Less than $35,000 ($25,000 to less than $35,000)</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>6  - Less than $50,000 ($35,000 to less than $50,000)</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>7 - Less than $75,000 ($50,000 to less than $75,000)</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>8  - $75,000 or more</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>77 -  Don’t know/Not sure</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>99  - Refused</td>
     </tr>
   </tbody>
 </table>
