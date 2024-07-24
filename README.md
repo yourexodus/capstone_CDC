@@ -34,8 +34,10 @@
       <p> Pycharm:  transfer jupyter notebook ipynb files to py files
       <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
       <p> Pycharm: Launch app to render.com </p>
+      
   </li>
 </ul>
+
 
 <h2>References</h2>
 <ul>
@@ -43,29 +45,32 @@
   <li><p>Design Inspiration, Author:Mohammad Amin Shamshiri </p>
       <p>link: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
   </li>
-  <li><p>Table Magic - Used to build my data tables quickly  </p>
-      <p>link: https://stevecat.net/table-magic/ </p>
+  <li><p> </p>
+      <p>link:  </p>
   </li>
-  <li><p>Gemini - Used AI to generate cat Images</p>
+  <li><p>Gemini - Used AI to generate cat Images and to learn How to deploy my Prediction model</p>
       <p>link:  https://gemini.google.com</p>
   </li>
   <li><p>Canva,  create my gif file using my cat images from Gemini</p>
       <p>link: https://www.canva.com </p>
   </li>
-  <li><p>My previous work - used as a refresh how to perform EDA and build models </p>
-      <p>link: https://git.generalassemb.ly/mfrancis/marlainna-capstone-app/blob/main/Final_capstone_Part_II_Modeling.ipynb </p>
+  <li><p>Udemy.com - Online course </p>
+      <p>course:How to use ChatGPT and Generative AI to help create content</p>
+      <p>course:Deployment of Machine Learning Models</p>
+      
   </li>
-  <li><p>SkikitLearn - Building Models</p>
-      <p>link:https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html </p>
-  </li>
-</ul>
-<h2>CDC Data</h2>
-<ul>
-<li><p>csvfile </p>
-      <p>link: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators </p>
+  <li><p> </p>
+      <p> </p>
   </li>
 </ul>
-
+These are the graphs I downloaded from my Udemdy do a wonderful job illustrating what I hope to achieve in this capstone.
+I am working on packaging my model 
+<p align="center"> 
+<img src="images/PackageCodeIntoModule.png" alt="Inspired" height="382px">
+<img src="images/WorkFlow.png" alt="Inspired" height="382px">
+    
+</p>
+ 
 <table>
   <thead>
     <tr>
