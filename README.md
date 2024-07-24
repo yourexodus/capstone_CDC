@@ -59,6 +59,12 @@
       <p> </p>
   </li>
 </ul>
+<h2>CDC Data</h2>
+<ul>
+<li><p>csvfile </p>
+      <p>link: https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators </p>
+  </li>
+</ul>
 
 <table>
   <thead>
