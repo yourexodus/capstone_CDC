@@ -43,8 +43,8 @@
   <li><p>Design Inspiration, Author:Mohammad Amin Shamshiri </p>
       <p>link: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
   </li>
-  <li><p> </p>
-      <p>link:  </p>
+  <li><p>Table Magic - Used to build my data tables quickly  </p>
+      <p>link: https://stevecat.net/table-magic/ </p>
   </li>
   <li><p>Gemini - Used AI to generate cat Images</p>
       <p>link:  https://gemini.google.com</p>
@@ -52,8 +52,8 @@
   <li><p>Canva,  create my gif file using my cat images from Gemini</p>
       <p>link: https://www.canva.com </p>
   </li>
-  <li><p> </p>
-      <p> </p>
+  <li><p>My previous work - used as a refresh how to perform EDA and build models </p>
+      <p>link: https://git.generalassemb.ly/mfrancis/marlainna-capstone-app/blob/main/Final_capstone_Part_II_Modeling.ipynb </p>
   </li>
   <li><p> </p>
       <p> </p>
