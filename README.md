@@ -63,8 +63,8 @@
       <p> </p>
   </li>
 </ul>
-These are the graphs I downloaded from my Udemdy do a wonderful job illustrating what I hope to achieve in this capstone.
-I am working on packaging my model 
+07/24/24 - Update:
+I downloaded these charts from the Udemy course I am currently taking.  It does a wonderful job illustrating what I hope to achieve in this capstone.  Wish me luck! I am working on packaging my prediction model today of which I have never done before.
 <p align="center"> 
 <img src="images/PackageCodeIntoModule.png" alt="Inspired" height="382px">
 <img src="images/WorkFlow.png" alt="Inspired" height="382px">
