@@ -55,8 +55,8 @@
   <li><p>My previous work - used as a refresh how to perform EDA and build models </p>
       <p>link: https://git.generalassemb.ly/mfrancis/marlainna-capstone-app/blob/main/Final_capstone_Part_II_Modeling.ipynb </p>
   </li>
-  <li><p> </p>
-      <p> </p>
+  <li><p>SkikitLearn - Building Models</p>
+      <p>link:https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html </p>
   </li>
 </ul>
 <h2>CDC Data</h2>
