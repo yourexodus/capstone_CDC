@@ -126,56 +126,49 @@
   <thead>
     <tr>
       <th>General Health Codes</th>
+      <th>Mental health code</th>
+      <th>Number of Days Physical Health Not Good</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>1 Excellent</td>
-    </tr>
-    <tr>
-      <td>2 Very good</td>
-    </tr>
-    <tr>
-      <td>3 Good</td>
-    </tr>
-    <tr>
-      <td>4 Fair</td>
-    </tr>
-    <tr>
-      <td>5 Poor</td>
-    </tr>
-    <tr>
-      <td>7 Don’t know/Not Sure</td>
-    </tr>
-    <tr>
-      <td>9 Refused</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>Mental health code</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
+      <td>1 - 30 Number of days</td>
       <td>1 - 30 Number of days</td>
     </tr>
     <tr>
+      <td>2 Very good</td>
+      <td>88 None</td>
       <td>88 None</td>
     </tr>
     <tr>
+      <td>3 Good</td>
       <td>77 Don’t know/Not sure</td>
+      <td>77 Don’t know</td>
     </tr>
     <tr>
+      <td>4 Fair</td>
+      <td>99 Refused</td>
       <td>99 Refused</td>
     </tr>
     <tr>
+      <td>5 Poor</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>7 Don’t</td>
+      <td>know/Not Sure</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>9 Refused</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
   </tbody>
