@@ -173,30 +173,7 @@
     </tr>
   </tbody>
 </table>
-<table>
-  <thead>
-    <tr>
-      <th>Difficulty Walking or Climbing Stairs (DiffWalk)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1 - 30 Number of days</td>
-    </tr>
-    <tr>
-      <td>88 None</td>
-    </tr>
-    <tr>
-      <td>77 Don’t know/Not sure</td>
-    </tr>
-    <tr>
-      <td>99 Refused</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
+
 
 <table>
   <thead>
