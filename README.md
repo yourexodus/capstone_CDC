@@ -20,10 +20,11 @@
   <li><p>Prepare my data: <a href="https://github.com/yourexodus/caphstone_CDC/blob/9c0cc00033276cde7e8151467ce1ee015ea98666/GettingToKnowTheData.ipynb">GettingToKnowTheData</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p>Analyze using visuals: <a href="https://github.com/yourexodus/capstone_CDC/blob/469596f51d067db56879acb643a9940d63df5f2b/Visualizing%20and%20Interpreting%20Data.ipynb">Visualizing and Interpretting Data</a></p>   
+  <li><p>Analyze using visuals and make some determinations: <a href="https://github.com/yourexodus/capstone_CDC/blob/469596f51d067db56879acb643a9940d63df5f2b/Visualizing%20and%20Interpreting%20Data.ipynb">Visualizing and Interpretting Data</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p>Make an interpretation </p>
+   
+  <li><p>Replaced Codes with Label names.  Saved to file: <a href="https://github.com/yourexodus/capstone_CDC/blob/0efb2177b9301e45ff95de6d289d66fc38282c6f/Feature_Engineering.ipynb">Feature_Engineering</a></p>
       <p> Jupyter Notebook</p>
   </li>
   <li><p>Communicate my results </p>
