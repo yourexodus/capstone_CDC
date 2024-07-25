@@ -20,7 +20,7 @@
   <li><p>Prepare my data: <a href="https://github.com/yourexodus/caphstone_CDC/blob/9c0cc00033276cde7e8151467ce1ee015ea98666/GettingToKnowTheData.ipynb">GettingToKnowTheData</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p>Anyalyze using visuals</p>
+  <li><p>Analyze using visuals: <a href="https://github.com/yourexodus/capstone_CDC/blob/469596f51d067db56879acb643a9940d63df5f2b/Visualizing%20and%20Interpreting%20Data.ipynb">Visualizing and Interpretting Data</a></p>   
       <p> Jupyter Notebook</p>
   </li>
   <li><p>Make an interpretation </p>
@@ -264,7 +264,7 @@
     <tr>
       <td> 07/25</td>
       <td> Feature engineering my data by adding labels and export files I can use in a dashboard. Worked on yesterday I learned how to save my model to a pickle file in 1 notebook and load and use it in another,     Not what I expected because I had refit it.  When I reloaded, my logistic model outperformed my Random Forest model.      The accuracy is apprx 34%.  I will go back and apply some tunning later but for now, I will get progressing from start finish    Goal is to find out if I need to package this model to use it in a real application or can I just use my pickle file.    Need to start developing interactive models and developing an app that will take user input</td>
-      <td> Created a copy more jupyter notebook files.  Save & Reloaded my model using Pickle files</td>
+      <td> Created a copy more jupyter notebook files.  Save & Reloaded my model using Pickle files.  Added jupyter notebook links to readme.md file</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
