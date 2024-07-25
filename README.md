@@ -79,13 +79,14 @@
        	https://archive.ics.uci.edu/static/public/891/data.csv* <br>
         https://www.cdc.gov/brfss/annual_data/annual_2014.html   <br> 
          https://www.cdc.gov/brfss/annual_data/2014/pdf/CODEBOOK14_LLCP.pdf  
+  <br>
   
    
   
 </ul>
 
- 
-
+ <H2>Data Codes</H2>
+<ul>
 <table>
   <thead>
     <tr>
@@ -225,8 +226,9 @@
     </tr>
   </tbody>
 </table>
-
+</ul>
 <h2>My Journal</h2>
+<ul>
 <table>
   <thead>
     <tr>
@@ -308,3 +310,4 @@
     </tr>
   </tbody>
 </table>
+</ul>
