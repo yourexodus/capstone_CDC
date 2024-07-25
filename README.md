@@ -31,9 +31,10 @@
       <p> Jupyter Notebook</p>
      
   </li>
-  <li><p>Modeling:</p>
-      <p>Step 1:Built Logistic and Random Forest Model<a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Modeling.ipynb</a></p>
-       <p>Step2: Saved Model and Scored new Data <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Score_New_Data.ipynb</a></p>
+  <li><p>Modeling: Built Logistic and Random Forest Models <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Modeling.ipynb"</a></p>
+     <p> Jupyter Notebook</p>
+                                                           </li>
+  <li> <p>Saved Model and Scored new Data <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Score_New_Data.ipynb</a></p>
       <p> Jupyter Notebook</p>
        
   </li>
