@@ -238,23 +238,23 @@
   <tbody>
     <tr>
       <td>07/22</td>
-      <td>Capstone project was approved.  worked on importing data setting up environment: git, github, anaconda cmd prompt, jupyter notebook.  Created new repository</td>
+      <td>Capstone project was approved.  worked on importing data setting up environment: git, github, jupyter notebook.  Created new repository</td>
       <td>Overcame SSH errors when using commit line cmd.  Just decided to upload my files to my repository</td>
     </tr>
     <tr>
       <td>07/23</td>
       <td>I used AI to generate images .  Super cool! I had a lot of trial and error.  I decided just to take crash course on udemy how to do it.</td>
-      <td> Created a git file</td>
+      <td>Created a git file</td>
     </tr>
     <tr>
-      <td> 07/24</td>
-      <td>Worked on exploring my data.</td>
+      <td>07/24</td>
+      <td>Worked on exploring my data and researching techniques to saving model for scoring of new data</td>
       <td>Created 3 jupyter notebook files</td>
     </tr>
     <tr>
-      <td> 07/25</td>
-      <td> Feature engineering my data by adding labels and export files I can use in a dashboard. Worked on yesterday I learned how to save my model to a pickle file in 1 notebook and load and use it in another,     Not what I expected because I had refit it.  When I reloaded, my logistic model outperformed my Random Forest model.      The accuracy is apprx 34%.  I will go back and apply some tunning later but for now, I will get progressing from start finish    Goal is to find out if I need to package this model to use it in a real application or can I just use my pickle file.    Need to start developing interactive models and developing an app that will take user input</td>
-      <td> Created a copy more jupyter notebook files.  Save & Reloaded my model using Pickle files.  Added jupyter notebook links to readme.md file</td>
+      <td>07/25</td>
+      <td>Feature engineering my data by adding labels and export files I can use in a dashboard. continuation of what I learned yesterday in saving my model to a pickle file in 1 notebook and load and use it in another.     When I reloaded, I only reloaded my Random Forest model because it out performed my logistic model.</td>
+      <td>Created more jupyter notebook files.  Figured out how to save & Reloaded & score new data using Pickle files</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
