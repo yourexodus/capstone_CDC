@@ -57,19 +57,14 @@
   <li><p>Udemy.com - Online course </p>
       <p>course:How to use ChatGPT and Generative AI to help create content</p>
       <p>course:Deployment of Machine Learning Models</p>
-      
+      <img src="images/PackageCodeIntoModule.png" alt="Inspired" height="382px">
+      <img src="images/WorkFlow.png" alt="Inspired" height="382px">
+  
   </li>
   <li><p> </p>
       <p> </p>
   </li>
 </ul>
-07/24/24 - Update:
-I downloaded these charts from the Udemy course I am currently taking.  It does a wonderful job illustrating what I hope to achieve in this capstone.  Wish me luck! I am working on packaging my prediction model today of which I have never done before.
-<p align="center"> 
-<img src="images/PackageCodeIntoModule.png" alt="Inspired" height="382px">
-<img src="images/WorkFlow.png" alt="Inspired" height="382px">
-    
-</p>
  
 <table>
   <thead>
@@ -237,6 +232,102 @@ I downloaded these charts from the Udemy course I am currently taking.  It does 
     <tr>
       <td>&nbsp;</td>
       <td>99  - Refused</td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>progress</th>
+      <th>accomplishment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>07/24</td>
+      <td>I downloaded these charts from the Udemy course I am currently taking. It does a wonderful job illustrating what I hope to achieve in this capstone. Wish me luck! I am working on packaging my prediction model today of which I have never done before.</td>
+      <td>Created a git file</td>
+    </tr>
+    <tr>
+      <td>07/25</td>
+      <td>yesterday I learned how to save my model to a pickle file in 1 notebook and load and use it in another,     Not what I expected because I had refit it.  When I reloaded, my logistic model outperformed my Random Forest model.      The accuracy is apprx 34%.  I will go back and apply some tunning later but for now, I will get progressing from start finish    Goal is to find out if I need to package this model to use it in a real application or can I just use my pickle file.    Need to start developing interactive models and developing an app that will take user input</td>
+      <td>Save & Reloaded my model using Pickle files</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
   </tbody>
 </table>
