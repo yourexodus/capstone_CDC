@@ -73,7 +73,19 @@
       <p> </p>
   </li>
 </ul>
+<h2> Available CDC Data </h2> 
+<ul>
+       https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators  
+       	https://archive.ics.uci.edu/static/public/891/data.csv*
+        https://www.cdc.gov/brfss/annual_data/annual_2014.html   
+         https://www.cdc.gov/brfss/annual_data/2014/pdf/CODEBOOK14_LLCP.pdf  
+  
+   
+  
+</ul>
+
  
+
 <table>
   <thead>
     <tr>
