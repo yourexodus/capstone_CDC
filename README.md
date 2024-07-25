@@ -256,7 +256,7 @@
   <tbody>
     <tr>
       <td>07/22</td>
-      <td>Capstone project was approved.  worked on importing data setting up environment: git, github, jupyter notebook.  Created new repository</td>
+      <td>Capstone project was approved.  worked on importing data setting up environment: git, github, anaconda cmd prompt, jupyter notebook.  Created new repository</td>
       <td>Overcame SSH errors when using commit line cmd.  Just decided to upload my files to my repository</td>
     </tr>
     <tr>
