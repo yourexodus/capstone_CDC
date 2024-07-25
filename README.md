@@ -27,9 +27,15 @@
   <li><p>Replaced Codes with Label names.  Saved to file: <a href="https://github.com/yourexodus/capstone_CDC/blob/0efb2177b9301e45ff95de6d289d66fc38282c6f/Feature_Engineering.ipynb">Feature_Engineering</a></p>
       <p> Jupyter Notebook</p>
   </li>
-  <li><p>Communicate my results </p>
+  <li><p>Communicate Results -- Added Notes in files.  Emailed. Feedback Received 07/24</p>
       <p> Jupyter Notebook</p>
-      <p> </p>
+     
+  </li>
+  <li><p>Modeling:</p>
+      <p>Step 1:Built Logistic and Random Forest Model<a href="https://github.com/yourexodus/capstone_CDC/blob/0efb2177b9301e45ff95de6d289d66fc38282c6f/Feature_Engineering.ipynb">Feature_Engineering</a></p>
+       <p>Step2: Saved Model and Scored new Data <a href="https://github.com/yourexodus/capstone_CDC/blob/0efb2177b9301e45ff95de6d289d66fc38282c6f/Feature_Engineering.ipynb">Feature_Engineering</a></p>
+      <p> Jupyter Notebook</p>
+       
   </li>
   <li><p>Build my app</p>
       <p> Pycharm:  transfer jupyter notebook ipynb files to py files
