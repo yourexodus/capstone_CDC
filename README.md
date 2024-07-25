@@ -31,12 +31,12 @@
       <p> Jupyter Notebook</p>
      
   </li>
-  <li><p>Modeling: Built Logistic and Random Forest Models <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Modeling.ipynb"</a></p>
-     <p> Jupyter Notebook</p>
-                                                           </li>
-  <li> <p>Saved Model and Scored new Data <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Score_New_Data.ipynb"</a></p>
+
+<li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Modeling.ipynb">Modeling</a></p>   
       <p> Jupyter Notebook</p>
-       
+  </li>
+  <li><p>Pickle the model: <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Score_New_Data.ipynb">Score_New_Data</a></p>   
+      <p> Jupyter Notebook</p>
   </li>
   <li><p>Build my app -- 07/25 in-progres</p>
       <p> Pycharm:  transfer jupyter notebook ipynb files to py files
