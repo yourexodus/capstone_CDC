@@ -32,12 +32,12 @@
      
   </li>
   <li><p>Modeling:</p>
-      <p>Step 1:Built Logistic and Random Forest Model<a href="https://github.com/yourexodus/capstone_CDC/blob/0efb2177b9301e45ff95de6d289d66fc38282c6f/Feature_Engineering.ipynb">Feature_Engineering</a></p>
-       <p>Step2: Saved Model and Scored new Data <a href="https://github.com/yourexodus/capstone_CDC/blob/0efb2177b9301e45ff95de6d289d66fc38282c6f/Feature_Engineering.ipynb">Feature_Engineering</a></p>
+      <p>Step 1:Built Logistic and Random Forest Model<a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Modeling.ipynb</a></p>
+       <p>Step2: Saved Model and Scored new Data <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Score_New_Data.ipynb</a></p>
       <p> Jupyter Notebook</p>
        
   </li>
-  <li><p>Build my app</p>
+  <li><p>Build my app -- 07/25 in-progres</p>
       <p> Pycharm:  transfer jupyter notebook ipynb files to py files
       <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
       <p> Pycharm: Launch app to render.com </p>
