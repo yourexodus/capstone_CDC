@@ -17,7 +17,7 @@
   <li><p>Frame my Hypothesis: </p>
       <p>Increase exercise and healthier eating habits can lessen the probabilty of developing diabetes for all ages</p>
   </li>
-  <li><p>Prepare my data</p>
+  <li><p>Prepare my data: <a href="https://github.com/yourexodus/caphstone_CDC/blob/9c0cc00033276cde7e8151467ce1ee015ea98666/GettingToKnowTheData.ipynb">GettingToKnowTheData</a></p>   
       <p> Jupyter Notebook</p>
   </li>
   <li><p>Anyalyze using visuals</p>
