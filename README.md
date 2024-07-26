@@ -66,8 +66,7 @@
   <li><p>Udemy.com - Online course </p>
       <p>course:How to use ChatGPT and Generative AI to help create content</p>
       <p>course:Build an Interactive Data Analytics Dashboard with Python</p>
-      <img src="images/PackageCodeIntoModule.png" alt="Inspired" height="382px">
-      <img src="images/WorkFlow.png" alt="Inspired" height="382px">
+      
   
   </li>
   <li><p> </p>
