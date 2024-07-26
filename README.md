@@ -53,8 +53,8 @@
   <li><p>Design Inspiration, Author:Mohammad Amin Shamshiri </p>
       <p>link: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
   </li>
-  <li><p> </p>
-      <p>link:  </p>
+  <li><p>Generate a New SSH key and added it to Github </p>
+      <p>link: https://www.youtube.com/watch?v=X40b9x9BFGo </p>
   </li>
   <li><p>Gemini - Used AI to generate cat Images and to learn How to deploy my Prediction model</p>
       <p>link:  https://gemini.google.com</p>
@@ -259,9 +259,9 @@
       <td>Created more jupyter notebook files.  Figured out how to save & Reloaded & score new data using Pickle files</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>07/26</td>
+      <td>Fixed SSH issues with Github. Followed the steps in a youtube video. Added link above.  Created program and Ran in Pycharm.  Program displays a menu in the terminal and attempts to use Pickel file load to make a prediction.  Failed.  Will try something new today</td>
+      <td>Deleted my repository folder and recloned to my local drive.  Am able to use git command to tracks changes</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
