@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ 
 <p align="center"> 
   <img src="images/Logo.PNG" alt="Logo.PNG" width="80px" height="80px">
 </p>
@@ -312,7 +312,7 @@
   </tbody>
 </table>
 </ul>
-=======
+ 
 <p align="center"> 
   <img src="images/Logo.PNG" alt="Logo.PNG" width="80px" height="80px">
 </p>
@@ -369,11 +369,9 @@
       <p>link: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
   </li>
   <li><p>Generate a New SSH key and added it to Github </p>
-<<<<<<< HEAD
+ 
       <p>link: https://www.youtube.com/watch?v=X40b9x9BFGo </p>
-=======
-      <p>link: https://www.youtube.com/watch?v=X40b9x9BFGo</p>
->>>>>>> 08b0a97b5780e63d9e0d25c8f86f43d378ad9aea
+ 
   </li>
   <li><p>Gemini - Used AI to generate cat Images and to learn How to deploy my Prediction model</p>
       <p>link:  https://gemini.google.com</p>
@@ -633,4 +631,4 @@
   </tbody>
 </table>
 </ul>
->>>>>>> e17c754eb308d7faf2d2eaa94eb4a46401acfa3f
+ 
