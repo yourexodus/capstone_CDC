@@ -579,13 +579,11 @@
     </tr>
     <tr>
       <td>07/26</td>
-<<<<<<< HEAD
+
       <td>Fixed SSH issues with Github. Followed the steps in a youtube video. Added link above.  Created program and Ran in Pycharm.  Program displays a menu in the terminal and attempts to use Pickel file load to make a prediction.  Failed.  Will try something new today</td>
-      <td>Deleted my repository folder and recloned to my local drive.  Am able to use git command to tracks changes</td>
-=======
-      <td>Fixed SSH issues with Github.  Followed the steps in a youtube video. Added link above</td>
+      <td>Deleted my repository folder and recloned to my local drive. Now able to use git cmd in GitBash to update my repository in Github</td>
       <td>&nbsp;</td>
->>>>>>> 08b0a97b5780e63d9e0d25c8f86f43d378ad9aea
+
     </tr>
     <tr>
       <td>&nbsp;</td>
