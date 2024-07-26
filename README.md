@@ -54,7 +54,11 @@
       <p>link: https://raw.githubusercontent.com/yourexodus/Spam-Detector/master/README.md</p>
   </li>
   <li><p>Generate a New SSH key and added it to Github </p>
+<<<<<<< HEAD
+      <p>link: https://www.youtube.com/watch?v=X40b9x9BFGo </p>
+=======
       <p>link: https://www.youtube.com/watch?v=X40b9x9BFGo</p>
+>>>>>>> 08b0a97b5780e63d9e0d25c8f86f43d378ad9aea
   </li>
   <li><p>Gemini - Used AI to generate cat Images and to learn How to deploy my Prediction model</p>
       <p>link:  https://gemini.google.com</p>
@@ -81,8 +85,8 @@
          https://www.cdc.gov/brfss/annual_data/2014/pdf/CODEBOOK14_LLCP.pdf  
   <br>
   
-   
-  
+
+
 </ul>
 
  <H2>Data Codes</H2>
@@ -260,8 +264,13 @@
     </tr>
     <tr>
       <td>07/26</td>
+<<<<<<< HEAD
+      <td>Fixed SSH issues with Github. Followed the steps in a youtube video. Added link above.  Created program and Ran in Pycharm.  Program displays a menu in the terminal and attempts to use Pickel file load to make a prediction.  Failed.  Will try something new today</td>
+      <td>Deleted my repository folder and recloned to my local drive.  Am able to use git command to tracks changes</td>
+=======
       <td>Fixed SSH issues with Github.  Followed the steps in a youtube video. Added link above</td>
       <td>&nbsp;</td>
+>>>>>>> 08b0a97b5780e63d9e0d25c8f86f43d378ad9aea
     </tr>
     <tr>
       <td>&nbsp;</td>
