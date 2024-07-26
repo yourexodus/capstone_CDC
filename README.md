@@ -81,8 +81,8 @@
          https://www.cdc.gov/brfss/annual_data/2014/pdf/CODEBOOK14_LLCP.pdf  
   <br>
   
-   
-  
+
+
 </ul>
 
  <H2>Data Codes</H2>
