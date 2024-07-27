@@ -265,9 +265,9 @@
       <td>Deleted my repository folder and recloned to my local drive. Now able to use git cmd in GitBash to update my repository in Githubs</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>07/26</td>
+      <td>Housekeeping.  Touched all the files today.  Updated some graphs. Started a python file just for functions.</td>
+      <td>Started a udemy course that is given me life!  Its soooo good!  I am loving my training right now</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
