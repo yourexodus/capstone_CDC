@@ -13,7 +13,7 @@
 <p>I have built a Supervised Learning Classification model to predict the probabilty of diabetis given age and physical activity data.  Will be using Python to feed data into my Machine Learning model to obtain my diabetes prediction.</p>
 
 <h2>Workflow: </h2>
-<img src="images/research.png" alt="Logo.PNG" width="80px" height="80px">
+<img src="images/research.png" alt="Logo.PNG" width="600px" height="200px">
 <ul>
    
   <li><p>Frame my Hypothesis: </p>
@@ -263,7 +263,7 @@
       <td>07/26</td>
       <td>Fixed SSH issues with Github. Followed the steps in a youtube video. Added link above.  Created program and Ran in Pycharm.  Program displays a menu in the terminal and attempts to use Pickel file load to make a prediction.  Failed. As a result, I have decided to switch gears from pickel files. I have found a udemy class that will show me how to encapsulate models into classes in jupyter notebook and use them in pycharm
 </td>
-      <td>Deleted my repository folder and recloned to my local drive. Now able to use git cmd (add, commit , push) in GitBash to update my repository in Githubs</td>
+      <td>Deleted my repository folder and recloned to my local drive. Now able to use git cmd (add, commit , push, pull) in GitBash to update my repository in Githubs</td>
     </tr>
     <tr>
       <td>07/26</td>
