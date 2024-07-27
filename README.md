@@ -262,12 +262,12 @@
       <td>07/26</td>
       <td>Fixed SSH issues with Github. Followed the steps in a youtube video. Added link above.  Created program and Ran in Pycharm.  Program displays a menu in the terminal and attempts to use Pickel file load to make a prediction.  Failed. As a result, I have decided to switch gears from pickel files. I have found a udemy class that will show me how to encapsulate models into classes in jupyter notebook and use them in pycharm
 </td>
-      <td>Deleted my repository folder and recloned to my local drive. Now able to use git cmd in GitBash to update my repository in Githubs</td>
+      <td>Deleted my repository folder and recloned to my local drive. Now able to use git cmd (add, commit , push) in GitBash to update my repository in Githubs</td>
     </tr>
     <tr>
       <td>07/26</td>
-      <td>Housekeeping.  Touched all the files today.  Updated some graphs. Started a python file just for functions.</td>
-      <td>Started a udemy course that is given me life!  Its soooo good!  I am loving my training right now</td>
+      <td>Housekeeping. Using a virtural environment I created using conda.   Touched all the files today. Even created some dashboard data files. Updated some graphs. Started a python file just for functions.</td>
+      <td>Started a udemy course that is given me life!  Its soooo good!  I am loving my training right now.  Its going to show me how to use my prediction to score new data</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
