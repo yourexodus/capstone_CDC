@@ -13,6 +13,7 @@
 <p>I have built a Supervised Learning Classification model to predict the probabilty of diabetis given age and physical activity data.  Will be using Python to feed data into my Machine Learning model to obtain my diabetes prediction.</p>
 
 <h2>Workflow: </h2>
+<img src="images/reasearch.PNG" alt="Logo.PNG" width="80px" height="80px">
 <ul>
    
   <li><p>Frame my Hypothesis: </p>
