@@ -22,7 +22,7 @@ class PrepareData:
         """
         self.download_new = download_new
 
-    def download_data(x):
+    def download_data(self,x):
         """
         Reads in a single dataset from the CDC website as csv
 
@@ -31,7 +31,7 @@ class PrepareData:
         if x == 1:
          return pd.read_csv(url)
 
-    def write_data(data, directory, **kwargs):
+    def write_data(self, data, directory, **kwargs):
         """
         Writes each raw data DataFrame to a file as a CSV
 
@@ -53,8 +53,8 @@ class PrepareData:
          # df.to_csv(f'data/raw/{name}.csv')
          df.to_csv(f'{directory}/{name}.csv', **kwargs)
 
-      def read_local_data(name, directory):
-          """
+    def read_local_data(self, name, directory):
+        """
           Read in one CSV as a DataFrame from the given directory
 
           Parameters
@@ -67,9 +67,9 @@ class PrepareData:
           -------
           DataFrame
           """
-          return pd.read_csv(f"{directory}/{name}_data.csv")
+        return pd.read_csv(f"{directory}/{name}_data.csv")
 
-      def run():
+    def run(self):
           """
           Run all cleaning and transformation steps
 
@@ -77,13 +77,19 @@ class PrepareData:
           -------
           Dictionary of DataFrames
           """
+
           names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
           data = {}
+
           for i in names:
-           data[f"{i}"] = read_local_data(i, 'data/raw')
+              if self.download_new:
+                data[f"{i}"] = self.download_data(1)
+              else:
+                data[f"{i}"] = self.read_local_data(i,'data/raw' )
+
           return data
 
-      def select_columns(df):
+    def select_columns(self, df):
           """
           Selects fewer columns
           Parameters
@@ -107,7 +113,7 @@ class PrepareData:
 
           return sample_df.loc[:, filt]
 
-      def run2():
+    def run2(self):
           """
           Run all cleaning and transformation steps
 
@@ -118,12 +124,17 @@ class PrepareData:
           names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
           data = {}
           for i in names:
-           df = read_local_data(i, 'data/raw')
-           df = select_columns(df)  # step 1:  select column in data cleaning
-           data[f"{i}"] = df
+
+              if self.download_new:
+                  data[f"{i}"] = self.download_data(1)
+              else:
+                  data[f"{i}"] = self.read_local_data(i, 'data/raw')
+
+              df = self.select_columns(df)  # step 1:  select column in data cleaning
+              data[f"{i}"] = df
           return data
 
-      def update_labels(df):
+    def update_labels(self, df):
           """
           Replace a few of the area names using the REPLACE_AREA dictionary.
 
@@ -148,7 +159,7 @@ class PrepareData:
 
           return people
 
-      def run3():
+    def run3(self):
           """
           Run all cleaning and transformation steps
 
@@ -159,15 +170,17 @@ class PrepareData:
           names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
           data = {}
           for i in names:
-           df = read_local_data(i, 'data/raw')
-           df = update_labels(df)
-           df = select_columns(df)  # step 1:  select column in data cleaning
-
-           data[f"{i}"] = df
+              if self.download_new:
+                  data[f"{i}"] = self.download_data(1)
+              else:
+                  data[f"{i}"] = self.read_local_data(i, 'data/raw')
+              df = self.update_labels(df)
+              df = self.select_columns(df)  # step 1:  select column in data cleaning
+              data[f"{i}"] = df
           return data
 
 
-   def group_data(df, x, y):
+    def group_data(self, df, x, y):
        """
        Run all cleaning and transformation steps
 
@@ -193,7 +206,7 @@ class PrepareData:
        return counts
 
 
-   def run4():
+    def run4(self):
        """
        Run all cleaning and transformation steps
 
@@ -204,15 +217,19 @@ class PrepareData:
        names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
        data = {}
        for i in names:
-        df = read_local_data(i, 'data/raw')
-        df = update_labels(df)  # step 1: update labels
-        df = select_columns(df)  # step 2:  select column in data cleaning
-        df = group_data(df, "GeneralHealth", "Type")  # step 4:
-        data[f"{i}"] = df
+           if self.download_new:
+               data[f"{i}"] = self.download_data(1)
+           else:
+               data[f"{i}"] = self.read_local_data(i, 'data/raw')
+
+           df = self.update_labels(df)  # step 1: update labels
+           df = self.select_columns(df)  # step 2:  select column in data cleaning
+           df = self.group_data(df, "GeneralHealth", "Type")  # step 4:
+           data[f"{i}"] = df
        return data
 
 
-   def run5():
+    def run5(self):
        """
        Run all cleaning and transformation steps
 
@@ -223,15 +240,18 @@ class PrepareData:
        names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
        data = {}
        for i in names:
-        df = read_local_data(i, 'data/raw')
-        df = update_labels(df)  # step 1: update labels
-        df = select_columns(df)  # step 2:  select column in data cleaning
-        df = group_data(df, "income", "Type")  # step 3: group data
-        data[f"{i}"] = df
+           if self.download_new:
+               data[f"{i}"] = self.download_data(1)
+           else:
+               data[f"{i}"] = self.read_local_data(i, 'data/raw')
+           df = self.update_labels(df)  # step 1: update labels
+           df = self.select_columns(df)  # step 2:  select column in data cleaning
+           df = self.group_data(df, "income", "Type")  # step 3: group data
+           data[f"{i}"] = df
        return data
 
 
-   def run6():
+    def run6(self):
        """
        Run all cleaning and transformation steps
 
@@ -242,11 +262,14 @@ class PrepareData:
        names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
        data = {}
        for i in names:
-        df = read_local_data(i, 'data/raw')
-        df = update_labels(df)  # step 1: update labels
-        df = select_columns(df)  # step 2:  select column in data cleaning
-        df = group_data(df, "education", "Type")  # step3: group data and count
-        data[f"{i}"] = df
+           if self.download_new:
+               data[f"{i}"] = self.download_data(1)
+           else:
+               data[f"{i}"] = self.read_local_data(i, 'data/raw')
+           df = self.update_labels(df)  # step 1: update labels
+           df = self.select_columns(df)  # step 2:  select column in data cleaning
+           df = self.group_data(df, "education", "Type")  # step3: group data and count
+           data[f"{i}"] = df
        return data
 
 
