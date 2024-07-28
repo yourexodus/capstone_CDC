@@ -1,422 +1,244 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "61ea07ce-7b69-42e6-821e-1ebbaa43e193",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "import pandas as pd\n",
-    "\n",
-    "url = (\n",
-    "    \"https://archive.ics.uci.edu/static/public/891/data.csv\"\n",
-    ")\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 2,
-   "id": "b5966b8a-2168-4047-a26a-be001c776fe5",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def download_data(x):\n",
-    "    \"\"\"\n",
-    "    Reads in a single dataset from the CDC website as csv\n",
-    "        \n",
-    "    Return: DataFrame\n",
-    "    \"\"\"\n",
-    "    if x== 1:\n",
-    "      return pd.read_csv(url)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 3,
-   "id": "6bc37957-4ca7-48fb-8d3f-6011f57f1454",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def write_data(data, directory, **kwargs):\n",
-    "    \"\"\"\n",
-    "    Writes each raw data DataFrame to a file as a CSV\n",
-    "    \n",
-    "    Parameters\n",
-    "    ----------\n",
-    "    data : dictionary of DataFrames\n",
-    "\n",
-    "    directory : string name of directory to save files i.e. \"data/raw\"\n",
-    "    \n",
-    "    kwargs : extra keyword arguments for the `to_csv` DataFrame method\n",
-    "    \n",
-    "    Returns\n",
-    "    -------X_test.to_csv('data/prepared/X_test_ScoreNewData.csv',index=False)\n",
-    "    None\n",
-    "    Note bashlash is a special character so will need to double the path string\n",
-    "    directory name, name of key.csv.  forwardign any keyword argument\n",
-    "    \"\"\"\n",
-    "    for name, df in data.items():\n",
-    "        #df.to_csv(f'data/raw/{name}.csv')\n",
-    "        df.to_csv(f'{directory}/{name}.csv',**kwargs)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "051c1eb9-edbe-4ed1-b44a-f888cf6a5b61",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def read_local_data(name, directory):\n",
-    "    \"\"\"\n",
-    "    Read in one CSV as a DataFrame from the given directory\n",
-    "\n",
-    "    Parameters\n",
-    "    ----------\n",
-    "    name : menhealth or menhealth or physical or dietary,heart,sex,edu,al   \n",
-    "\n",
-    "    directory : string name of directory to save files i.e. \"data/raw\"\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    DataFrame\n",
-    "    \"\"\"\n",
-    "    return pd.read_csv(f\"{directory}/{name}_data.csv\")\n",
-    "\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 2,
-   "id": "8e3b34c9-f08d-4eae-87d4-56204149fd0f",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def run():\n",
-    "    \"\"\"\n",
-    "    Run all cleaning and transformation steps\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    Dictionary of DataFrames\n",
-    "    \"\"\"\n",
-    "    names = ['menhealth','menhealth','physical','dietary','heart','sex','edu','all']\n",
-    "    data = {}\n",
-    "    for i in names:\n",
-    "      data[f\"{i}\"] = read_local_data(i,'data/raw')\n",
-    "    return data"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "a569a221-a7f2-4e2a-a4cc-b7f41fe0ead7",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 8,
-   "id": "a6b23bee-f9dc-411c-bdd9-4edbb1c04e39",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def select_columns(df):\n",
-    "    \"\"\"\n",
-    "    Selects fewer columns\n",
-    "    Parameters\n",
-    "    ----------\n",
-    "    df : DataFrame\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    df : DataFrame\n",
-    "    \"\"\"\n",
-    "    sample_df = pd.DataFrame(df.sample(n=300),columns = df.columns)   \n",
-    "    cols = df.columns\n",
-    "    \n",
-    "    #choose few columns\n",
-    "    \n",
-    "    labels = ['Diabetes_binary','Gender', 'Types','MentHlth', 'GeneralHealth', 'Type',\n",
-    "       'income', 'education','Sex','PhysHlth','PhysActivity','Fruits',\n",
-    "       'Veggies','HeartDiseaseorAttack']\n",
-    "     \n",
-    "\n",
-    "    filt = cols.isin(labels)\n",
-    "     \n",
-    "    return sample_df.loc[:, filt]"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 10,
-   "id": "edc8f9e3-861d-4010-becb-0e8e537836b8",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def run2():\n",
-    "    \"\"\"\n",
-    "    Run all cleaning and transformation steps\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    Dictionary of DataFrames\n",
-    "    \"\"\"\n",
-    "    names = ['menhealth','menhealth','physical','dietary','heart','sex','edu','all']\n",
-    "    data = {}\n",
-    "    for i in names:\n",
-    "      df = read_local_data(i,'data/raw')\n",
-    "      df = select_columns(df)  #step 1:  select column in data cleaning\n",
-    "      data[f\"{i}\"] = df       \n",
-    "    return data"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "21b3b0b8-4082-4c93-ae58-7e43b9e61906",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    " "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 12,
-   "id": "5bbc6166-c8a6-48de-9969-b424736f50d2",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def update_labels(df):\n",
-    "    \"\"\"\n",
-    "    Replace a few of the area names using the REPLACE_AREA dictionary.\n",
-    "\n",
-    "    Parameters\n",
-    "    ----------\n",
-    "    df : DataFrame\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    df : DataFrame\n",
-    "    \"\"\"\n",
-    "    people = df \n",
-    "    people['Gender'] = np.where(people['Sex'] ==0, 'men', 'women')\n",
-    "    people['Type'] = np.where(people['Diabetes_binary'] ==0, 'nondiabetic', 'diabetic')\n",
-    "    definitions = pd.Series([0, \"Excellent\", \"Very good\", \"Good\", \"Fair\",\"Poor\",\"UNKNOWN\"], dtype=\"category\")\n",
-    "    people['GeneralHealth'] = np.vectorize(reversefactor.get)(people[['GenHlth']])\n",
-    "    definitions = pd.Series([0, \"<10K\", \"10-15K\", \"15-20K\", \"20-25K\",\"25K-35K\",\"35-50K\",\"50-75K\",\"75>\"], dtype=\"category\")\n",
-    "    people['income'] = np.vectorize(reversefactor.get)(people[['Income']])\n",
-    "    definitions = pd.Series([0, \"None\", \"1-8\", \"9-11\", \"12orGED\",\"C1-3\",\"C4+\"], dtype=\"category\")\n",
-    "    people['education'] = np.vectorize(reversefactor.get)(people[['Education']])\n",
-    " \n",
-    "    return people"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 14,
-   "id": "a0b2ddcc-9dbc-4ee3-82d3-2343d8c30649",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def run3():\n",
-    "    \"\"\"\n",
-    "    Run all cleaning and transformation steps\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    Dictionary of DataFrames\n",
-    "    \"\"\"\n",
-    "    names = ['menhealth','menhealth','physical','dietary','heart','sex','edu','all']\n",
-    "    data = {}\n",
-    "    for i in names:\n",
-    "      df = read_local_data(i,'data/raw')\n",
-    "      df = update_labels(df)\n",
-    "      df = select_columns(df)  #step 1:  select column in data cleaning\n",
-    "      \n",
-    "      data[f\"{i}\"] = df       \n",
-    "    return data"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 17,
-   "id": "a26b1da2-d4d4-4eb0-8ce4-13b368196a18",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def group_data(df,x,y):\n",
-    "\n",
-    "\n",
-    "\n",
-    "        import pandas as pd\n",
-    "\n",
-    "        # Assuming your DataFrame 'people' has columns 'GeneralHealth' and 'Type'\n",
-    "\n",
-    "        # Filter data for relevant columns\n",
-    "        df = people[[x,y]]\n",
-    "\n",
-    "        # Calculate counts using value_counts()\n",
-    "        counts = df[x].value_counts().to_frame(name=\"Count\")\n",
-    "\n",
-    "        # Calculate percentages (optional)\n",
-    "        #I want percentages:\n",
-    "        percentages = (counts[\"Count\"] / len(df)) * 100\n",
-    "        counts[\"Percentage\"] = percentages.apply(\"{:.1f}%\".format)  # Format as percentages\n",
-    "\n",
-    "        # Display the table\n",
-    "        return counts"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 18,
-   "id": "fb02d0d6-b19d-4f64-b4e1-2be8272ad5f5",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def run4():\n",
-    "    \"\"\"\n",
-    "    Run all cleaning and transformation steps\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    Dictionary of DataFrames\n",
-    "    \"\"\"\n",
-    "    names = ['menhealth','menhealth','physical','dietary','heart','sex','edu','all']\n",
-    "    data = {}\n",
-    "    for i in names:\n",
-    "      df = read_local_data(i,'data/raw')\n",
-    "      df = update_labels(df)   #step 1: update labels\n",
-    "      df = select_columns(df)  #step 2:  select column in data cleaning\n",
-    "      df = group_data(df,\"GeneralHealth\",\"Type\") #step 4:\n",
-    "      data[f\"{i}\"] = df       \n",
-    "    return data "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 19,
-   "id": "fcbb6ee0-0e3e-4816-86fd-518b421bd522",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def run5():\n",
-    "    \"\"\"\n",
-    "    Run all cleaning and transformation steps\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    Dictionary of DataFrames\n",
-    "    \"\"\"\n",
-    "    names = ['menhealth','menhealth','physical','dietary','heart','sex','edu','all']\n",
-    "    data = {}\n",
-    "    for i in names:\n",
-    "      df = read_local_data(i,'data/raw')\n",
-    "      df = update_labels(df)   #step 1: update labels\n",
-    "      df = select_columns(df)  #step 2:  select column in data cleaning\n",
-    "      df = group_data(df,\"income\",\"Type\") #step 3: group data\n",
-    "      data[f\"{i}\"] = df       \n",
-    "    return data "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 20,
-   "id": "be6b2dd5-85a5-499a-8a70-5b2b3be53f22",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def run6():\n",
-    "    \"\"\"\n",
-    "    Run all cleaning and transformation steps\n",
-    "\n",
-    "    Returns\n",
-    "    -------\n",
-    "    Dictionary of DataFrames\n",
-    "    \"\"\"\n",
-    "    names = ['menhealth','menhealth','physical','dietary','heart','sex','edu','all']\n",
-    "    data = {}\n",
-    "    for i in names:\n",
-    "      df = read_local_data(i,'data/raw')\n",
-    "      df = update_labels(df)   #step 1: update labels\n",
-    "      df = select_columns(df)  #step 2:  select column in data cleaning\n",
-    "      df = group_data(df,\"education\",\"Type\") #step3: group data and count\n",
-    "      data[f\"{i}\"] = df       \n",
-    "    return data "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "92073257-aad5-44c6-8d4a-985be67e2424",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "2c533be5-8024-46ca-9b77-0ba3134821a2",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "2874e064-09f1-4c80-9de7-b3b84b7903fd",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "bc936c16-5efc-4692-9cf2-5b4173400e61",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "cd1ba77f-4a10-435c-aec1-c05bd0b3bedc",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "53ec9268-acb7-4a89-b674-746791c26562",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.11.2"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+import numpy as np
+import pandas as pd
+
+url = (
+    "https://archive.ics.uci.edu/static/public/891/data.csv"
+)
+
+
+def download_data(x):
+ """
+ Reads in a single dataset from the CDC website as csv
+
+ Return: DataFrame
+ """
+ if x == 1:
+  return pd.read_csv(url)
+
+ def write_data(data, directory, **kwargs):
+  """
+  Writes each raw data DataFrame to a file as a CSV
+
+  Parameters
+  ----------
+  data : dictionary of DataFrames
+
+  directory : string name of directory to save files i.e. "data/raw"
+
+  kwargs : extra keyword arguments for the `to_csv` DataFrame method
+
+  Returns
+  -------X_test.to_csv('data/prepared/X_test_ScoreNewData.csv',index=False)
+  None
+  Note bashlash is a special character so will need to double the path string
+  directory name, name of key.csv.  forwardign any keyword argument
+  """
+  for name, df in data.items():
+   # df.to_csv(f'data/raw/{name}.csv')
+   df.to_csv(f'{directory}/{name}.csv', **kwargs)
+
+   def read_local_data(name, directory):
+    """
+    Read in one CSV as a DataFrame from the given directory
+
+    Parameters
+    ----------
+    name : menhealth or menhealth or physical or dietary,heart,sex,edu,al
+
+    directory : string name of directory to save files i.e. "data/raw"
+
+    Returns
+    -------
+    DataFrame
+    """
+    return pd.read_csv(f"{directory}/{name}_data.csv")
+
+   def run():
+    """
+    Run all cleaning and transformation steps
+
+    Returns
+    -------
+    Dictionary of DataFrames
+    """
+    names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
+    data = {}
+    for i in names:
+     data[f"{i}"] = read_local_data(i, 'data/raw')
+    return data
+
+   def select_columns(df):
+    """
+    Selects fewer columns
+    Parameters
+    ----------
+    df : DataFrame
+
+    Returns
+    -------
+    df : DataFrame
+    """
+    sample_df = pd.DataFrame(df.sample(n=300), columns=df.columns)
+    cols = df.columns
+
+    # choose few columns
+
+    labels = ['Diabetes_binary', 'Gender', 'Types', 'MentHlth', 'GeneralHealth', 'Type',
+              'income', 'education', 'Sex', 'PhysHlth', 'PhysActivity', 'Fruits',
+              'Veggies', 'HeartDiseaseorAttack']
+
+    filt = cols.isin(labels)
+
+    return sample_df.loc[:, filt]
+
+   def run2():
+    """
+    Run all cleaning and transformation steps
+
+    Returns
+    -------
+    Dictionary of DataFrames
+    """
+    names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
+    data = {}
+    for i in names:
+     df = read_local_data(i, 'data/raw')
+     df = select_columns(df)  # step 1:  select column in data cleaning
+     data[f"{i}"] = df
+    return data
+
+   def update_labels(df):
+    """
+    Replace a few of the area names using the REPLACE_AREA dictionary.
+
+    Parameters
+    ----------
+    df : DataFrame
+
+    Returns
+    -------
+    df : DataFrame
+    """
+    people = df
+    people['Gender'] = np.where(people['Sex'] == 0, 'men', 'women')
+    people['Type'] = np.where(people['Diabetes_binary'] == 0, 'nondiabetic', 'diabetic')
+    definitions = pd.Series([0, "Excellent", "Very good", "Good", "Fair", "Poor", "UNKNOWN"], dtype="category")
+    people['GeneralHealth'] = np.vectorize(reversefactor.get)(people[['GenHlth']])
+    definitions = pd.Series([0, "<10K", "10-15K", "15-20K", "20-25K", "25K-35K", "35-50K", "50-75K", "75>"],
+                            dtype="category")
+    people['income'] = np.vectorize(reversefactor.get)(people[['Income']])
+    definitions = pd.Series([0, "None", "1-8", "9-11", "12orGED", "C1-3", "C4+"], dtype="category")
+    people['education'] = np.vectorize(reversefactor.get)(people[['Education']])
+
+    return people
+
+   def run3():
+    """
+    Run all cleaning and transformation steps
+
+    Returns
+    -------
+    Dictionary of DataFrames
+    """
+    names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
+    data = {}
+    for i in names:
+     df = read_local_data(i, 'data/raw')
+     df = update_labels(df)
+     df = select_columns(df)  # step 1:  select column in data cleaning
+
+     data[f"{i}"] = df
+    return data
+
+
+def group_data(df, x, y):
+ import pandas as pd
+
+ # Assuming your DataFrame 'people' has columns 'GeneralHealth' and 'Type'
+
+ # Filter data for relevant columns
+ df = people[[x, y]]
+
+ # Calculate counts using value_counts()
+ counts = df[x].value_counts().to_frame(name="Count")
+
+ # Calculate percentages (optional)
+ # I want percentages:
+ percentages = (counts["Count"] / len(df)) * 100
+ counts["Percentage"] = percentages.apply("{:.1f}%".format)  # Format as percentages
+
+ # Display the table
+ return counts
+
+
+def run4():
+ """
+ Run all cleaning and transformation steps
+
+ Returns
+ -------
+ Dictionary of DataFrames
+ """
+ names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
+ data = {}
+ for i in names:
+  df = read_local_data(i, 'data/raw')
+  df = update_labels(df)  # step 1: update labels
+  df = select_columns(df)  # step 2:  select column in data cleaning
+  df = group_data(df, "GeneralHealth", "Type")  # step 4:
+  data[f"{i}"] = df
+ return data
+
+
+def run5():
+ """
+ Run all cleaning and transformation steps
+
+ Returns
+ -------
+ Dictionary of DataFrames
+ """
+ names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
+ data = {}
+ for i in names:
+  df = read_local_data(i, 'data/raw')
+  df = update_labels(df)  # step 1: update labels
+  df = select_columns(df)  # step 2:  select column in data cleaning
+  df = group_data(df, "income", "Type")  # step 3: group data
+  data[f"{i}"] = df
+ return data
+
+
+def run6():
+ """
+ Run all cleaning and transformation steps
+
+ Returns
+ -------
+ Dictionary of DataFrames
+ """
+ names = ['menhealth', 'menhealth', 'physical', 'dietary', 'heart', 'sex', 'edu', 'all']
+ data = {}
+ for i in names:
+  df = read_local_data(i, 'data/raw')
+  df = update_labels(df)  # step 1: update labels
+  df = select_columns(df)  # step 2:  select column in data cleaning
+  df = group_data(df, "education", "Type")  # step3: group data and count
+  data[f"{i}"] = df
+ return data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
