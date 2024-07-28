@@ -271,9 +271,10 @@
       <td>Started a udemy course that is given me life!  Its soooo good!  I am loving my training right now.  Its going to show me how to use my prediction to score new data</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>07/26</td>
+      <td>Bit more housekeeping. Create functions for my data cleanup and transformations in jupyter notebook.  Saved file as *py
+</td>
+      <td>Created *py functions file.</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
