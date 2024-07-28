@@ -41,8 +41,8 @@
        <p> Jupyter Notebook</p>
   </li>
   <li><p>Build my app -- 07/25 in-progres</p>
-      <p> Pycharm:  transfer jupyter notebook ipynb files to py files
-	<img src="gif/ProgramMenu.gif" alt="MeowMidwest" height="382px">
+      <p> Pycharm:  transfer jupyter notebook ipynb files to py files <img src="gif/ProgramMenu.gif" alt="programmenu" height="382px"></p>
+	
       <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
       <p> Pycharm: Launch app to render.com </p>
       
@@ -288,7 +288,6 @@ group_data(df,x,y) - read dataframe. returns table. idendified a good chart i wa
 run4() - includes everything from run3() but added group_data(df,"GeneralHealth","Type")
 run5() - includes everything from run3() but added group_data(df,"income","Type")
 run6() - includes everything from run3() but added group_data(df,"education","Type")
-
 Testing all functions at the bottm in the Feature_Engineering.ipynb
 Saved all methods/functions to a file  called my_functions.ipynb
 in juypter notebook saved prepared_cdc.ipynb as my_functions.py. Now, my file is a module.  Then I added class PreparedData_CDC to add all my methods to this class</td>
