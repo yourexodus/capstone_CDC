@@ -1,501 +1,501 @@
 Diabetes_binary,Type,GeneralHealth,Gender
-0,nondiabetic,Fair,women
-0,nondiabetic,Very good,men
-1,diabetic,Poor,men
-1,diabetic,Fair,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-1,diabetic,Fair,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Fair,men
-1,diabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Fair,men
-1,diabetic,Good,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,men
-1,diabetic,Good,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Poor,women
-1,diabetic,Fair,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
 0,nondiabetic,Good,men
 0,nondiabetic,Excellent,men
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,women
+0,nondiabetic,Excellent,men
 0,nondiabetic,Excellent,women
 1,diabetic,Good,women
-1,diabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,men
-1,diabetic,Poor,men
-0,nondiabetic,Good,women
-1,diabetic,Fair,men
-1,diabetic,Good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-1,diabetic,Good,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Poor,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Poor,men
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Good,men
-1,diabetic,Good,women
-1,diabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,women
-1,diabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,women
-1,diabetic,Fair,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Excellent,men
-1,diabetic,Fair,men
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,men
-1,diabetic,Very good,women
-0,nondiabetic,Poor,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Good,women
-0,nondiabetic,Poor,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Fair,men
-0,nondiabetic,Excellent,men
-1,diabetic,Good,women
-0,nondiabetic,Very good,women
-1,diabetic,Poor,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Fair,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,men
-1,diabetic,Good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,men
-1,diabetic,Fair,women
-0,nondiabetic,Fair,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Good,women
-1,diabetic,Poor,women
-0,nondiabetic,Excellent,men
-1,diabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Poor,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-1,diabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Poor,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Fair,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Poor,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Very good,women
-1,diabetic,Good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Poor,men
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Fair,men
-1,diabetic,Very good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Fair,women
-1,diabetic,Good,women
-0,nondiabetic,Poor,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,women
-1,diabetic,Fair,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,women
-1,diabetic,Good,men
-1,diabetic,Good,women
-1,diabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
-1,diabetic,Excellent,women
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,men
-1,diabetic,Fair,women
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Poor,women
-1,diabetic,Fair,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,men
-1,diabetic,Good,women
-1,diabetic,Good,men
-0,nondiabetic,Very good,men
-1,diabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,women
-1,diabetic,Fair,women
-0,nondiabetic,Very good,men
-1,diabetic,Fair,women
-0,nondiabetic,Poor,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-1,diabetic,Fair,women
-0,nondiabetic,Fair,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,women
-1,diabetic,Good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Poor,women
-1,diabetic,Good,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,men
-1,diabetic,Good,women
-1,diabetic,Good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-1,diabetic,Poor,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Excellent,men
-1,diabetic,Good,men
 0,nondiabetic,Very good,men
 0,nondiabetic,Good,men
 0,nondiabetic,Excellent,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Excellent,women
 0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,women
-1,diabetic,Poor,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,women
-1,diabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-1,diabetic,Fair,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,men
-1,diabetic,Good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Good,women
-0,nondiabetic,Excellent,men
-1,diabetic,Good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,women
-1,diabetic,Good,men
-1,diabetic,Poor,men
-0,nondiabetic,Good,men
-0,nondiabetic,Poor,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,women
-1,diabetic,Fair,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,men
 1,diabetic,Excellent,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,men
-1,diabetic,Excellent,women
-0,nondiabetic,Very good,women
-1,diabetic,Poor,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,women
-0,nondiabetic,Excellent,men
-1,diabetic,Good,women
-0,nondiabetic,Very good,men
-1,diabetic,Fair,men
-0,nondiabetic,Good,men
-0,nondiabetic,Very good,men
 0,nondiabetic,Excellent,women
-0,nondiabetic,Poor,men
-0,nondiabetic,Good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Fair,men
-0,nondiabetic,Very good,women
 0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,women
-0,nondiabetic,Good,women
-0,nondiabetic,Good,women
-1,diabetic,Good,women
 0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Excellent,men
 0,nondiabetic,Fair,women
 0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
 0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Fair,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,women
+1,diabetic,Good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,women
+1,diabetic,Good,men
+0,nondiabetic,Very good,men
+1,diabetic,Good,men
 1,diabetic,Good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,women
+1,diabetic,Good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+1,diabetic,Fair,men
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Poor,women
+0,nondiabetic,Very good,women
+1,diabetic,Very good,women
+1,diabetic,Poor,men
+0,nondiabetic,Good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,men
+1,diabetic,Excellent,women
+1,diabetic,Very good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,women
+1,diabetic,Fair,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Very good,men
+1,diabetic,Good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+1,diabetic,Fair,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,women
+1,diabetic,Poor,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+1,diabetic,Good,men
+0,nondiabetic,Excellent,women
+1,diabetic,Good,men
+0,nondiabetic,Very good,men
+1,diabetic,Poor,women
+1,diabetic,Fair,men
+0,nondiabetic,Fair,women
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,men
+1,diabetic,Very good,men
+0,nondiabetic,Good,women
+1,diabetic,Good,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Good,men
+1,diabetic,Good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Poor,men
+1,diabetic,Poor,men
+0,nondiabetic,Good,women
+1,diabetic,Good,women
+0,nondiabetic,Good,men
+1,diabetic,Fair,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,women
 0,nondiabetic,Fair,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,women
 0,nondiabetic,Good,men
 0,nondiabetic,Excellent,women
 0,nondiabetic,Fair,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Good,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Excellent,men
+1,diabetic,Good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,men
+1,diabetic,Very good,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,women
+0,nondiabetic,Fair,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
 0,nondiabetic,Very good,women
 0,nondiabetic,Fair,men
 0,nondiabetic,Good,women
-0,nondiabetic,Fair,men
-1,diabetic,Very good,men
+0,nondiabetic,Good,men
 0,nondiabetic,Very good,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Fair,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Fair,women
+0,nondiabetic,Poor,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,women
+1,diabetic,Fair,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Fair,women
+1,diabetic,Very good,men
+0,nondiabetic,Fair,women
+0,nondiabetic,Good,men
 0,nondiabetic,Very good,women
 0,nondiabetic,Good,men
+1,diabetic,Good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Good,women
+1,diabetic,Poor,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,women
+1,diabetic,Good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Fair,men
+1,diabetic,Very good,women
+0,nondiabetic,Fair,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+1,diabetic,Fair,women
+1,diabetic,Very good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,women
 0,nondiabetic,Good,men
-1,diabetic,Poor,women
-1,diabetic,Poor,women
+0,nondiabetic,Very good,women
 0,nondiabetic,Very good,men
 0,nondiabetic,Very good,men
 0,nondiabetic,Very good,men
+1,diabetic,Fair,women
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Fair,women
+1,diabetic,Fair,men
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Fair,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Fair,women
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Fair,women
+1,diabetic,Fair,men
+1,diabetic,Good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Fair,women
 0,nondiabetic,Fair,men
-0,nondiabetic,Fair,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Fair,women
+0,nondiabetic,Good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,women
 0,nondiabetic,Very good,men
 0,nondiabetic,Very good,men
+0,nondiabetic,Good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,men
 0,nondiabetic,Fair,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+1,diabetic,Good,women
+1,diabetic,Fair,men
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Poor,men
+1,diabetic,Good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Poor,men
+1,diabetic,Very good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+1,diabetic,Poor,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,women
+0,nondiabetic,Poor,women
+0,nondiabetic,Very good,women
+1,diabetic,Fair,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Fair,women
+0,nondiabetic,Excellent,men
+1,diabetic,Good,men
+1,diabetic,Good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,men
+1,diabetic,Good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,women
+1,diabetic,Fair,women
+0,nondiabetic,Fair,men
+1,diabetic,Good,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Good,men
 0,nondiabetic,Good,men
 0,nondiabetic,Poor,women
 0,nondiabetic,Very good,men
-0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Good,women
 0,nondiabetic,Good,men
+0,nondiabetic,Excellent,women
 0,nondiabetic,Excellent,men
 0,nondiabetic,Very good,men
 0,nondiabetic,Fair,women
+0,nondiabetic,Good,women
+0,nondiabetic,Fair,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Fair,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,men
+1,diabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Fair,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,women
+1,diabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+1,diabetic,Fair,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
 0,nondiabetic,Good,men
 0,nondiabetic,Very good,women
-0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,men
 0,nondiabetic,Good,women
 0,nondiabetic,Very good,women
-1,diabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Excellent,women
+0,nondiabetic,Good,men
 0,nondiabetic,Excellent,men
-1,diabetic,Good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+1,diabetic,Fair,men
 0,nondiabetic,Good,women
+0,nondiabetic,Poor,women
+1,diabetic,Very good,women
+0,nondiabetic,Fair,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,women
+1,diabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Fair,men
 0,nondiabetic,Very good,women
 0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,women
+0,nondiabetic,Fair,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
 0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,men
+1,diabetic,Very good,men
+1,diabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Very good,men
+1,diabetic,Poor,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+1,diabetic,Fair,women
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+1,diabetic,Poor,women
+0,nondiabetic,Fair,men
+0,nondiabetic,Good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+1,diabetic,Good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Fair,women
+1,diabetic,Good,men
+0,nondiabetic,Very good,women
+1,diabetic,Very good,men
+0,nondiabetic,Poor,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,men
+0,nondiabetic,Poor,women
+0,nondiabetic,Poor,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Excellent,women
+0,nondiabetic,Fair,men
 0,nondiabetic,Very good,women
 0,nondiabetic,Very good,women
 1,diabetic,Good,men
-1,diabetic,Poor,men
-0,nondiabetic,Fair,women
-0,nondiabetic,Excellent,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,women
-0,nondiabetic,Very good,men
 0,nondiabetic,Excellent,men
 1,diabetic,Poor,men
-1,diabetic,Fair,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Excellent,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Good,men
 0,nondiabetic,Very good,men
-0,nondiabetic,Poor,men
+1,diabetic,Good,men
+1,diabetic,Very good,women
+0,nondiabetic,Good,women
+0,nondiabetic,Excellent,men
 0,nondiabetic,Fair,men
 0,nondiabetic,Very good,men
-0,nondiabetic,Poor,women
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Good,men
-0,nondiabetic,Excellent,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Very good,men
-0,nondiabetic,Good,women
-1,diabetic,Very good,women
-0,nondiabetic,Good,men
-0,nondiabetic,Good,women
-0,nondiabetic,Excellent,men
-0,nondiabetic,Good,women
-0,nondiabetic,Very good,men
 1,diabetic,Good,women
+0,nondiabetic,Very good,women
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+0,nondiabetic,Good,men
+1,diabetic,Good,men
+1,diabetic,Poor,men
+0,nondiabetic,Excellent,men
+1,diabetic,Good,men
+1,diabetic,Good,men
+0,nondiabetic,Excellent,men
+0,nondiabetic,Good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Very good,men
+0,nondiabetic,Good,men

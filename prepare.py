@@ -1,5 +1,16 @@
 import numpy as np
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+
+from sklearn.linear_model import LogisticRegression
+from sklearn import metrics
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import train_test_split, KFold, cross_val_score
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+from sklearn.dummy import DummyRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix
+from sklearn.preprocessing import StandardScaler
 
 url = (
     "https://archive.ics.uci.edu/static/public/891/data.csv"
@@ -272,18 +283,40 @@ class PrepareData:
            data[f"{i}"] = df
        return data
 
+    def make_prediction(self,user_input):
+       """
+       Run all cleaning and transformation steps
+       input X = df[['Income','GenHlth','MentHlth','PhysHlth','DiffWalk']]
+
+       Returns
+       -------
+       Dictionary of DataFrames
+       """
+       cols =['Income','GenHlth','MentHlth','PhysHlth','DiffWalk']
+       df = self.read_local_data('all', 'data/raw')
+       y = df['Diabetes_binary']
+       X = df[cols]
+       scaler = StandardScaler()
+       scaler.fit(X)
+       X_scaled = scaler.transform(X)
+
+       rfc = RandomForestClassifier(random_state=1234)
+       rfc.fit(X_scaled, y)
+       data = user_input
+       reshaped_data = np.array(data).reshape(1, 5)
+       prediction = rfc.predict(reshaped_data)
+
+       if prediction[0] == 0:
+           probability_pred = rfc.predict_proba(reshaped_data)[:, 0]
+           result = probability_pred[0] * 100
+           prt = f"You have a {result:.0f}% probability you will not be diagnosed with diabetes."
+       else:
+           probability_pred = rfc.predict_proba(reshaped_data)[:, 0]
+           result = probability_pred[0] * 100
+           prt = f"You have a {result:.0f}% probability you will be diagnosed with diabetes."
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+       return  prt
 
