@@ -274,7 +274,7 @@
       <td>07/27</td>
       <td>Housekeeping Feature Engineering. Added betters graphs. Created functions for my data cleanup and transformations in jupyter notebook.  Saved file as *py
 </td>
-      <td>functions/methods:
+      <td> methods:
 download_data(x) - reads a URL and returns dataframe
 write_data(data, directory, **kwargs) - reads dictionary of dataframes and directory path.  writes each dataframe as a csv to the path on my local drive
 read_local_data(name, directory) - reads partial file name and directory.  returns 1 csv and return a csv
@@ -289,8 +289,8 @@ run5() - includes everything from run3() but added group_data(df,"income","Type"
 run6() - includes everything from run3() but added group_data(df,"education","Type")
 
 Testing all functions at the bottm in the Feature_Engineering.ipynb
-Saved all funtions to my_functions.ipynb
-in juypter notebook saved my_functions.ipynb as my_functions.py</td>
+Saved all methods/functions to a file  called my_functions.ipynb
+in juypter notebook saved prepared_cdc.ipynb as my_functions.py. Now, my file is a module.  Then I added class PreparedData_CDC to add all my methods to this class</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
