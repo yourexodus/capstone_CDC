@@ -37,7 +37,7 @@
   <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Modeling.ipynb">Modeling</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p>Added Random Forest model to class.  Tested usign Pycharm Terminal:<a https://github.com/yourexodus/capstone_CDC/blob/347040b00b4991d2a1ca44c0ea3449824d223584/Prediction_Menu.py">Program Code</a></p>         
+  <li><p>Added Random Forest model to class in  <a href="https://github.com/yourexodus/capstone_CDC/blob/347040b00b4991d2a1ca44c0ea3449824d223584/Prediction_Menu.py">Prediction_Menu.py</a></p>. Test using Pycharm Terminal   
        <p> Pycharm Terminal <img src="gif/PredictionProgram.gif" alt="programmenu" height="382px"> </p>
   </li>
   <li><p>Build my app -- 07/25 in-progres</p>
