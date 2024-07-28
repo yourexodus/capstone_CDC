@@ -37,14 +37,14 @@
 <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/339cba065dcbb70e7bb0a1fa995e8596e2f7c367/Modeling.ipynb">Modeling</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p>Pickle the model: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Score_New_Data.ipynb">Score New Data</a></p>         
-       <p> Jupyter Notebook</p>
+  <li><p>Added Random Forest model to class.  Tested usign Pycharm Terminal: <https://github.com/yourexodus/capstone_CDC/blob/347040b00b4991d2a1ca44c0ea3449824d223584/Prediction_Menu.py>Program Menu</a></p>         
+       <p> Pycharm Terminal <img src="gif/PredictionProgram.gif" alt="programmenu" height="382px"> </p>
   </li>
   <li><p>Build my app -- 07/25 in-progres</p>
-      <p> Pycharm:  transfer jupyter notebook ipynb files to py files <img src="gif/ProgramMenu.gif" alt="programmenu" height="382px"></p>
+      <p> Pycharm:  transfer jupyter notebook ipynb files to py files </p>
 	
       <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
-      <p> Pycharm: Launch app to render.com </p>
+      <p> </p>
       
   </li>
 </ul>
@@ -294,10 +294,7 @@ in juypter notebook saved prepared_cdc.ipynb as my_functions.py. Now, my file is
     </tr>
     <tr>
       <td>07/28/24</td>
-      <td>
-==========
-07/28
-update later counts and percentages of x,y in a DataFrames
+      <td> update later counts and percentages of x,y in a DataFrames
 cut& paste all  my methods in a *.py file using pycharm
 added initialization parameter: download_new and added a self argument to all my run methods.  
 
