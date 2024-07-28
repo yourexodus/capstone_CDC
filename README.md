@@ -271,8 +271,8 @@
       <td>Started a udemy course that is given me life!  Its soooo good!  I am loving my training right now.  Its going to show me how to use my prediction to score new data</td>
     </tr>
     <tr>
-      <td>07/26</td>
-      <td>Housekeeping Feature Engineering. Create functions for my data cleanup and transformations in jupyter notebook.  Saved file as *py
+      <td>07/27</td>
+      <td>Housekeeping Feature Engineering. Added betters graphs. Created functions for my data cleanup and transformations in jupyter notebook.  Saved file as *py
 </td>
       <td>functions/methods:
 download_data(x) - reads a URL and returns dataframe
