@@ -272,9 +272,25 @@
     </tr>
     <tr>
       <td>07/26</td>
-      <td>Bit more housekeeping. Create functions for my data cleanup and transformations in jupyter notebook.  Saved file as *py
+      <td>Housekeeping Feature Engineering. Create functions for my data cleanup and transformations in jupyter notebook.  Saved file as *py
 </td>
-      <td>Created *py functions file.</td>
+      <td>functions/methods:
+download_data(x) - reads a URL and returns dataframe
+write_data(data, directory, **kwargs) - reads dictionary of dataframes and directory path.  writes each dataframe as a csv to the path on my local drive
+read_local_data(name, directory) - reads partial file name and directory.  returns 1 csv and return a csv
+run() - I defined a list of names and a empty dictionary. Loop thru the name and in each interation,  Call method read_local_data(name, path). add the csv it return to the dictionary.  when done, return the entire dictonary
+select_columns(df) - defines a list with  fewer column names.  Read in dataframe  Returns dataframe with only the columns in list
+run2() - includes everything from run() but added select_columns(df)
+update_labels(df) - Went thru my Feature Engineering.ipynb and extracted all cells that updated columns name and added them here.  Input dataframe.  Return dataframe with updated columns names
+run3() - includes everything from run2() but added update_labels(df)
+group_data(df,x,y) - read dataframe. returns table. idendified a good chart i wanted to pull in my dashbarod.  Covert it to dataframe output using Gemini(AI).  added code here.  Added parameters for x and y
+run4() - includes everything from run3() but added group_data(df,"GeneralHealth","Type")
+run5() - includes everything from run3() but added group_data(df,"income","Type")
+run6() - includes everything from run3() but added group_data(df,"education","Type")
+
+Testing all functions at the bottm in the Feature_Engineering.ipynb
+Saved all funtions to my_functions.ipynb
+in juypter notebook saved my_functions.ipynb as my_functions.py</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
