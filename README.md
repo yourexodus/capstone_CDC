@@ -42,6 +42,7 @@
   </li>
   <li><p>Build my app -- 07/25 in-progres</p>
       <p> Pycharm:  transfer jupyter notebook ipynb files to py files
+	<img src="gif/ProgramMenu.gif" alt="MeowMidwest" height="382px">
       <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
       <p> Pycharm: Launch app to render.com </p>
       
@@ -293,9 +294,24 @@ Saved all methods/functions to a file  called my_functions.ipynb
 in juypter notebook saved prepared_cdc.ipynb as my_functions.py. Now, my file is a module.  Then I added class PreparedData_CDC to add all my methods to this class</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>07/28/24</td>
+      <td>
+==========
+07/28
+update later counts and percentages of x,y in a DataFrames
+cut& paste all  my methods in a *.py file using pycharm
+added initialization parameter: download_new and added a self argument to all my run methods.  
+
+Testing my classs in my Features_Engineering.ipynb notebook
+pip install scikit-learn
+
+Added Random Forest model to class
+tested and was able to a predicted a result in jupyter notebook
+Added the method to my class
+Tested in my Prediction_Menu.py program. Did a screen capture and uploaded 
+the video to github
+ </td>
+      <td>I built a class with methods and I scored new data using user input</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
