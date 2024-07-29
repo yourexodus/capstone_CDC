@@ -298,7 +298,7 @@ in juypter notebook saved prepared_cdc.ipynb as my_functions.py. Now, my file is
 cut& paste all  my methods in a *.py file using pycharm
 added initialization parameter: download_new and added a self argument to all my run methods.  
 
-Testing my classs in my Features_Engineering.ipynb notebook
+Testing my classs in my Modeling.ipynb notebook
 pip install scikit-learn
 
 Added Random Forest model to class
