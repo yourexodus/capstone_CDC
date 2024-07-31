@@ -41,8 +41,11 @@
        <p> Pycharm Terminal <img src="gif/PredictionProgram.gif" alt="programmenu" height="382px"> </p>
   </li>
   <li><p>Build my app -- 07/25 in-progres</p>
+      <p>Building & Testing interactive Gragphs <a href="https://github.com/yourexodus/capstone_CDC/blob/8fcb6589a1a07b422d2142ae95f5fe162a7eea3d/Plotly_Dash_Interactive_Graphs.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
+      <p>Jupyter Notebook</p>
+      <p>Add interactive Graphs to functions<a href="https://github.com/yourexodus/capstone_CDC/blob/8fcb6589a1a07b422d2142ae95f5fe162a7eea3d/my_functions.ipynb">my_functions.ipynb</a> </p>
+      <p>Jupyter Notebook</p>
       <p> Pycharm:  transfer jupyter notebook ipynb files to py files </p>
-	
       <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
       <p> </p>
       
@@ -71,8 +74,8 @@
       
   
   </li>
-  <li><p> </p>
-      <p> </p>
+  <li><p>Youtube:Input Box - Python Dash Plotly  </p>
+      <p><a href="https://www.youtube.com/watch?v=VZ6IdRMc0RI">Input Data Example</a>  </p>
   </li>
 </ul>
 <h2> Available CDC Data </h2> 
@@ -311,8 +314,15 @@ the video to github
     </tr>
     <tr>
       <td>07/31/24</td>
-      <td>Created Plotly DashNotebooks.  Created and test interactive graphs in functions file.  Ready to start buiding a small dashboard that will take user input and display a prediction</td>
-      <td>tested several interactive graphs</td>
+      <td>Created Plotly DashNotebooks.  Created and test interactive graphs in functions file.  Methods Added to my_functions.ipynb and prepare.py
+graph_df(df, x, y) - input:dataframe, column name for x and y. returns graph
+
+cdc_bar_plot2(df,x,y,t):input:dataframe, column name for x and y, graph title flag. returns interactive graph
+cdc_bar_plot(df,x,y,t):input:dataframe, column name for x and y, graph title flag. returns interactive graph with margin
+ 
+run_cdc_pred_compart(): input: none.  read local file and returns figure of pred vs actual    
+    </td>
+      <td>Completed testing of several interactive graphs. Ready to start buiding a small dashboard that will take user input and display a prediction</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
