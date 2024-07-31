@@ -314,7 +314,7 @@ the video to github
     </tr>
     <tr>
       <td>07/30/24</td>
-      <td>Created Plotly Dash notebook.  Created and test interactive graphs in functions file.  Methods Added to my_functions.ipynb and prepare.py
+      <td>Created Plotly Dash notebook.  Created and test interactive graphs in functions file.  Automated graphs by adding them to functions/methods in  my_functions.ipynb and prepare.py files
 graph_df(df, x, y) - input:dataframe, column name for x and y. returns graph
 
 cdc_bar_plot2(df,x,y,t):input:dataframe, column name for x and y, graph title flag. returns interactive graph
