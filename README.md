@@ -313,7 +313,7 @@ the video to github
       <td>I built a class with methods and I scored new data using user input</td>
     </tr>
     <tr>
-      <td>07/31/24</td>
+      <td>07/30/24</td>
       <td>Created Plotly DashNotebooks.  Created and test interactive graphs in functions file.  Methods Added to my_functions.ipynb and prepare.py
 graph_df(df, x, y) - input:dataframe, column name for x and y. returns graph
 
