@@ -310,9 +310,9 @@ the video to github
       <td>I built a class with methods and I scored new data using user input</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>07/31/24</td>
+      <td>Created Plotly DashNotebooks.  Created and test interactive graphs in functions file.  Ready to start buiding a small dashboard that will take user input and display a prediction</td>
+      <td>tested several interactive graphs</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
