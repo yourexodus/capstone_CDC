@@ -62,7 +62,7 @@ class PrepareData:
         """
         for name, df in data.items():
             # df.to_csv(f'data/raw/{name}.csv')
-            df.to_csv(f'{directory}/{name}.csv', **kwargs)
+            df.to_csv(f'{directory}/{name}_data.csv', **kwargs)
 
     def read_local_data(self, name, directory):
         """
@@ -156,16 +156,22 @@ class PrepareData:
           Returns
           -------
           df : DataFrame
-          """
+        """
         people = df
         people['Gender'] = np.where(people['Sex'] == 0, 'men', 'women')
         people['Type'] = np.where(people['Diabetes_binary'] == 0, 'nondiabetic', 'diabetic')
         definitions = pd.Series([0, "Excellent", "Very good", "Good", "Fair", "Poor", "UNKNOWN"], dtype="category")
+
+        reversefactor = dict(zip(range(7), definitions))
         people['GeneralHealth'] = np.vectorize(reversefactor.get)(people[['GenHlth']])
         definitions = pd.Series([0, "<10K", "10-15K", "15-20K", "20-25K", "25K-35K", "35-50K", "50-75K", "75>"],
                                 dtype="category")
+        reversefactor = dict(zip(range(9), definitions))
+
         people['income'] = np.vectorize(reversefactor.get)(people[['Income']])
+
         definitions = pd.Series([0, "None", "1-8", "9-11", "12orGED", "C1-3", "C4+"], dtype="category")
+        reversefactor = dict(zip(range(7), definitions))
         people['education'] = np.vectorize(reversefactor.get)(people[['Education']])
 
         return people
