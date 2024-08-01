@@ -325,8 +325,8 @@ run_cdc_pred_compart(): input: none.  read local file and returns figure of pred
       <td>Completed testing of several interactive graphs. Ready to start buiding a small dashboard that will take user input and display a prediction</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>08/01/24</td>
+      <td>Feeling very unsure of myself today but I am powering thru this project.  I have completed some interactive graphs using plotly dash.  Now I am placing them in containers for display on my dashboard</td>
       <td>&nbsp;</td>
     </tr>
     <tr>

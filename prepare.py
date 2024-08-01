@@ -33,14 +33,13 @@ class PrepareData:
         """
         self.download_new = download_new
 
-    def download_data(self, x):
+    def download_data(self):
         """
         Reads in a single dataset from the CDC website as csv
 
         Return: DataFrame
         """
-        if x == 1:
-            return pd.read_csv(url)
+        return pd.read_csv(url)
 
     def write_data(self, data, directory, **kwargs):
         """
@@ -94,7 +93,7 @@ class PrepareData:
 
         for i in names:
             if self.download_new:
-                data[f"{i}"] = self.download_data(1)
+                data[f"{i}"] = self.download_data()
             else:
                 data[f"{i}"] = self.read_local_data(i, 'data/raw')
 
@@ -111,14 +110,14 @@ class PrepareData:
           -------
           df : DataFrame
           """
-        sample_df = pd.DataFrame(df.sample(n=300), columns=df.columns)
+        sample_df = df
         cols = df.columns
 
         # choose few columns
 
         labels = ['Diabetes_binary', 'Gender', 'Types', 'MentHlth', 'GeneralHealth', 'Type',
-                  'income', 'education', 'Sex', 'PhysHlth', 'PhysActivity', 'Fruits',
-                  'Veggies', 'HeartDiseaseorAttack']
+                  'income', 'education', 'Sex', 'PhysHlth', 'PhysActivity', 'Fruits','HighBP',   
+                  'HighChol','Veggies', 'HeartDiseaseorAttack']
 
         filt = cols.isin(labels)
 
@@ -137,11 +136,11 @@ class PrepareData:
         for i in names:
 
             if self.download_new:
-                data[f"{i}"] = self.download_data(1)
+                data[f"{i}"] = self.download_data()
             else:
                 data[f"{i}"] = self.read_local_data(i, 'data/raw')
 
-            df = self.select_columns(df)  # step 1:  select column in data cleaning
+            df = self.select_columns(data[f"{i}"] )  # step 1:  select column in data cleaning
             data[f"{i}"] = df
         return data
 
@@ -157,24 +156,25 @@ class PrepareData:
           -------
           df : DataFrame
         """
-        people = df
-        people['Gender'] = np.where(people['Sex'] == 0, 'men', 'women')
-        people['Type'] = np.where(people['Diabetes_binary'] == 0, 'nondiabetic', 'diabetic')
+          
+         
+        df['Gender'] = np.where(df['Sex'] == 0, 'men', 'women')
+        df['Type'] = np.where(df['Diabetes_binary'] == 0, 'nondiabetic', 'diabetic')
         definitions = pd.Series([0, "Excellent", "Very good", "Good", "Fair", "Poor", "UNKNOWN"], dtype="category")
 
         reversefactor = dict(zip(range(7), definitions))
-        people['GeneralHealth'] = np.vectorize(reversefactor.get)(people[['GenHlth']])
+        df['GeneralHealth'] = np.vectorize(reversefactor.get)(df[['GenHlth']])
         definitions = pd.Series([0, "<10K", "10-15K", "15-20K", "20-25K", "25K-35K", "35-50K", "50-75K", "75>"],
                                 dtype="category")
         reversefactor = dict(zip(range(9), definitions))
 
-        people['income'] = np.vectorize(reversefactor.get)(people[['Income']])
+        df['income'] = np.vectorize(reversefactor.get)(df[['Income']])
 
-        definitions = pd.Series([0, "None", "1-8", "9-11", "12orGED", "C1-3", "C4+"], dtype="category")
+        definitions = pd.Series([0, "None", "Grade1-8", "Grade9-11", "12orGED", "college1-3", "College4+"], dtype="category")
         reversefactor = dict(zip(range(7), definitions))
-        people['education'] = np.vectorize(reversefactor.get)(people[['Education']])
+        df['education'] = np.vectorize(reversefactor.get)(df[['Education']])
 
-        return people
+        return df
 
     def run3(self):
         """
@@ -188,10 +188,11 @@ class PrepareData:
         data = {}
         for i in names:
             if self.download_new:
-                data[f"{i}"] = self.download_data(1)
+                data[f"{i}"] = self.download_data()
             else:
                 data[f"{i}"] = self.read_local_data(i, 'data/raw')
-            df = self.update_labels(df)
+            
+            df = self.update_labels(data[f"{i}"])
             df = self.select_columns(df)  # step 1:  select column in data cleaning
             data[f"{i}"] = df
         return data
