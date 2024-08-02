@@ -1,0 +1,790 @@
+,index,Gender,GeneralHealth,Type,income,education,count,count2
+0,0,men,Excellent,diabetic,10-15K,1-8,4,1
+1,1,women,Fair,nondiabetic,15-20K,C1-3,225,1
+2,2,women,Fair,nondiabetic,20-25K,1-8,64,1
+3,3,women,Fair,nondiabetic,20-25K,12orGED,447,1
+4,4,women,Fair,nondiabetic,20-25K,9-11,109,1
+5,5,women,Fair,nondiabetic,20-25K,C1-3,281,1
+6,6,women,Fair,nondiabetic,20-25K,C4+,150,1
+7,7,women,Fair,nondiabetic,25K-35K,1-8,47,1
+8,8,women,Fair,nondiabetic,25K-35K,12orGED,504,1
+9,9,women,Fair,nondiabetic,25K-35K,9-11,100,1
+10,10,women,Fair,nondiabetic,25K-35K,C1-3,328,1
+11,11,women,Fair,nondiabetic,25K-35K,C4+,218,1
+12,12,women,Fair,nondiabetic,35-50K,1-8,38,1
+13,13,women,Fair,nondiabetic,35-50K,12orGED,526,1
+14,14,women,Fair,nondiabetic,35-50K,9-11,80,1
+15,15,women,Fair,nondiabetic,35-50K,C1-3,433,1
+16,16,women,Fair,nondiabetic,35-50K,C4+,328,1
+17,17,women,Fair,nondiabetic,50-75K,1-8,16,1
+18,18,women,Fair,nondiabetic,50-75K,12orGED,433,1
+19,19,women,Fair,nondiabetic,50-75K,9-11,48,1
+20,20,women,Fair,nondiabetic,50-75K,C1-3,379,1
+21,21,women,Fair,nondiabetic,50-75K,C4+,455,1
+22,22,women,Fair,nondiabetic,75>,1-8,12,1
+23,23,women,Fair,nondiabetic,15-20K,C4+,111,1
+24,24,women,Fair,nondiabetic,15-20K,9-11,139,1
+25,25,women,Fair,diabetic,35-50K,C1-3,215,1
+26,26,women,Fair,nondiabetic,15-20K,12orGED,401,1
+27,27,women,Fair,diabetic,50-75K,1-8,6,1
+28,28,women,Fair,diabetic,50-75K,12orGED,185,1
+29,29,women,Fair,diabetic,50-75K,9-11,15,1
+30,30,women,Fair,diabetic,50-75K,C1-3,205,1
+31,31,women,Fair,diabetic,50-75K,C4+,207,1
+32,32,women,Fair,diabetic,75>,1-8,6,1
+33,33,women,Fair,diabetic,75>,12orGED,140,1
+34,34,women,Fair,diabetic,75>,9-11,9,1
+35,35,women,Fair,diabetic,75>,C1-3,209,1
+36,36,women,Fair,diabetic,75>,C4+,409,1
+37,37,women,Fair,diabetic,<10K,1-8,43,1
+38,38,women,Fair,diabetic,<10K,12orGED,113,1
+39,39,women,Fair,diabetic,<10K,9-11,40,1
+40,40,women,Fair,diabetic,<10K,C1-3,41,1
+41,41,women,Fair,diabetic,<10K,C4+,21,1
+42,42,women,Fair,nondiabetic,10-15K,1-8,64,1
+43,43,women,Fair,nondiabetic,10-15K,12orGED,283,1
+44,44,women,Fair,nondiabetic,10-15K,9-11,95,1
+45,45,women,Fair,nondiabetic,10-15K,C1-3,193,1
+46,46,women,Fair,nondiabetic,10-15K,C4+,74,1
+47,47,women,Fair,nondiabetic,15-20K,1-8,85,1
+48,48,women,Fair,nondiabetic,75>,12orGED,349,1
+49,49,women,Fair,nondiabetic,75>,9-11,30,1
+50,50,women,Fair,nondiabetic,75>,C1-3,428,1
+51,51,women,Fair,nondiabetic,75>,C4+,928,1
+52,52,women,Good,diabetic,25K-35K,C4+,165,1
+53,53,women,Good,diabetic,35-50K,1-8,14,1
+54,54,women,Good,diabetic,35-50K,12orGED,405,1
+55,55,women,Good,diabetic,35-50K,9-11,40,1
+56,56,women,Good,diabetic,35-50K,C1-3,366,1
+57,57,women,Good,diabetic,35-50K,C4+,366,1
+58,58,women,Good,diabetic,50-75K,1-8,6,1
+59,59,women,Good,diabetic,50-75K,12orGED,327,1
+60,60,women,Good,diabetic,50-75K,9-11,33,1
+61,61,women,Good,diabetic,50-75K,C1-3,404,1
+62,62,women,Good,diabetic,50-75K,C4+,508,1
+63,63,women,Good,diabetic,75>,1-8,4,1
+64,64,women,Good,diabetic,75>,12orGED,298,1
+65,65,women,Good,diabetic,75>,9-11,21,1
+66,66,women,Good,diabetic,75>,C1-3,497,1
+67,67,women,Good,diabetic,75>,C4+,1177,1
+68,68,women,Good,diabetic,<10K,1-8,15,1
+69,69,women,Good,diabetic,<10K,12orGED,66,1
+70,70,women,Good,diabetic,<10K,9-11,17,1
+71,71,women,Good,diabetic,<10K,C1-3,41,1
+72,72,women,Good,diabetic,<10K,C4+,16,1
+73,73,women,Good,diabetic,25K-35K,C1-3,221,1
+74,74,women,Good,diabetic,25K-35K,9-11,39,1
+75,75,women,Good,diabetic,25K-35K,12orGED,289,1
+76,76,women,Good,diabetic,10-15K,C4+,39,1
+77,77,women,Fair,nondiabetic,<10K,1-8,69,1
+78,78,women,Fair,nondiabetic,<10K,12orGED,229,1
+79,79,women,Fair,nondiabetic,<10K,9-11,105,1
+80,80,women,Fair,nondiabetic,<10K,C1-3,113,1
+81,81,women,Fair,nondiabetic,<10K,C4+,63,1
+82,82,women,Good,diabetic,10-15K,1-8,19,1
+83,83,women,Good,diabetic,10-15K,12orGED,107,1
+84,84,women,Good,diabetic,10-15K,9-11,28,1
+85,85,women,Good,diabetic,10-15K,C1-3,68,1
+86,86,women,Good,diabetic,15-20K,1-8,16,1
+87,87,women,Good,diabetic,25K-35K,1-8,18,1
+88,88,women,Good,diabetic,15-20K,12orGED,165,1
+89,89,women,Good,diabetic,15-20K,9-11,46,1
+90,90,women,Good,diabetic,15-20K,C1-3,109,1
+91,91,women,Good,diabetic,15-20K,C4+,75,1
+92,92,women,Good,diabetic,20-25K,1-8,10,1
+93,93,women,Good,diabetic,20-25K,12orGED,238,1
+94,94,women,Good,diabetic,20-25K,9-11,58,1
+95,95,women,Good,diabetic,20-25K,C1-3,166,1
+96,96,women,Good,diabetic,20-25K,C4+,90,1
+97,97,women,Fair,diabetic,35-50K,C4+,151,1
+98,98,women,Fair,diabetic,35-50K,9-11,23,1
+99,99,women,Excellent,diabetic,10-15K,9-11,6,1
+100,100,women,Excellent,diabetic,50-75K,C1-3,39,1
+101,101,women,Excellent,diabetic,75>,1-8,1,1
+102,102,women,Excellent,diabetic,75>,12orGED,20,1
+103,103,women,Excellent,diabetic,75>,9-11,4,1
+104,104,women,Excellent,diabetic,75>,C1-3,61,1
+105,105,women,Excellent,diabetic,75>,C4+,192,1
+106,106,women,Excellent,diabetic,<10K,1-8,3,1
+107,107,women,Excellent,diabetic,<10K,12orGED,7,1
+108,108,women,Excellent,diabetic,<10K,9-11,2,1
+109,109,women,Excellent,diabetic,<10K,C1-3,1,1
+110,110,women,Excellent,nondiabetic,10-15K,1-8,7,1
+111,111,women,Excellent,nondiabetic,10-15K,12orGED,104,1
+112,112,women,Excellent,nondiabetic,10-15K,9-11,24,1
+113,113,women,Excellent,nondiabetic,10-15K,C1-3,72,1
+114,114,women,Excellent,nondiabetic,10-15K,C4+,73,1
+115,115,women,Excellent,nondiabetic,15-20K,1-8,17,1
+116,116,women,Excellent,nondiabetic,15-20K,12orGED,165,1
+117,117,women,Excellent,nondiabetic,15-20K,9-11,38,1
+118,118,women,Excellent,nondiabetic,15-20K,C1-3,149,1
+119,119,women,Excellent,nondiabetic,15-20K,C4+,114,1
+120,120,women,Excellent,nondiabetic,20-25K,1-8,20,1
+121,121,women,Excellent,nondiabetic,20-25K,12orGED,255,1
+122,122,women,Excellent,diabetic,50-75K,C4+,54,1
+123,123,women,Excellent,diabetic,50-75K,9-11,2,1
+124,124,women,Fair,diabetic,35-50K,12orGED,246,1
+125,125,women,Excellent,diabetic,50-75K,12orGED,29,1
+126,126,women,Excellent,diabetic,10-15K,C4+,4,1
+127,127,women,Excellent,diabetic,15-20K,1-8,4,1
+128,128,women,Excellent,diabetic,15-20K,12orGED,12,1
+129,129,women,Excellent,diabetic,15-20K,9-11,5,1
+130,130,women,Excellent,diabetic,15-20K,C1-3,10,1
+131,131,women,Excellent,diabetic,15-20K,C4+,7,1
+132,132,women,Excellent,diabetic,20-25K,12orGED,17,1
+133,133,women,Excellent,diabetic,20-25K,9-11,7,1
+134,134,women,Excellent,diabetic,20-25K,C1-3,12,1
+135,135,women,Excellent,diabetic,20-25K,C4+,10,1
+136,136,women,Excellent,diabetic,25K-35K,1-8,3,1
+137,137,women,Excellent,diabetic,25K-35K,12orGED,12,1
+138,138,women,Excellent,diabetic,25K-35K,9-11,9,1
+139,139,women,Excellent,diabetic,25K-35K,C1-3,18,1
+140,140,women,Excellent,diabetic,25K-35K,C4+,21,1
+141,141,women,Excellent,diabetic,35-50K,1-8,1,1
+142,142,women,Excellent,diabetic,35-50K,12orGED,31,1
+143,143,women,Excellent,diabetic,35-50K,9-11,5,1
+144,144,women,Excellent,diabetic,35-50K,C1-3,30,1
+145,145,women,Excellent,diabetic,35-50K,C4+,35,1
+146,146,women,Excellent,diabetic,50-75K,1-8,1,1
+147,147,women,Excellent,nondiabetic,20-25K,9-11,30,1
+148,148,women,Excellent,nondiabetic,20-25K,C1-3,218,1
+149,149,women,Excellent,nondiabetic,20-25K,C4+,199,1
+150,150,women,Excellent,nondiabetic,25K-35K,1-8,13,1
+151,151,women,Fair,diabetic,10-15K,1-8,35,1
+152,152,women,Fair,diabetic,10-15K,12orGED,158,1
+153,153,women,Fair,diabetic,10-15K,9-11,48,1
+154,154,women,Fair,diabetic,10-15K,C1-3,73,1
+155,155,women,Fair,diabetic,10-15K,C4+,49,1
+156,156,women,Fair,diabetic,15-20K,1-8,36,1
+157,157,women,Fair,diabetic,15-20K,12orGED,190,1
+158,158,women,Fair,diabetic,15-20K,9-11,58,1
+159,159,women,Fair,diabetic,15-20K,C1-3,105,1
+160,160,women,Fair,diabetic,15-20K,C4+,50,1
+161,161,women,Fair,diabetic,20-25K,1-8,31,1
+162,162,women,Fair,diabetic,20-25K,12orGED,219,1
+163,163,women,Fair,diabetic,20-25K,9-11,59,1
+164,164,women,Fair,diabetic,20-25K,C1-3,159,1
+165,165,women,Fair,diabetic,20-25K,C4+,62,1
+166,166,women,Fair,diabetic,25K-35K,1-8,28,1
+167,167,women,Fair,diabetic,25K-35K,12orGED,241,1
+168,168,women,Fair,diabetic,25K-35K,9-11,41,1
+169,169,women,Fair,diabetic,25K-35K,C1-3,185,1
+170,170,women,Fair,diabetic,25K-35K,C4+,136,1
+171,171,women,Fair,diabetic,35-50K,1-8,8,1
+172,172,women,Excellent,nondiabetic,<10K,C4+,82,1
+173,173,women,Excellent,nondiabetic,<10K,C1-3,87,1
+174,174,women,Excellent,nondiabetic,<10K,9-11,32,1
+175,175,women,Excellent,nondiabetic,50-75K,1-8,11,1
+176,176,women,Excellent,nondiabetic,25K-35K,12orGED,343,1
+177,177,women,Excellent,nondiabetic,25K-35K,9-11,34,1
+178,178,women,Excellent,nondiabetic,25K-35K,C1-3,340,1
+179,179,women,Excellent,nondiabetic,25K-35K,C4+,372,1
+180,180,women,Excellent,nondiabetic,35-50K,1-8,17,1
+181,181,women,Excellent,nondiabetic,35-50K,12orGED,565,1
+182,182,women,Excellent,nondiabetic,35-50K,9-11,52,1
+183,183,women,Excellent,nondiabetic,35-50K,C1-3,620,1
+184,184,women,Excellent,nondiabetic,35-50K,C4+,878,1
+185,185,women,Excellent,nondiabetic,50-75K,12orGED,644,1
+186,186,women,Excellent,nondiabetic,<10K,12orGED,85,1
+187,187,women,Excellent,nondiabetic,50-75K,9-11,43,1
+188,188,women,Excellent,nondiabetic,50-75K,C1-3,886,1
+189,189,women,Excellent,nondiabetic,50-75K,C4+,1591,1
+190,190,women,Excellent,nondiabetic,75>,1-8,19,1
+191,191,women,Excellent,nondiabetic,75>,12orGED,1079,1
+192,192,women,Excellent,nondiabetic,75>,9-11,66,1
+193,193,women,Excellent,nondiabetic,75>,C1-3,1693,1
+194,194,women,Excellent,nondiabetic,75>,C4+,8001,1
+195,195,women,Excellent,nondiabetic,<10K,1-8,13,1
+196,196,women,Good,nondiabetic,10-15K,1-8,53,1
+197,197,women,Good,nondiabetic,10-15K,12orGED,346,1
+198,198,women,Good,nondiabetic,10-15K,9-11,119,1
+199,199,women,Very good,diabetic,15-20K,9-11,17,1
+200,200,women,Very good,diabetic,15-20K,C4+,21,1
+201,201,women,Very good,diabetic,20-25K,1-8,4,1
+202,202,women,Very good,diabetic,20-25K,12orGED,96,1
+203,203,women,Very good,diabetic,20-25K,9-11,9,1
+204,204,women,Very good,diabetic,20-25K,C1-3,55,1
+205,205,women,Very good,diabetic,20-25K,C4+,45,1
+206,206,women,Very good,diabetic,25K-35K,1-8,5,1
+207,207,women,Very good,diabetic,25K-35K,12orGED,110,1
+208,208,women,Very good,diabetic,25K-35K,9-11,11,1
+209,209,women,Very good,diabetic,25K-35K,C1-3,101,1
+210,210,women,Very good,diabetic,25K-35K,C4+,94,1
+211,211,women,Very good,diabetic,35-50K,1-8,5,1
+212,212,women,Very good,diabetic,35-50K,12orGED,138,1
+213,213,women,Very good,diabetic,35-50K,9-11,18,1
+214,214,women,Very good,diabetic,35-50K,C1-3,145,1
+215,215,women,Very good,diabetic,35-50K,C4+,177,1
+216,216,women,Very good,diabetic,50-75K,1-8,2,1
+217,217,women,Very good,diabetic,50-75K,12orGED,158,1
+218,218,women,Very good,diabetic,50-75K,9-11,14,1
+219,219,women,Very good,diabetic,50-75K,C1-3,222,1
+220,220,women,Very good,diabetic,50-75K,C4+,352,1
+221,221,women,Very good,diabetic,15-20K,C1-3,28,1
+222,222,women,Very good,diabetic,15-20K,12orGED,48,1
+223,223,women,Good,nondiabetic,10-15K,C1-3,235,1
+224,224,women,Very good,diabetic,15-20K,1-8,4,1
+225,225,women,Poor,nondiabetic,35-50K,C4+,100,1
+226,226,women,Poor,nondiabetic,50-75K,1-8,8,1
+227,227,women,Poor,nondiabetic,50-75K,12orGED,96,1
+228,228,women,Poor,nondiabetic,50-75K,9-11,11,1
+229,229,women,Poor,nondiabetic,50-75K,C1-3,107,1
+230,230,women,Poor,nondiabetic,50-75K,C4+,97,1
+231,231,women,Poor,nondiabetic,75>,1-8,7,1
+232,232,women,Poor,nondiabetic,75>,12orGED,54,1
+233,233,women,Poor,nondiabetic,75>,9-11,7,1
+234,234,women,Poor,nondiabetic,75>,C1-3,96,1
+235,235,women,Poor,nondiabetic,75>,C4+,165,1
+236,236,women,Poor,nondiabetic,<10K,1-8,42,1
+237,237,women,Poor,nondiabetic,<10K,12orGED,131,1
+238,238,women,Poor,nondiabetic,<10K,9-11,84,1
+239,239,women,Poor,nondiabetic,<10K,C1-3,93,1
+240,240,women,Poor,nondiabetic,<10K,C4+,45,1
+241,241,women,Very good,diabetic,10-15K,1-8,8,1
+242,242,women,Very good,diabetic,10-15K,12orGED,35,1
+243,243,women,Very good,diabetic,10-15K,9-11,7,1
+244,244,women,Very good,diabetic,10-15K,C1-3,27,1
+245,245,women,Very good,diabetic,10-15K,C4+,16,1
+246,246,women,Very good,diabetic,75>,1-8,2,1
+247,247,women,Very good,diabetic,75>,12orGED,162,1
+248,248,women,Very good,diabetic,75>,9-11,13,1
+249,249,women,Very good,diabetic,75>,C1-3,293,1
+250,250,women,Very good,nondiabetic,25K-35K,C1-3,842,1
+251,251,women,Very good,nondiabetic,25K-35K,C4+,711,1
+252,252,women,Very good,nondiabetic,35-50K,1-8,25,1
+253,253,women,Very good,nondiabetic,35-50K,12orGED,1454,1
+254,254,women,Very good,nondiabetic,35-50K,9-11,95,1
+255,255,women,Very good,nondiabetic,35-50K,C1-3,1558,1
+256,256,women,Very good,nondiabetic,35-50K,C4+,1654,1
+257,257,women,Very good,nondiabetic,50-75K,1-8,18,1
+258,258,women,Very good,nondiabetic,50-75K,12orGED,1537,1
+259,259,women,Very good,nondiabetic,50-75K,9-11,78,1
+260,260,women,Very good,nondiabetic,50-75K,C1-3,2006,1
+261,261,women,Very good,nondiabetic,50-75K,C4+,3280,1
+262,262,women,Very good,nondiabetic,75>,1-8,25,1
+263,263,women,Very good,nondiabetic,75>,12orGED,2210,1
+264,264,women,Very good,nondiabetic,75>,9-11,108,1
+265,265,women,Very good,nondiabetic,75>,C1-3,3626,1
+266,266,women,Very good,nondiabetic,75>,C4+,12294,1
+267,267,women,Very good,nondiabetic,<10K,1-8,25,1
+268,268,women,Very good,nondiabetic,<10K,12orGED,154,1
+269,269,women,Very good,nondiabetic,<10K,9-11,49,1
+270,270,women,Very good,nondiabetic,<10K,C1-3,144,1
+271,271,women,Very good,nondiabetic,25K-35K,9-11,92,1
+272,272,women,Very good,nondiabetic,25K-35K,12orGED,886,1
+273,273,women,Very good,nondiabetic,25K-35K,1-8,33,1
+274,274,women,Very good,nondiabetic,10-15K,C1-3,160,1
+275,275,women,Very good,diabetic,75>,C4+,880,1
+276,276,women,Very good,diabetic,<10K,1-8,1,1
+277,277,women,Very good,diabetic,<10K,12orGED,18,1
+278,278,women,Very good,diabetic,<10K,9-11,6,1
+279,279,women,Very good,diabetic,<10K,C1-3,10,1
+280,280,women,Very good,diabetic,<10K,C4+,7,1
+281,281,women,Very good,nondiabetic,10-15K,1-8,16,1
+282,282,women,Very good,nondiabetic,10-15K,12orGED,186,1
+283,283,women,Very good,nondiabetic,10-15K,9-11,29,1
+284,284,women,Very good,nondiabetic,10-15K,C4+,98,1
+285,285,women,Very good,nondiabetic,20-25K,C4+,377,1
+286,286,women,Very good,nondiabetic,15-20K,1-8,28,1
+287,287,women,Very good,nondiabetic,15-20K,12orGED,325,1
+288,288,women,Very good,nondiabetic,15-20K,9-11,64,1
+289,289,women,Very good,nondiabetic,15-20K,C1-3,315,1
+290,290,women,Very good,nondiabetic,15-20K,C4+,213,1
+291,291,women,Very good,nondiabetic,20-25K,1-8,34,1
+292,292,women,Very good,nondiabetic,20-25K,12orGED,559,1
+293,293,women,Very good,nondiabetic,20-25K,9-11,78,1
+294,294,women,Very good,nondiabetic,20-25K,C1-3,462,1
+295,295,women,Poor,nondiabetic,35-50K,C1-3,117,1
+296,296,women,Poor,nondiabetic,35-50K,9-11,24,1
+297,297,women,Poor,nondiabetic,35-50K,12orGED,153,1
+298,298,women,Poor,diabetic,20-25K,1-8,24,1
+299,299,women,Good,nondiabetic,50-75K,C1-3,1668,1
+300,300,women,Good,nondiabetic,50-75K,C4+,1973,1
+301,301,women,Good,nondiabetic,75>,1-8,23,1
+302,302,women,Good,nondiabetic,75>,12orGED,1646,1
+303,303,women,Good,nondiabetic,75>,9-11,99,1
+304,304,women,Good,nondiabetic,75>,C1-3,2247,1
+305,305,women,Good,nondiabetic,75>,C4+,5919,1
+306,306,women,Good,nondiabetic,<10K,1-8,51,1
+307,307,women,Good,nondiabetic,<10K,12orGED,242,1
+308,308,women,Good,nondiabetic,<10K,9-11,97,1
+309,309,women,Good,nondiabetic,<10K,C1-3,196,1
+310,310,women,Good,nondiabetic,<10K,C4+,131,1
+311,311,women,Poor,diabetic,10-15K,1-8,41,1
+312,312,women,Poor,diabetic,10-15K,12orGED,92,1
+313,313,women,Poor,diabetic,10-15K,9-11,47,1
+314,314,women,Poor,diabetic,10-15K,C1-3,66,1
+315,315,women,Poor,diabetic,10-15K,C4+,30,1
+316,316,women,Poor,diabetic,15-20K,1-8,33,1
+317,317,women,Poor,diabetic,15-20K,12orGED,115,1
+318,318,women,Poor,diabetic,15-20K,9-11,39,1
+319,319,women,Poor,diabetic,15-20K,C1-3,63,1
+320,320,women,Good,nondiabetic,50-75K,9-11,107,1
+321,321,women,Good,nondiabetic,50-75K,12orGED,1537,1
+322,322,women,Good,nondiabetic,50-75K,1-8,33,1
+323,323,women,Good,nondiabetic,20-25K,C1-3,546,1
+324,324,women,Good,nondiabetic,10-15K,C4+,143,1
+325,325,women,Good,nondiabetic,15-20K,1-8,70,1
+326,326,women,Good,nondiabetic,15-20K,12orGED,565,1
+327,327,women,Good,nondiabetic,15-20K,9-11,156,1
+328,328,women,Good,nondiabetic,15-20K,C1-3,397,1
+329,329,women,Good,nondiabetic,15-20K,C4+,208,1
+330,330,women,Good,nondiabetic,20-25K,1-8,105,1
+331,331,women,Good,nondiabetic,20-25K,12orGED,824,1
+332,332,women,Good,nondiabetic,20-25K,9-11,157,1
+333,333,women,Good,nondiabetic,20-25K,C4+,348,1
+334,334,women,Good,nondiabetic,35-50K,C4+,1269,1
+335,335,women,Good,nondiabetic,25K-35K,1-8,83,1
+336,336,women,Good,nondiabetic,25K-35K,12orGED,1066,1
+337,337,women,Good,nondiabetic,25K-35K,9-11,198,1
+338,338,women,Good,nondiabetic,25K-35K,C1-3,892,1
+339,339,women,Good,nondiabetic,25K-35K,C4+,635,1
+340,340,women,Good,nondiabetic,35-50K,1-8,54,1
+341,341,women,Good,nondiabetic,35-50K,12orGED,1641,1
+342,342,women,Good,nondiabetic,35-50K,9-11,172,1
+343,343,women,Good,nondiabetic,35-50K,C1-3,1412,1
+344,344,women,Poor,diabetic,15-20K,C4+,31,1
+345,345,women,Poor,diabetic,20-25K,12orGED,121,1
+346,346,women,Poor,nondiabetic,35-50K,1-8,10,1
+347,347,women,Poor,diabetic,20-25K,9-11,37,1
+348,348,women,Poor,diabetic,<10K,C4+,25,1
+349,349,women,Poor,nondiabetic,10-15K,1-8,30,1
+350,350,women,Poor,nondiabetic,10-15K,12orGED,155,1
+351,351,women,Poor,nondiabetic,10-15K,9-11,73,1
+352,352,women,Poor,nondiabetic,10-15K,C1-3,118,1
+353,353,women,Poor,nondiabetic,10-15K,C4+,45,1
+354,354,women,Poor,nondiabetic,15-20K,1-8,33,1
+355,355,women,Poor,nondiabetic,15-20K,12orGED,156,1
+356,356,women,Poor,nondiabetic,15-20K,9-11,53,1
+357,357,women,Poor,nondiabetic,15-20K,C1-3,123,1
+358,358,women,Poor,nondiabetic,15-20K,C4+,43,1
+359,359,women,Poor,nondiabetic,20-25K,1-8,22,1
+360,360,women,Poor,nondiabetic,20-25K,12orGED,177,1
+361,361,women,Poor,nondiabetic,20-25K,9-11,37,1
+362,362,women,Poor,nondiabetic,20-25K,C1-3,100,1
+363,363,women,Poor,nondiabetic,20-25K,C4+,65,1
+364,364,women,Poor,nondiabetic,25K-35K,1-8,16,1
+365,365,women,Poor,nondiabetic,25K-35K,12orGED,158,1
+366,366,women,Poor,nondiabetic,25K-35K,9-11,35,1
+367,367,women,Poor,nondiabetic,25K-35K,C1-3,112,1
+368,368,women,Poor,nondiabetic,25K-35K,C4+,58,1
+369,369,women,Poor,diabetic,<10K,C1-3,35,1
+370,370,women,Poor,diabetic,<10K,9-11,34,1
+371,371,women,Poor,diabetic,<10K,12orGED,61,1
+372,372,women,Poor,diabetic,35-50K,9-11,13,1
+373,373,women,Poor,diabetic,20-25K,C1-3,71,1
+374,374,women,Poor,diabetic,20-25K,C4+,46,1
+375,375,women,Poor,diabetic,25K-35K,1-8,13,1
+376,376,women,Poor,diabetic,25K-35K,12orGED,96,1
+377,377,women,Poor,diabetic,25K-35K,9-11,31,1
+378,378,women,Poor,diabetic,25K-35K,C1-3,101,1
+379,379,women,Poor,diabetic,25K-35K,C4+,46,1
+380,380,women,Poor,diabetic,35-50K,1-8,10,1
+381,381,women,Poor,diabetic,35-50K,12orGED,84,1
+382,382,women,Poor,diabetic,35-50K,C1-3,83,1
+383,383,women,Poor,diabetic,<10K,1-8,42,1
+384,384,women,Poor,diabetic,35-50K,C4+,74,1
+385,385,women,Poor,diabetic,50-75K,12orGED,77,1
+386,386,women,Poor,diabetic,50-75K,9-11,5,1
+387,387,women,Poor,diabetic,50-75K,C1-3,62,1
+388,388,women,Poor,diabetic,50-75K,C4+,77,1
+389,389,women,Poor,diabetic,75>,12orGED,26,1
+390,390,women,Poor,diabetic,75>,9-11,3,1
+391,391,women,Poor,diabetic,75>,C1-3,71,1
+392,392,women,Poor,diabetic,75>,C4+,97,1
+393,393,women,Excellent,diabetic,10-15K,C1-3,3,1
+394,394,women,Excellent,diabetic,10-15K,12orGED,8,1
+395,395,men,Excellent,diabetic,10-15K,12orGED,13,1
+396,396,men,Fair,nondiabetic,15-20K,C1-3,503,1
+397,397,men,Fair,nondiabetic,20-25K,1-8,65,1
+398,398,men,Fair,nondiabetic,20-25K,12orGED,712,1
+399,399,men,Fair,nondiabetic,20-25K,9-11,155,1
+400,400,men,Fair,nondiabetic,20-25K,C1-3,576,1
+401,401,men,Fair,nondiabetic,20-25K,C4+,264,1
+402,402,men,Fair,nondiabetic,25K-35K,1-8,43,1
+403,403,men,Fair,nondiabetic,25K-35K,12orGED,607,1
+404,404,men,Fair,nondiabetic,25K-35K,9-11,116,1
+405,405,men,Fair,nondiabetic,25K-35K,C1-3,567,1
+406,406,men,Fair,nondiabetic,25K-35K,C4+,350,1
+407,407,men,Fair,nondiabetic,35-50K,1-8,20,1
+408,408,men,Fair,nondiabetic,35-50K,12orGED,543,1
+409,409,men,Fair,nondiabetic,35-50K,9-11,67,1
+410,410,men,Fair,nondiabetic,35-50K,C1-3,553,1
+411,411,men,Fair,nondiabetic,35-50K,C4+,437,1
+412,412,men,Fair,nondiabetic,50-75K,1-8,7,1
+413,413,men,Fair,nondiabetic,50-75K,12orGED,344,1
+414,414,men,Fair,nondiabetic,50-75K,9-11,38,1
+415,415,men,Fair,nondiabetic,50-75K,C1-3,444,1
+416,416,men,Fair,nondiabetic,50-75K,C4+,524,1
+417,417,men,Fair,nondiabetic,75>,1-8,1,1
+418,418,men,Fair,nondiabetic,15-20K,C4+,181,1
+419,419,men,Fair,nondiabetic,15-20K,9-11,232,1
+420,420,men,Fair,diabetic,35-50K,C1-3,226,1
+421,421,men,Fair,nondiabetic,15-20K,12orGED,744,1
+422,422,men,Fair,diabetic,50-75K,1-8,2,1
+423,423,men,Fair,diabetic,50-75K,12orGED,154,1
+424,424,men,Fair,diabetic,50-75K,9-11,12,1
+425,425,men,Fair,diabetic,50-75K,C1-3,168,1
+426,426,men,Fair,diabetic,50-75K,C4+,203,1
+427,427,men,Fair,diabetic,75>,1-8,3,1
+428,428,men,Fair,diabetic,75>,12orGED,97,1
+429,429,men,Fair,diabetic,75>,9-11,10,1
+430,430,men,Fair,diabetic,75>,C1-3,141,1
+431,431,men,Fair,diabetic,75>,C4+,227,1
+432,432,men,Fair,diabetic,<10K,1-8,116,1
+433,433,men,Fair,diabetic,<10K,12orGED,243,1
+434,434,men,Fair,diabetic,<10K,9-11,139,1
+435,435,men,Fair,diabetic,<10K,C1-3,155,1
+436,436,men,Fair,diabetic,<10K,C4+,55,1
+437,437,men,Fair,nondiabetic,10-15K,1-8,108,1
+438,438,men,Fair,nondiabetic,10-15K,12orGED,590,1
+439,439,men,Fair,nondiabetic,10-15K,9-11,211,1
+440,440,men,Fair,nondiabetic,10-15K,C1-3,419,1
+441,441,men,Fair,nondiabetic,10-15K,C4+,161,1
+442,442,men,Fair,nondiabetic,15-20K,1-8,98,1
+443,443,men,Fair,nondiabetic,75>,12orGED,252,1
+444,444,men,Fair,nondiabetic,75>,9-11,10,1
+445,445,men,Fair,nondiabetic,75>,C1-3,491,1
+446,446,men,Fair,nondiabetic,75>,C4+,897,1
+447,447,men,Good,diabetic,25K-35K,C4+,206,1
+448,448,men,Good,diabetic,35-50K,1-8,5,1
+449,449,men,Good,diabetic,35-50K,12orGED,339,1
+450,450,men,Good,diabetic,35-50K,9-11,22,1
+451,451,men,Good,diabetic,35-50K,C1-3,405,1
+452,452,men,Good,diabetic,35-50K,C4+,362,1
+453,453,men,Good,diabetic,50-75K,1-8,5,1
+454,454,men,Good,diabetic,50-75K,12orGED,225,1
+455,455,men,Good,diabetic,50-75K,9-11,10,1
+456,456,men,Good,diabetic,50-75K,C1-3,358,1
+457,457,men,Good,diabetic,50-75K,C4+,401,1
+458,458,men,Good,diabetic,75>,1-8,3,1
+459,459,men,Good,diabetic,75>,12orGED,171,1
+460,460,men,Good,diabetic,75>,9-11,8,1
+461,461,men,Good,diabetic,75>,C1-3,340,1
+462,462,men,Good,diabetic,75>,C4+,659,1
+463,463,men,Good,diabetic,<10K,1-8,38,1
+464,464,men,Good,diabetic,<10K,12orGED,145,1
+465,465,men,Good,diabetic,<10K,9-11,64,1
+466,466,men,Good,diabetic,<10K,C1-3,87,1
+467,467,men,Good,diabetic,<10K,C4+,39,1
+468,468,men,Good,diabetic,25K-35K,C1-3,363,1
+469,469,men,Good,diabetic,25K-35K,9-11,44,1
+470,470,men,Good,diabetic,25K-35K,12orGED,364,1
+471,471,men,Good,diabetic,10-15K,C4+,43,1
+472,472,men,Fair,nondiabetic,<10K,1-8,146,1
+473,473,men,Fair,nondiabetic,<10K,12orGED,550,1
+474,474,men,Fair,nondiabetic,<10K,9-11,251,1
+475,475,men,Fair,nondiabetic,<10K,C1-3,349,1
+476,476,men,Fair,nondiabetic,<10K,C4+,133,1
+477,477,men,Good,diabetic,10-15K,1-8,35,1
+478,478,men,Good,diabetic,10-15K,12orGED,256,1
+479,479,men,Good,diabetic,10-15K,9-11,69,1
+480,480,men,Good,diabetic,10-15K,C1-3,149,1
+481,481,men,Good,diabetic,15-20K,1-8,24,1
+482,482,men,Good,diabetic,25K-35K,1-8,9,1
+483,483,men,Good,diabetic,15-20K,12orGED,355,1
+484,484,men,Good,diabetic,15-20K,9-11,79,1
+485,485,men,Good,diabetic,15-20K,C1-3,225,1
+486,486,men,Good,diabetic,15-20K,C4+,71,1
+487,487,men,Good,diabetic,20-25K,1-8,22,1
+488,488,men,Good,diabetic,20-25K,12orGED,383,1
+489,489,men,Good,diabetic,20-25K,9-11,78,1
+490,490,men,Good,diabetic,20-25K,C1-3,271,1
+491,491,men,Good,diabetic,20-25K,C4+,126,1
+492,492,men,Fair,diabetic,35-50K,C4+,196,1
+493,493,men,Fair,diabetic,35-50K,9-11,23,1
+494,494,women,Excellent,diabetic,10-15K,1-8,4,1
+495,495,men,Excellent,diabetic,50-75K,9-11,2,1
+496,496,men,Excellent,diabetic,50-75K,C4+,30,1
+497,497,men,Excellent,diabetic,75>,12orGED,14,1
+498,498,men,Excellent,diabetic,75>,C1-3,26,1
+499,499,men,Excellent,diabetic,75>,C4+,44,1
+500,500,men,Excellent,diabetic,<10K,1-8,5,1
+501,501,men,Excellent,diabetic,<10K,12orGED,14,1
+502,502,men,Excellent,diabetic,<10K,9-11,6,1
+503,503,men,Excellent,diabetic,<10K,C1-3,8,1
+504,504,men,Excellent,diabetic,<10K,C4+,1,1
+505,505,men,Excellent,nondiabetic,10-15K,1-8,13,1
+506,506,men,Excellent,nondiabetic,10-15K,12orGED,153,1
+507,507,men,Excellent,nondiabetic,10-15K,9-11,37,1
+508,508,men,Excellent,nondiabetic,10-15K,C1-3,144,1
+509,509,men,Excellent,nondiabetic,10-15K,C4+,100,1
+510,510,men,Excellent,nondiabetic,15-20K,1-8,25,1
+511,511,men,Excellent,nondiabetic,15-20K,12orGED,303,1
+512,512,men,Excellent,nondiabetic,15-20K,9-11,55,1
+513,513,men,Excellent,nondiabetic,15-20K,C1-3,294,1
+514,514,men,Excellent,nondiabetic,15-20K,C4+,185,1
+515,515,men,Excellent,nondiabetic,20-25K,1-8,14,1
+516,516,men,Excellent,nondiabetic,20-25K,12orGED,378,1
+517,517,men,Excellent,diabetic,50-75K,C1-3,23,1
+518,518,men,Excellent,diabetic,50-75K,12orGED,11,1
+519,519,men,Fair,diabetic,35-50K,12orGED,221,1
+520,520,men,Excellent,diabetic,35-50K,C4+,28,1
+521,521,men,Excellent,diabetic,10-15K,9-11,6,1
+522,522,men,Excellent,diabetic,10-15K,C1-3,3,1
+523,523,men,Excellent,diabetic,10-15K,C4+,6,1
+524,524,men,Excellent,diabetic,15-20K,1-8,2,1
+525,525,men,Excellent,diabetic,15-20K,12orGED,21,1
+526,526,men,Excellent,diabetic,15-20K,9-11,6,1
+527,527,men,Excellent,diabetic,15-20K,C1-3,16,1
+528,528,men,Excellent,diabetic,15-20K,C4+,2,1
+529,529,men,Excellent,diabetic,20-25K,1-8,2,1
+530,530,men,Excellent,diabetic,20-25K,12orGED,25,1
+531,531,men,Excellent,diabetic,20-25K,9-11,3,1
+532,532,men,Excellent,diabetic,20-25K,C1-3,19,1
+533,533,men,Excellent,diabetic,20-25K,C4+,9,1
+534,534,men,Excellent,diabetic,25K-35K,1-8,1,1
+535,535,men,Excellent,diabetic,25K-35K,12orGED,19,1
+536,536,men,Excellent,diabetic,25K-35K,9-11,1,1
+537,537,men,Excellent,diabetic,25K-35K,C1-3,19,1
+538,538,men,Excellent,diabetic,25K-35K,C4+,20,1
+539,539,men,Excellent,diabetic,35-50K,12orGED,12,1
+540,540,men,Excellent,diabetic,35-50K,9-11,2,1
+541,541,men,Excellent,diabetic,35-50K,C1-3,26,1
+542,542,men,Excellent,nondiabetic,20-25K,9-11,60,1
+543,543,men,Excellent,nondiabetic,20-25K,C1-3,423,1
+544,544,men,Excellent,nondiabetic,20-25K,C4+,343,1
+545,545,men,Excellent,nondiabetic,25K-35K,1-8,22,1
+546,546,men,Fair,diabetic,10-15K,1-8,67,1
+547,547,men,Fair,diabetic,10-15K,12orGED,332,1
+548,548,men,Fair,diabetic,10-15K,9-11,124,1
+549,549,men,Fair,diabetic,10-15K,C1-3,229,1
+550,550,men,Fair,diabetic,10-15K,C4+,58,1
+551,551,men,Fair,diabetic,15-20K,1-8,48,1
+552,552,men,Fair,diabetic,15-20K,12orGED,351,1
+553,553,men,Fair,diabetic,15-20K,9-11,114,1
+554,554,men,Fair,diabetic,15-20K,C1-3,203,1
+555,555,men,Fair,diabetic,15-20K,C4+,80,1
+556,556,men,Fair,diabetic,20-25K,1-8,27,1
+557,557,men,Fair,diabetic,20-25K,12orGED,324,1
+558,558,men,Fair,diabetic,20-25K,9-11,74,1
+559,559,men,Fair,diabetic,20-25K,C1-3,262,1
+560,560,men,Fair,diabetic,20-25K,C4+,89,1
+561,561,men,Fair,diabetic,25K-35K,1-8,27,1
+562,562,men,Fair,diabetic,25K-35K,12orGED,263,1
+563,563,men,Fair,diabetic,25K-35K,9-11,51,1
+564,564,men,Fair,diabetic,25K-35K,C1-3,241,1
+565,565,men,Fair,diabetic,25K-35K,C4+,153,1
+566,566,men,Fair,diabetic,35-50K,1-8,12,1
+567,567,men,Excellent,nondiabetic,<10K,C4+,98,1
+568,568,men,Excellent,nondiabetic,<10K,C1-3,119,1
+569,569,men,Excellent,nondiabetic,<10K,9-11,58,1
+570,570,men,Excellent,nondiabetic,50-75K,1-8,6,1
+571,571,men,Excellent,nondiabetic,25K-35K,12orGED,543,1
+572,572,men,Excellent,nondiabetic,25K-35K,9-11,45,1
+573,573,men,Excellent,nondiabetic,25K-35K,C1-3,622,1
+574,574,men,Excellent,nondiabetic,25K-35K,C4+,630,1
+575,575,men,Excellent,nondiabetic,35-50K,1-8,8,1
+576,576,men,Excellent,nondiabetic,35-50K,12orGED,668,1
+577,577,men,Excellent,nondiabetic,35-50K,9-11,25,1
+578,578,men,Excellent,nondiabetic,35-50K,C1-3,959,1
+579,579,men,Excellent,nondiabetic,35-50K,C4+,1372,1
+580,580,men,Excellent,nondiabetic,50-75K,12orGED,629,1
+581,581,men,Excellent,nondiabetic,<10K,12orGED,150,1
+582,582,men,Excellent,nondiabetic,50-75K,9-11,21,1
+583,583,men,Excellent,nondiabetic,50-75K,C1-3,1266,1
+584,584,men,Excellent,nondiabetic,50-75K,C4+,2538,1
+585,585,men,Excellent,nondiabetic,75>,1-8,6,1
+586,586,men,Excellent,nondiabetic,75>,12orGED,895,1
+587,587,men,Excellent,nondiabetic,75>,9-11,24,1
+588,588,men,Excellent,nondiabetic,75>,C1-3,2398,1
+589,589,men,Excellent,nondiabetic,75>,C4+,9447,1
+590,590,men,Excellent,nondiabetic,<10K,1-8,24,1
+591,591,men,Good,nondiabetic,10-15K,1-8,93,1
+592,592,men,Good,nondiabetic,10-15K,12orGED,850,1
+593,593,men,Good,nondiabetic,10-15K,9-11,229,1
+594,594,men,Very good,diabetic,15-20K,9-11,17,1
+595,595,men,Very good,diabetic,15-20K,C4+,25,1
+596,596,men,Very good,diabetic,20-25K,1-8,4,1
+597,597,men,Very good,diabetic,20-25K,12orGED,149,1
+598,598,men,Very good,diabetic,20-25K,9-11,17,1
+599,599,men,Very good,diabetic,20-25K,C1-3,108,1
+600,600,men,Very good,diabetic,20-25K,C4+,56,1
+601,601,men,Very good,diabetic,25K-35K,1-8,9,1
+602,602,men,Very good,diabetic,25K-35K,12orGED,159,1
+603,603,men,Very good,diabetic,25K-35K,9-11,14,1
+604,604,men,Very good,diabetic,25K-35K,C1-3,139,1
+605,605,men,Very good,diabetic,25K-35K,C4+,98,1
+606,606,men,Very good,diabetic,35-50K,12orGED,166,1
+607,607,men,Very good,diabetic,35-50K,9-11,4,1
+608,608,men,Very good,diabetic,35-50K,C1-3,191,1
+609,609,men,Very good,diabetic,35-50K,C4+,171,1
+610,610,men,Very good,diabetic,50-75K,1-8,3,1
+611,611,men,Very good,diabetic,50-75K,12orGED,92,1
+612,612,men,Very good,diabetic,50-75K,9-11,5,1
+613,613,men,Very good,diabetic,50-75K,C1-3,199,1
+614,614,men,Very good,diabetic,50-75K,C4+,220,1
+615,615,men,Very good,diabetic,75>,1-8,2,1
+616,616,men,Very good,diabetic,15-20K,C1-3,81,1
+617,617,men,Very good,diabetic,15-20K,12orGED,108,1
+618,618,men,Good,nondiabetic,10-15K,C1-3,552,1
+619,619,men,Very good,diabetic,15-20K,1-8,3,1
+620,620,men,Poor,nondiabetic,35-50K,C1-3,149,1
+621,621,men,Poor,nondiabetic,35-50K,C4+,124,1
+622,622,men,Poor,nondiabetic,50-75K,12orGED,90,1
+623,623,men,Poor,nondiabetic,50-75K,9-11,8,1
+624,624,men,Poor,nondiabetic,50-75K,C1-3,123,1
+625,625,men,Poor,nondiabetic,50-75K,C4+,100,1
+626,626,men,Poor,nondiabetic,75>,1-8,5,1
+627,627,men,Poor,nondiabetic,75>,12orGED,74,1
+628,628,men,Poor,nondiabetic,75>,9-11,9,1
+629,629,men,Poor,nondiabetic,75>,C1-3,101,1
+630,630,men,Poor,nondiabetic,75>,C4+,183,1
+631,631,men,Poor,nondiabetic,<10K,1-8,80,1
+632,632,men,Poor,nondiabetic,<10K,12orGED,263,1
+633,633,men,Poor,nondiabetic,<10K,9-11,121,1
+634,634,men,Poor,nondiabetic,<10K,C1-3,194,1
+635,635,men,Poor,nondiabetic,<10K,C4+,54,1
+636,636,men,Very good,diabetic,10-15K,1-8,2,1
+637,637,men,Very good,diabetic,10-15K,12orGED,62,1
+638,638,men,Very good,diabetic,10-15K,9-11,25,1
+639,639,men,Very good,diabetic,10-15K,C1-3,43,1
+640,640,men,Very good,diabetic,10-15K,C4+,24,1
+641,641,men,Very good,diabetic,75>,12orGED,77,1
+642,642,men,Very good,diabetic,75>,9-11,3,1
+643,643,men,Very good,diabetic,75>,C1-3,206,1
+644,644,men,Very good,diabetic,75>,C4+,424,1
+645,645,men,Very good,nondiabetic,25K-35K,C4+,1372,1
+646,646,men,Very good,nondiabetic,35-50K,1-8,13,1
+647,647,men,Very good,nondiabetic,35-50K,12orGED,1808,1
+648,648,men,Very good,nondiabetic,35-50K,9-11,87,1
+649,649,men,Very good,nondiabetic,35-50K,C1-3,2479,1
+650,650,men,Very good,nondiabetic,35-50K,C4+,2732,1
+651,651,men,Very good,nondiabetic,50-75K,1-8,7,1
+652,652,men,Very good,nondiabetic,50-75K,12orGED,1600,1
+653,653,men,Very good,nondiabetic,50-75K,9-11,61,1
+654,654,men,Very good,nondiabetic,50-75K,C1-3,2788,1
+655,655,men,Very good,nondiabetic,50-75K,C4+,4579,1
+656,656,men,Very good,nondiabetic,75>,1-8,13,1
+657,657,men,Very good,nondiabetic,75>,12orGED,1796,1
+658,658,men,Very good,nondiabetic,75>,9-11,57,1
+659,659,men,Very good,nondiabetic,75>,C1-3,4222,1
+660,660,men,Very good,nondiabetic,75>,C4+,12632,1
+661,661,men,Very good,nondiabetic,<10K,1-8,18,1
+662,662,men,Very good,nondiabetic,<10K,12orGED,284,1
+663,663,men,Very good,nondiabetic,<10K,9-11,82,1
+664,664,men,Very good,nondiabetic,<10K,C1-3,248,1
+665,665,men,Very good,nondiabetic,<10K,C4+,152,1
+666,666,men,Very good,nondiabetic,25K-35K,C1-3,1671,1
+667,667,men,Very good,nondiabetic,25K-35K,9-11,119,1
+668,668,men,Very good,nondiabetic,25K-35K,12orGED,1530,1
+669,669,men,Very good,nondiabetic,10-15K,C4+,221,1
+670,670,men,Very good,diabetic,<10K,1-8,8,1
+671,671,men,Very good,diabetic,<10K,12orGED,52,1
+672,672,men,Very good,diabetic,<10K,9-11,14,1
+673,673,men,Very good,diabetic,<10K,C1-3,21,1
+674,674,men,Very good,diabetic,<10K,C4+,16,1
+675,675,men,Very good,nondiabetic,10-15K,1-8,27,1
+676,676,men,Very good,nondiabetic,10-15K,12orGED,480,1
+677,677,men,Very good,nondiabetic,10-15K,9-11,100,1
+678,678,men,Very good,nondiabetic,10-15K,C1-3,387,1
+679,679,men,Very good,nondiabetic,15-20K,1-8,33,1
+680,680,men,Very good,nondiabetic,25K-35K,1-8,22,1
+681,681,men,Very good,nondiabetic,15-20K,12orGED,844,1
+682,682,men,Very good,nondiabetic,15-20K,9-11,147,1
+683,683,men,Very good,nondiabetic,15-20K,C1-3,639,1
+684,684,men,Very good,nondiabetic,15-20K,C4+,367,1
+685,685,men,Very good,nondiabetic,20-25K,1-8,36,1
+686,686,men,Very good,nondiabetic,20-25K,12orGED,1187,1
+687,687,men,Very good,nondiabetic,20-25K,9-11,133,1
+688,688,men,Very good,nondiabetic,20-25K,C1-3,1058,1
+689,689,men,Very good,nondiabetic,20-25K,C4+,680,1
+690,690,men,Poor,nondiabetic,35-50K,9-11,25,1
+691,691,men,Poor,nondiabetic,35-50K,12orGED,149,1
+692,692,men,Poor,nondiabetic,35-50K,1-8,5,1
+693,693,men,Poor,diabetic,20-25K,1-8,21,1
+694,694,men,Good,nondiabetic,50-75K,C1-3,1847,1
+695,695,men,Good,nondiabetic,50-75K,C4+,2501,1
+696,696,men,Good,nondiabetic,75>,1-8,9,1
+697,697,men,Good,nondiabetic,75>,12orGED,1130,1
+698,698,men,Good,nondiabetic,75>,9-11,49,1
+699,699,men,Good,nondiabetic,75>,C1-3,2168,1
+700,700,men,Good,nondiabetic,75>,C4+,5180,1
+701,701,men,Good,nondiabetic,<10K,1-8,97,1
+702,702,men,Good,nondiabetic,<10K,12orGED,623,1
+703,703,men,Good,nondiabetic,<10K,9-11,240,1
+704,704,men,Good,nondiabetic,<10K,C1-3,380,1
+705,705,men,Good,nondiabetic,<10K,C4+,211,1
+706,706,men,Poor,diabetic,10-15K,1-8,53,1
+707,707,men,Poor,diabetic,10-15K,12orGED,193,1
+708,708,men,Poor,diabetic,10-15K,9-11,79,1
+709,709,men,Poor,diabetic,10-15K,C1-3,137,1
+710,710,men,Poor,diabetic,10-15K,C4+,46,1
+711,711,men,Poor,diabetic,15-20K,1-8,37,1
+712,712,men,Poor,diabetic,15-20K,12orGED,154,1
+713,713,men,Poor,diabetic,15-20K,9-11,67,1
+714,714,men,Poor,diabetic,15-20K,C1-3,111,1
+715,715,men,Good,nondiabetic,50-75K,9-11,70,1
+716,716,men,Good,nondiabetic,50-75K,12orGED,1276,1
+717,717,men,Good,nondiabetic,50-75K,1-8,13,1
+718,718,men,Good,nondiabetic,20-25K,C1-3,1228,1
+719,719,men,Good,nondiabetic,10-15K,C4+,236,1
+720,720,men,Good,nondiabetic,15-20K,1-8,106,1
+721,721,men,Good,nondiabetic,15-20K,12orGED,1176,1
+722,722,men,Good,nondiabetic,15-20K,9-11,292,1
+723,723,men,Good,nondiabetic,15-20K,C1-3,872,1
+724,724,men,Good,nondiabetic,15-20K,C4+,414,1
+725,725,men,Good,nondiabetic,20-25K,1-8,79,1
+726,726,men,Good,nondiabetic,20-25K,12orGED,1537,1
+727,727,men,Good,nondiabetic,20-25K,9-11,247,1
+728,728,men,Good,nondiabetic,20-25K,C4+,624,1
+729,729,men,Good,nondiabetic,35-50K,C4+,1879,1
+730,730,men,Good,nondiabetic,25K-35K,1-8,58,1
+731,731,men,Good,nondiabetic,25K-35K,12orGED,1604,1
+732,732,men,Good,nondiabetic,25K-35K,9-11,216,1
+733,733,men,Good,nondiabetic,25K-35K,C1-3,1537,1
+734,734,men,Good,nondiabetic,25K-35K,C4+,1080,1
+735,735,men,Good,nondiabetic,35-50K,1-8,46,1
+736,736,men,Good,nondiabetic,35-50K,12orGED,1652,1
+737,737,men,Good,nondiabetic,35-50K,9-11,129,1
+738,738,men,Good,nondiabetic,35-50K,C1-3,1959,1
+739,739,men,Poor,diabetic,15-20K,C4+,72,1
+740,740,men,Poor,diabetic,20-25K,12orGED,145,1
+741,741,men,Poor,nondiabetic,25K-35K,C4+,81,1
+742,742,men,Poor,diabetic,20-25K,9-11,36,1
+743,743,men,Poor,diabetic,<10K,C1-3,115,1
+744,744,men,Poor,diabetic,<10K,C4+,40,1
+745,745,men,Poor,nondiabetic,10-15K,1-8,62,1
+746,746,men,Poor,nondiabetic,10-15K,12orGED,289,1
+747,747,men,Poor,nondiabetic,10-15K,9-11,109,1
+748,748,men,Poor,nondiabetic,10-15K,C1-3,237,1
+749,749,men,Poor,nondiabetic,10-15K,C4+,79,1
+750,750,men,Poor,nondiabetic,15-20K,1-8,38,1
+751,751,men,Poor,nondiabetic,15-20K,12orGED,313,1
+752,752,men,Poor,nondiabetic,15-20K,9-11,85,1
+753,753,men,Poor,nondiabetic,15-20K,C1-3,196,1
+754,754,men,Poor,nondiabetic,15-20K,C4+,72,1
+755,755,men,Poor,nondiabetic,20-25K,1-8,21,1
+756,756,men,Poor,nondiabetic,20-25K,12orGED,236,1
+757,757,men,Poor,nondiabetic,20-25K,9-11,69,1
+758,758,men,Poor,nondiabetic,20-25K,C1-3,193,1
+759,759,men,Poor,nondiabetic,20-25K,C4+,86,1
+760,760,men,Poor,nondiabetic,25K-35K,1-8,17,1
+761,761,men,Poor,nondiabetic,25K-35K,12orGED,162,1
+762,762,men,Poor,nondiabetic,25K-35K,9-11,46,1
+763,763,men,Poor,nondiabetic,25K-35K,C1-3,184,1
+764,764,men,Poor,diabetic,<10K,9-11,95,1
+765,765,men,Poor,diabetic,<10K,12orGED,164,1
+766,766,men,Poor,diabetic,<10K,1-8,64,1
+767,767,men,Poor,diabetic,35-50K,9-11,15,1
+768,768,men,Poor,diabetic,20-25K,C1-3,102,1
+769,769,men,Poor,diabetic,20-25K,C4+,51,1
+770,770,men,Poor,diabetic,25K-35K,1-8,11,1
+771,771,men,Poor,diabetic,25K-35K,12orGED,90,1
+772,772,men,Poor,diabetic,25K-35K,9-11,26,1
+773,773,men,Poor,diabetic,25K-35K,C1-3,96,1
+774,774,men,Poor,diabetic,25K-35K,C4+,44,1
+775,775,men,Poor,diabetic,35-50K,1-8,2,1
+776,776,men,Poor,diabetic,35-50K,12orGED,71,1
+777,777,men,Poor,diabetic,35-50K,C1-3,70,1
+778,778,men,Poor,diabetic,75>,C4+,64,1
+779,779,men,Poor,diabetic,35-50K,C4+,37,1
+780,780,men,Poor,diabetic,50-75K,12orGED,48,1
+781,781,men,Poor,diabetic,50-75K,9-11,7,1
+782,782,men,Poor,diabetic,50-75K,C1-3,54,1
+783,783,men,Poor,diabetic,50-75K,C4+,42,1
+784,784,men,Poor,diabetic,75>,1-8,1,1
+785,785,men,Poor,diabetic,75>,12orGED,24,1
+786,786,men,Poor,diabetic,75>,9-11,6,1
+787,787,men,Poor,diabetic,75>,C1-3,47,1
+788,788,women,Very good,nondiabetic,<10K,C4+,118,1

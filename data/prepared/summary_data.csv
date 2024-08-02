@@ -1,0 +1,11 @@
+,GeneralHealth,Type,count,percentage,combined
+0,Very good,nondiabetic,82703,32.6013087354147,Very good vs nondiabetic
+1,Good,nondiabetic,62189,24.51474298328603,Good vs nondiabetic
+2,Excellent,nondiabetic,44159,17.407363607694734,Excellent vs nondiabetic
+3,Fair,nondiabetic,21780,8.585619678334911,Fair vs nondiabetic
+4,Good,diabetic,13457,5.304714601072217,Good vs diabetic
+5,Fair,diabetic,9790,3.859192683695995,Fair vs diabetic
+6,Poor,nondiabetic,7503,2.9576631977294228,Poor vs nondiabetic
+7,Very good,diabetic,6381,2.5153736991485336,Very good vs diabetic
+8,Poor,diabetic,4578,1.804635761589404,Poor vs diabetic
+9,Excellent,diabetic,1140,0.44938505203405865,Excellent vs diabetic
