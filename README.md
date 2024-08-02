@@ -326,8 +326,8 @@ run_cdc_pred_compart(): input: none.  read local file and returns figure of pred
     </tr>
     <tr>
       <td>08/01/24</td>
-      <td>Feeling very unsure of myself today but I am powering thru this project.  I have completed some interactive graphs using plotly dash.  Now I am placing them in containers for display on my dashboard</td>
-      <td>&nbsp;</td>
+      <td> I have completed some interactive graphs using plotly dash.  Now I am placing them in containers for display on my dashboard using %%html magic command in jupyter notebook.</td>
+      <td>constructed a table element, link  and title.  Added to my dashboard app in jupyter notebook.</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
