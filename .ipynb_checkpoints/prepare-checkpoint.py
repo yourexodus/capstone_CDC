@@ -40,7 +40,39 @@ class PrepareData:
         Return: DataFrame
         """
         return pd.read_csv(url)
-
+        
+    def get_label_by_value(self, menu_income, value):
+        """
+          Finds the label corresponding to a given value in a list of dictionaries.
+        
+          Args:
+            menu_income: A list of dictionaries, each with 'label' and 'value' keys.
+            value: The value to search for.
+        
+          Returns:
+            The label corresponding to the given value, or None if not found.
+          """
+        
+        for item in menu_income:
+          if item['value'] == value:
+            return item['label']
+        return None
+   
+    def write_df_to_csv(self, df, name, directory, **kwargs):
+        """
+        Writes each raw data DataFrame to a file as a CSV
+        
+        Parameters
+        ----------
+        data : dictionary of DataFrames
+        Returns
+        -------X_test.to_csv('data/prepared/X_test_ScoreNewData.csv',index=False)
+        None
+        Note bashlash is a special character so will need to double the path string
+        directory name, name of key.csv.  forwardign any keyword argument
+        """
+        df.to_csv(f'{directory}/{name}.csv',**kwargs)
+        
     def write_data(self, data, directory, **kwargs):
         """
         Writes each raw data DataFrame to a file as a CSV
