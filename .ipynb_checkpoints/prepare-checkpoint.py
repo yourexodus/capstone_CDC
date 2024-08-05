@@ -175,7 +175,28 @@ class PrepareData:
         df['education'] = np.vectorize(reversefactor.get)(df[['Education']])
 
         return df
-
+    def cdc_bar_plot2(df,x,y,t):
+    
+        """
+        Dataframe, x, y axis
+        Returns
+        -------
+        graph
+        """ 
+        title=""
+        type = ['nondiabetic' if t == 0 else 'diabetic']
+        title = f'{x} vs Percentage for {type}'
+        
+        #graph shows the education condition of individuals in this dataset
+        ge_df = group_data(df,x,y)
+        ge_df = ge_df.sort_values(by='Count', ascending=True)
+        y = ge_df["Percentage"]
+        x= ge_df.index
+        fig = go.Figure()
+        fig.add_bar(x=x, y=y)
+        fig.update_layout(height=400,width=800,title=title)                  
+                       
+        return fig
     def run3(self):
         """
           Run all cleaning and transformation steps
@@ -346,3 +367,21 @@ class PrepareData:
         plt.title(t)
         plt.show()
         return plt
+        
+    def create_dataframe_from_counts(self, df, x, y):
+        """Creates a DataFrame from the counts and percentages of two columns.
+    
+        Args:
+            df: The original DataFrame.
+            x: The first column to group by.
+            y: The second column to group by.
+    
+        Returns:
+            A Pandas DataFrame containing counts, percentages, and the combined column.
+        """
+    
+        counts = df[[x, y]].value_counts().reset_index(name='count')
+        counts.columns = [x, y, 'count']
+        counts['percentage'] = (counts['count'] / len(df)) * 100
+        counts['combined'] = counts[x] + ' vs ' + counts[y]
+        return counts
