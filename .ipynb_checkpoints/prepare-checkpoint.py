@@ -417,7 +417,7 @@ class PrepareData:
         filter3 = df['Diabetes_binary'] == z
         
         test = df [filter1 & filter2 & filter3] #
-        counts = test[['Gender','income','education']].value_counts().reset_index(name='count')
+        counts = test[['Gender']].value_counts().reset_index(name='count')
                  
         counts['percentage'] = (counts['count'] / len(df)) * 100               
         counts['combined'] = counts.Gender + ' with income ' + counts.income + ' and eduction ' + counts.education
