@@ -471,17 +471,17 @@ class PrepareData:
         -------
         graph
         """ 
-        title=""
-        type = ['nondiabetic' if t == 0 else 'diabetic']
-        title = f'{x} vs Percentage for {type}'
-        
-        #graph shows the education condition of individuals in this dataset
-        ge_df = group_data(df,x,y)
-        ge_df = ge_df.sort_values(by='Count', ascending=True)
-        y = ge_df["Percentage"]
-        x= ge_df.index
+        summary =  create_dataframe_from_counts(df, x,y)
+        import plotly.graph_objects as go
+
         fig = go.Figure()
-        fig.add_bar(x=x, y=y)
-        fig.update_layout(height=400,width=800,title=title)                  
+        
+        # Prepare data with combined values for both labels and values
+        data = [go.Pie(labels=summary['combined'], values=summary['percentage'])]
+        
+        # Add the trace to the figure
+        fig.add_trace(*data)
+        
+        fig.update_layout(title='Distribution of Health by Type')                 
                        
         return fig
