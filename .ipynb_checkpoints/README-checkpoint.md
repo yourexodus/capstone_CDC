@@ -19,31 +19,38 @@
   <li><p>Frame my Hypothesis: </p>
       <p>Increase exercise and healthier eating habits can lessen the probabilty of developing diabetes for all ages</p>
   </li>
-  <li><p>Prepare my data: <a href="https://github.com/yourexodus/capstone_CDC/blob/f9d933dc90861e996e40921c90f9695843873a9f/GettingToKnowTheData.ipynb">GettingToKnowTheData</a></p>   
+  <li><p>Prepare my data: <a href="https://github.com/yourexodus/capstone_CDC/blob/321061467f18b7f9aa428e2702a2e05b01a06f04/GettingToKnowTheData.ipynb">GettingToKnowTheData</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p>Analyze using visuals and make some determinations: <a href="https://github.com/yourexodus/capstone_CDC/blob/f9d933dc90861e996e40921c90f9695843873a9f/Visualizing%20and%20Interpreting%20Data.ipynb">Visualizing and Interpretting Data</a></p>   
+  <li><p><Feature Engineering: <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Feature_Engineering.ipynb">Addressing Issues with the Data</a></p>
+        <p> Jupyter Notebook</p>
+  </li>
+  <li><p>Analyze using visuals and make some determinations: <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Visualizing%20and%20Interpreting%20Data.ipynb">Visualizing and Interpretting Data</a></p>   
       <p> Jupyter Notebook</p>
   </li>
    
-  <li><p>Replaced Codes with Label names.  Saved to file: <a href="https://github.com/yourexodus/capstone_CDC/blob/0efb2177b9301e45ff95de6d289d66fc38282c6f/Feature_Engineering.ipynb">Feature_Engineering</a></p>
-      <p> Jupyter Notebook</p>
-  </li>
+  
   <li><p>Communicate Results -- Added Notes in files.  Emailed. Feedback Received 07/24</p>
       <p> Jupyter Notebook</p>
      
   </li>
 
-  <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/210345198aee7833f9aaaa7e5748a4afd14b573d/Feature_Engineering.ipynb">Modeling</a></p>   
+  <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Modeling.ipynb">Modeling</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p>Added Random Forest model to class in  <a href="https://github.com/yourexodus/capstone_CDC/blob/347040b00b4991d2a1ca44c0ea3449824d223584/Prediction_Menu.py">Prediction_Menu.py</a></p>. Test using Pycharm Terminal   
+  
+ <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/210345198aee7833f9aaaa7e5748a4afd14b573d/Feature_Engineering.ipynb">Modeling</a></p>   
+      <p> Jupyter Notebook</p>
+  </li>
+
+  
+  <li><p>Short Prediction Program <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Prediction_Menu.py">Prediction_Menu.py</a></p>. Test using Pycharm Terminal   
        <p> Pycharm Terminal <img src="gif/PredictionProgram.gif" alt="programmenu" height="382px"> </p>
   </li>
   <li><p>Build my app -- 07/25 in-progres</p>
       <p>Building & Testing interactive Gragphs <a href="https://github.com/yourexodus/capstone_CDC/blob/8fcb6589a1a07b422d2142ae95f5fe162a7eea3d/Plotly_Dash_Interactive_Graphs.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
       <p>Jupyter Notebook</p>
-      <p>Add interactive Graphs to functions<a href="https://github.com/yourexodus/capstone_CDC/blob/8fcb6589a1a07b422d2142ae95f5fe162a7eea3d/my_functions.ipynb">my_functions.ipynb</a> </p>
+      <p>Add interactive Graphs to functions<a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Plotly_Dash_Interactive_Graphs.ipynb">Plotly Dash , HTML, and CSS</a> </p>
       <p>Jupyter Notebook</p>
       <p> Pycharm:  transfer jupyter notebook ipynb files to py files </p>
       <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
@@ -330,8 +337,8 @@ run_cdc_pred_compart(): input: none.  read local file and returns figure of pred
       <td>constructed a table element, link  and title.  Added to my dashboard app in jupyter notebook.</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>08/05/24</td>
+      <td>Great day!  I finally figured callbacks in plotly dash.  I also found out how to store my values in my dropdowns.  I have been trying to figure that out for the past 3 days.  Its called persistence.  check it out at https://dash.plotly.com/persistence.  I am ready to launch.  This project had its highs and low but I learned alot and I am super proud of myself!  This was very challenging </td>
       <td>&nbsp;</td>
     </tr>
     <tr>
