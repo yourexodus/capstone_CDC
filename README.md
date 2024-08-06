@@ -47,8 +47,8 @@
   <li><p>Short Prediction Program <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Prediction_Menu.py">Prediction_Menu.py</a></p>. Test using Pycharm Terminal   
        <p> Pycharm Terminal <img src="gif/PredictionProgram.gif" alt="programmenu" height="382px"> </p>
   </li>
-  <li><p>Build my app -- 07/25 in-progres</p>
-      <p>Building & Testing interactive Gragphs <a href="https://github.com/yourexodus/capstone_CDC/blob/8fcb6589a1a07b422d2142ae95f5fe162a7eea3d/Plotly_Dash_Interactive_Graphs.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
+  <li><p>Build my app -- 08/06 completed</p>
+      <p>Building & Testing interactive Graphs <a href="https://github.com/yourexodus/capstone_CDC/blob/8fcb6589a1a07b422d2142ae95f5fe162a7eea3d/Plotly_Dash_Interactive_Graphs.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
       <p>Jupyter Notebook</p>
       <p>Add interactive Graphs to functions<a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Plotly_Dash_Interactive_Graphs.ipynb">Plotly Dash , HTML, and CSS</a> </p>
       <p>Jupyter Notebook</p>
