@@ -337,8 +337,8 @@ run_cdc_pred_compart(): input: none.  read local file and returns figure of pred
       <td>constructed a table element, link  and title.  Added to my dashboard app in jupyter notebook.</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>08/05/24</td>
+      <td>Great day!  I finally figured callbacks in plotly dash.  I also found out how to store my values in my dropdowns.  I have trying to figure that out for the past few days.  Its call persistance.  check it out at https://dash.plotly.com/persistence.  I may add a few more interactive graphs using callbacks then I am ready to launch.  I am super proud of myself!  This was very challenging </td>
       <td>&nbsp;</td>
     </tr>
     <tr>
