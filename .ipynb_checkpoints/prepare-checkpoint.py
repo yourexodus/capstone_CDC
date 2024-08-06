@@ -11,7 +11,8 @@ from sklearn.dummy import DummyRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import StandardScaler
-
+import plotly.graph_objects as go
+import plotly.graph_objects as go
 url = (
     "https://archive.ics.uci.edu/static/public/891/data.csv"
 )
@@ -207,7 +208,7 @@ class PrepareData:
         df['education'] = np.vectorize(reversefactor.get)(df[['Education']])
 
         return df
-    def cdc_bar_plot2(df,x,y,t):
+    def cdc_bar_plot2(self,df,x,y,t):
     
         """
         Dataframe, x, y axis
@@ -220,7 +221,7 @@ class PrepareData:
         title = f'{x} vs Percentage for {type}'
         
         #graph shows the education condition of individuals in this dataset
-        ge_df = group_data(df,x,y)
+        ge_df = self.group_data( df,x,y)
         ge_df = ge_df.sort_values(by='Count', ascending=True)
         y = ge_df["Percentage"]
         x= ge_df.index
@@ -293,7 +294,7 @@ class PrepareData:
 
             df = self.update_labels(df)  # step 1: update labels
             df = self.select_columns(df)  # step 2:  select column in data cleaning
-            df = self.group_data(df, "GeneralHealth", "Type")  # step 4:
+            df = self.group_data(  df, "GeneralHealth", "Type")  # step 4:
             data[f"{i}"] = df
         return data
 
@@ -314,7 +315,7 @@ class PrepareData:
                 data[f"{i}"] = self.read_local_data(i, 'data/raw')
             df = self.update_labels(df)  # step 1: update labels
             df = self.select_columns(df)  # step 2:  select column in data cleaning
-            df = self.group_data(df, "income", "Type")  # step 3: group data
+            df = self.group_data( df, "income", "Type")  # step 3: group data
             data[f"{i}"] = df
         return data
 
@@ -399,29 +400,32 @@ class PrepareData:
         plt.title(t)
         plt.show()
         return plt
-    def create_dataframe_from_counts(self, df, x, y):
+   
+    def create_dataframe_counts_specificGenH(self, df, x, y, z):
         """Creates a DataFrame from the counts and percentages of two columns.
-    
+          
         Args:
             df: The original DataFrame.
-            x: The first column to group by.
-            y: The second column to group by.
-    
+            x: General health
+            y: type
+            z: Diabetes_binary
         Returns:
             A Pandas DataFrame containing counts, percentages, and the combined column.
         """
         filter1  = df['GeneralHealth'] == x
         filter2 = df['Type'] == y
-        test = df [filter1 & filter2]
+        filter3 = df['Diabetes_binary'] == z
+        
+        test = df [filter1 & filter2 & filter3] #
         counts = test[['Gender','income','education']].value_counts().reset_index(name='count')
-        counts.columns = [x, y, 'count']
-        counts['percentage'] = (counts['count'] / len(df)) * 100
-        counts['combined'] = x + ' and ' + y
+                 
+        counts['percentage'] = (counts['count'] / len(df)) * 100               
+        counts['combined'] = counts.Gender + ' with income ' + counts.income + ' and eduction ' + counts.education
         return counts
 
     
-    def create_dataframe_from_counts(self, df, x, y):
-        """Creates a DataFrame from the counts and percentages of two columns.
+    def create_dataframe_from_counts_part2(self, df, x, y):
+        """ Creates a DataFrame from the counts and percentages of two columns.
     
         Args:
             df: The original DataFrame.
@@ -438,7 +442,7 @@ class PrepareData:
         counts['combined'] = counts[x] + ' and ' + counts[y]
         return counts
     
-    
+     
     def group_data(self, df,x,y):
         """
         Run all cleaning and transformation steps
@@ -463,17 +467,17 @@ class PrepareData:
 
         # Display the table
         return counts
-    def cdc_bar_plot2(self,df,x,y,t):
+        
+    def cdc_bar_plot_combined_pie(self,df,x,y,t):
     
-        """
+        """  test
         Dataframe, x, y axis
         Returns
         -------
         graph
         """ 
-        summary =  create_dataframe_from_counts(df, x,y)
-        import plotly.graph_objects as go
-
+        summary =  self.create_dataframe_from_counts_part2(df, x,y)
+        
         fig = go.Figure()
         
         # Prepare data with combined values for both labels and values
