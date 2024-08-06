@@ -12,7 +12,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import StandardScaler
 import plotly.graph_objects as go
-import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
 url = (
     "https://archive.ics.uci.edu/static/public/891/data.csv"
 )
@@ -400,8 +401,30 @@ class PrepareData:
         plt.title(t)
         plt.show()
         return plt
-   
+
     def create_dataframe_counts_specificGenH(self, df, x, y, z):
+        """Creates a DataFrame from the counts and percentages of two columns.
+          
+        Args:
+            df: The original DataFrame.
+            x: General health
+            y: type
+            z: Diabetes_binary
+        Returns:
+            A Pandas DataFrame containing counts, percentages, and the combined column.
+        """
+        filter1  = df['GeneralHealth'] == x
+        filter2 = df['Type'] == y
+        filter3 = df['Diabetes_binary'] == z
+        
+        test = df [filter1 & filter2 & filter3] #
+        counts  = test[['Gender','income','education']].value_counts().reset_index(name='count')
+        counts['percentage'] = (counts['count'] / len(test)) * 100 
+        counts['combine'] =  x + ' and ' + y
+        return counts
+
+    
+    def create_dataframe_counts_specificGenH_fig(self, df, x, y, z):
         """Creates a DataFrame from the counts and percentages of two columns.
           
         Args:
@@ -425,12 +448,44 @@ class PrepareData:
         
         counts_education = test[['education']].value_counts().reset_index(name='count')
         counts_education['percentage'] = (counts_education['count'] / len(test)) * 100 
+        ##########################  figure ####################################################################
+                # Define color sets of paintings
+        night_colors = ['rgb(56, 75, 126)', 'rgb(18, 36, 37)', 'rgb(34, 53, 101)',
+                        'rgb(36, 55, 57)', 'rgb(6, 4, 4)']
+        sunflowers_colors = ['rgb(177, 127, 38)', 'rgb(205, 152, 36)', 'rgb(99, 79, 37)',
+                             'rgb(129, 180, 179)', 'rgb(124, 103, 37)']
+        irises_colors = ['rgb(33, 75, 99)', 'rgb(79, 129, 102)', 'rgb(151, 179, 100)',
+                         'rgb(175, 49, 35)', 'rgb(36, 73, 147)']
+        cafe_colors =  ['rgb(146, 123, 21)', 'rgb(177, 180, 34)', 'rgb(206, 206, 40)',
+                        'rgb(175, 51, 21)', 'rgb(35, 36, 21)']
         
-        counts_income['percentage'] = (counts['count'] / len(df)) * 100               
-        #counts_income['combined'] = counts_income.Gender + ' with income ' + counts.income + ' and eduction ' + counts.education
-        return counts
-
-    
+        # Create subplots, using 'domain' type for pie charts
+        specs = [[{'type':'domain'}, {'type':'domain'}], [{'type':'domain'}, {'type':'domain'}]]
+        fig = make_subplots(rows=2, cols=2, specs=specs)
+        
+        # Define pie charts
+        fig.add_trace(go.Pie(labels=counts_gender['Gender'], values=counts_gender['percentage'], name='Gender',
+                             marker_colors=night_colors), 1, 1)
+        fig.add_trace(go.Pie(labels=counts_income['income'], values=counts_income['percentage'], name='Income',
+                             marker_colors=sunflowers_colors), 1, 2)
+        fig.add_trace(go.Pie(labels=counts_education['education'], values=counts_education['percentage'], name='Education',
+                             marker_colors=irises_colors), 2, 1)
+         
+        
+        # Tune layout and hover info
+        fig.update_traces(hoverinfo='label+percent+name', textinfo='none')
+        fig.update_traces(hoverinfo='label+percent+name', textinfo='none')
+        fig.update_layout(
+            height=600,  # Increase height
+            width=800 
+         
+        )
+        fig.update(layout_title_text=f'Breakdown Distribution of {y.capitalize()()}s in {x.capitalize()}s health',
+                   layout_showlegend=True)
+        
+        fig = go.Figure(fig)
+        return fig
+            
     def create_dataframe_from_counts_part2(self, df, x, y):
         """ Creates a DataFrame from the counts and percentages of two columns.
     
