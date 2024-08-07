@@ -367,8 +367,12 @@ boxplot_item.style = {'gridArea': "boxplot_item"}
 
 #########################################################################################
 ##################    Feature Engineered & Aggregated data SECTION        ############### 
-##################                 outliers_item                          ###############
+##################                 outliers_item , updatecolumns , updated_table ########
 #########################################################################################
+
+############################################################
+################     outliers_item       ######################
+###############################################################
 
 outliers_img = Image.open("assets/outliers.PNG")
 outliers_item = html.Div(
@@ -398,6 +402,80 @@ outliers_item = html.Div(
 )
 
 outliers_item.style = {'gridArea': "outliers_item"}
+
+############################################################
+################     updatecolumns_item       ################
+###############################################################
+
+updatecolumns_img = Image.open("assets/updateColumns.PNG")
+
+updatecolumns_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([
+                       # html.Img(src=banner_img, style={'width': '100%', 'height': '50%'})
+                        html.Img(src=updatecolumns_img, style={'width': '800px', 'height': '600px', 'justify-content': 'center', 'align-items': 'center'})
+                       # html.Img(src=banner_img, 'width': '50%', 'height': '200px'),               # using the pillow image variable
+                        
+                    ]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
+
+updatecolumns_item.style = {'gridArea': "updatecolumns_item"}
+
+##############################################################
+################     updated table       ######################
+###############################################################
+
+df_prep = prepared_data.read_local_data('all',"data/prepared")
+updated_table = prepared_data.create_updated_table(df_prep)
+
+
+
+
+
+#########################################################################################
+##################    Aggregate and view Bar chart percentage   #########################
+####                                                                                ####
+####          graph_01, summary_table,(id='graph-output,analysis_graph_figure       ####
+####                                                                                ###
+#########################################################################################
+
+############################################################
+################     graph_01               ################
+##############################################################
+
+
+##############################################################
+################     summary_table           ################
+#############################################################
+
+
+############################################################
+################     graph-output           ################
+###############################################################
+
+
+##############################################################
+################     analysis_graph_figure      ##############
+###############################################################
+
+
+                                                   
 
 
 #########################################################################################

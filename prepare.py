@@ -580,7 +580,75 @@ class PrepareData:
             sort_action="native",
             derived_virtual_data=data,
             style_table={
-                "minHeight": "80vh",
+                "minHeight": "30vh",
+                "height": "40vh",
+                "overflowX": "scroll",
+                "borderRadius": "0px 0px 10px 10px",
+            },
+            style_cell={
+                "whiteSpace": "normal",
+                "height": "auto",
+                "fontFamily": "verdana",
+                 "width": "50px",
+                  
+            },
+            style_header={
+                "textAlign": "center",
+                "fontSize": 14,
+            },
+            style_data={
+                "fontSize": 12,
+            },
+            style_data_conditional=[
+                {
+                    "if": {"column_id": "gentype"},
+                    "width": "420px",
+                    "textAlign": "left",
+                    "textDecoration": "underline",
+                    "cursor": "pointer",
+                },
+                
+                {
+                    "if": {"column_id": "index"},
+                    "width": "50px",
+                    "textAlign": "left",
+                    "textDecoration": "underline",
+                    "cursor": "pointer",
+                    
+                },
+                {
+                    "if": {"row_index": "odd"}, 
+                    "backgroundColor": "#fafbfb"
+                }
+            ],
+        )
+    
+    def create_updated_table(df):    
+         
+        df = df.head()
+        
+        columns = []
+         
+        for name in df.columns:
+            col_info = {
+                "name": name,
+                 "id": name,
+                "type": "text",
+                "format": {'specifier': ','}
+            }
+            columns.append(col_info)
+    
+        data = df.to_dict("records")
+        return DataTable(
+            id="updated-table",           #updated-table
+            columns=columns,
+            data=data,
+            active_cell={"row": 0, "column": 0},
+            fixed_rows={"headers": True},
+            sort_action="native",
+            derived_virtual_data=data,
+            style_table={
+                "minHeight": "30vh",
                 "height": "40vh",
                 "overflowX": "scroll",
                 "borderRadius": "0px 0px 10px 10px",
