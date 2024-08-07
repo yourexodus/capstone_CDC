@@ -6,6 +6,7 @@ import dash_bootstrap_components as dbc
 from dash import html, dcc
 from PIL import Image
 from dash_table import DataTable
+import plotly.express as px
 from prepare import PrepareData
 
 # Initialize user_input_value
@@ -458,15 +459,19 @@ updated_table = prepared_data.create_updated_table(df_prep)
 ############################################################
 ################     graph_01               ################
 ##############################################################
+summary =  prepared_data.read_local_data('summary', 'data/prepared')
 
+circle_fig = px.pie(summary, values='count', names='percentage', title='Distribution of Health by Type' )  # No filtering
+ 
+graph_01 = dcc.Graph(figure=circle_fig, style={'gridArea': "graph_01"})
 
 ##############################################################
 ################     summary_table           ################
 #############################################################
 
-
+summary_table = prepared_data.create_sum_table(summary)
 ############################################################
-################     graph-output           ################
+################     graph-output      -- OUTPUT     ################
 ###############################################################
 
 
@@ -474,9 +479,154 @@ updated_table = prepared_data.create_updated_table(df_prep)
 ################     analysis_graph_figure      ##############
 ###############################################################
 
+analysis_graph = prepared_data.create_dataframe_counts_specificGenH_fig( df,'Very good','diabetic',1)
 
-                                                   
+analysis_graph_figure = dcc.Graph( figure=analysis_graph , id="analysis_graph_figure" ,
+                                   style={'gridArea': "analysis_graph_figure"} )
 
+                                               
+#########################################################################################
+##################    PREDICTION MODELING SECTION #######################################
+#########################################################################################
+
+Model_img = Image.open("assets/Model.PNG")
+
+Model_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([
+                       html.Img(src=Model_img, style={'width': '800px', 'height': '600px', 'justify-content': 'center', 'align-items': 'center'})
+                                              
+                    ]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
+
+Model_item.style = {'gridArea': "Model_item"}
+
+
+#########################################################################################
+#######     Create Test program to accept user input and display prediction SECTION  #### 
+######                        programlink, mytable2  : prediction code.PNG and code.mp4 #
+#########################################################################################
+
+programlink = html.A('Python Program Making Prediction',    
+                     href="https://github.com/yourexodus/capstone_CDC/blob/4b4f4f3c0933f6968cb9b2651c8c35f3f5372d1f/Prediction_Menu.py")
+
+
+##############################################
+predictionCode_img = Image.open("assets/predictionCode.PNG")
+
+ 
+
+predictionCode_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([
+                         
+                        html.Img(src=predictionCode_img, style={'width': '100%', 'height': '500px', 'justify-content': 'center', 'align-items': 'center'})
+                       # html.Img(src=banner_img, 'width': '50%', 'height': '200px'),               # using the pillow image variable
+                        
+                    ]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
+predictionCode_item.style = {'gridArea': "predictionCode_item"}
+##############################################################
+code_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([html.Iframe(src="assets/code.mp4", style={'width': '400px', 'height': '500px'})]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
+code_item.style = {'gridArea': "code_item"}
+ 
+##############################################################
+################     mytable2                   ##############
+###############################################################
+
+# Define table header and data
+header = html.Thead(
+    html.Tr([html.Th("Test")])  # Single header row with a single column
+)
+
+data_row2 = html.Tr([html.Td(predictionCode_item), html.Td(code_item)])  # Single data row with two cells
+
+# Create the table
+mytable2 = html.Table([ data_row2])
+
+########################################################################################
+##############         TESTING PROGRAM                    ##############################
+#########################################################################################
+testing_img = Image.open("gif/PredictionProgram.gif")
+testing_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([
+                       # html.Img(src=banner_img, style={'width': '100%', 'height': '50%'})
+                        html.Img(src=testing_img, style={'width': '800px', 'height': '300px'})
+                       # html.Img(src=banner_img, 'width': '50%', 'height': '200px'),               # using the pillow image variable
+                        
+                    ]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
+flowchart_item.style = {'gridArea': "testing_item"}
+
+#########################################################################################
 
 #########################################################################################
 ##################    LAYOUT SECTION ####################################################

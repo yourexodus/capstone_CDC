@@ -690,3 +690,74 @@ class PrepareData:
                 }
             ],
         )
+        
+    def create_sum_table(summary):
+    
+        used_columns = ["index","combined","count","percentage"]
+        df =summary[used_columns]
+        df = df.rename(columns={"combined":"generalhealth_type" ,"count":"total" }) 
+        columns = []
+        #columns = [{"name": "generalhealth_type", 
+        #            "id": "gentype", "type": "text"}]    
+        for name in df.columns:
+            col_info = {
+                "name": name,
+                 "id": name,
+                "type": "text",
+                "format": {'specifier': ','}
+            }
+            columns.append(col_info)
+    
+        print(columns) 
+    
+        data = df.sort_values("total",ascending=False).to_dict("records")
+        return DataTable(
+            id="sum-table",           #sum-table
+            columns=columns,
+            data=data,
+            active_cell={"row": 0, "column": 0},
+            fixed_rows={"headers": True},
+            sort_action="native",
+            derived_virtual_data=data,
+            style_table={
+                "minHeight": "80vh",
+                "height": "40vh",
+                "overflowY": "scroll",
+                "borderRadius": "0px 0px 10px 10px",
+            },
+            style_cell={
+                "whiteSpace": "normal",
+                "height": "auto",
+                "fontFamily": "verdana",
+            },
+            style_header={
+                "textAlign": "center",
+                "fontSize": 14,
+            },
+            style_data={
+                "fontSize": 12,
+            },
+            style_data_conditional=[
+                {
+                    "if": {"column_id": "gentype"},
+                    "width": "420px",
+                    "textAlign": "left",
+                    "textDecoration": "underline",
+                    "cursor": "pointer",
+                },
+                
+                {
+                    "if": {"column_id": "index"},
+                    "width": "70px",
+                    "textAlign": "left",
+                    "textDecoration": "underline",
+                    "cursor": "pointer",
+                },
+                {
+                    "if": {"row_index": "odd"}, 
+                    "backgroundColor": "#fafbfb"
+                }
+            ],
+        )
+ 
+
