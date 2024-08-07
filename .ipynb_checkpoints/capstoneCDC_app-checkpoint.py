@@ -5,6 +5,7 @@ import dash_html_components as html
 import dash_bootstrap_components as dbc
 from dash import html, dcc
 from PIL import Image
+from dash_table import DataTable
 from prepare import PrepareData
 
 # Initialize user_input_value
@@ -179,6 +180,25 @@ diff = [
 
 
 ############################################################################
+##################  RAW TABLE      ########################################
+###########################################################################
+#get the data
+raw = prepared_data.read_local_data('all', 'data/raw')
+
+ 
+#################################################
+### call create_table_method defined in prepare.py
+###############################################
+raw_table = prepared_data.create_raw_table(raw) 
+
+
+
+
+
+
+
+
+############################################################################
 ################   BORDER ITEM  ###########################################
 ###########################################################################
 
@@ -194,23 +214,190 @@ border1_item = dbc.Row(
         )
     ]
 )
- 
+border1_item.style = {'gridArea': "border1_item"}
+############################################################################
+################   Bullet Points  : html.Li(step) for step in steps  #######
+###########################################################################
+
+
+#Bullet Point data
+
+steps = [
+    "Import pandas",
+    "Reading in Data",
+    "Selected Columns",
+    "Reset Index",
+    "Identified no missing data",
+    "Relationships between variables uisng heatmap" 
+]
+
+
+tools_used = [
+    "Git - source code management",
+    "GitBash - terminal application used to push changes up to Github Repository",
+    "Jupyter Notebook - web application used to create my documents",
+    "Anaconda Prompt - used command line interface to manage my virutal environment and access Jupyter notebook",
+    "TCPView - Used to identify and terminate apps running ports on local machine",
+    "Pycharm -  Integrated Development Environment (IDE) used to launch my app to render",   
+    "Render - free web hosting service used to deploy my app to the web"
+
+
+]
+
+
+issues = [
+
+
+    "box plot shows large variances and outliers in Mental Health and Physical Health Data.   outliers can be removed from the dataset prior to modeling. It is good practice to note specifically what outlier values were removed and why",
+    "Outliers can be removed from the dataset prior to modeling. It is good practice to note specifically what outlier values were removed and why",
+    " Data was note  data should form a bell shaped curve but skewed. How will you transform the skewed data so it is suitable for modeling"
+
+]
 
 
 
+treatment = [
+    
+    "1- Address Outliers using IQR method", 
+    "2- Replace codes with label for better interprepation of data",  
+    "3- Aggregrate data for graph"
+]
 
 
+#########################################################################################
+##################    Exploring the Data SECTION ########################################
+################                                          ##############################
+################     exploredata_item, heatmap_item, boxplot_item       #################
+#########################################################################################
+
+#############################################################
+################     exploredata_item        ################# 
+###############################################################
+exploredata_img = Image.open("assets/exploredata.PNG")
+exploredata_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([
+                       # html.Img(src=banner_img, style={'width': '100%', 'height': '50%'})
+                        html.Img(src=exploredata_img, style={'width': '800px', 'height': '600px', 'justify-content': 'center', 'align-items': 'center'})
+                       # html.Img(src=banner_img, 'width': '50%', 'height': '200px'),               # using the pillow image variable
+                        
+                    ]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
+
+exploredata_item.style = {'gridArea': "exploredata_item"}
 
 
+############################################################
+################     heatmap_item       ######################
+###############################################################
+heatmap_img = Image.open("assets/heatmap.PNG")
+heatmap_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([
+                       # html.Img(src=banner_img, style={'width': '100%', 'height': '50%'})
+                        html.Img(src=heatmap_img, style={'width': '800px', 'height': '600px', 'justify-content': 'center', 'align-items': 'center'})
+                       # html.Img(src=banner_img, 'width': '50%', 'height': '200px'),               # using the pillow image variable
+                        
+                    ]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
 
+heatmap_item.style = {'gridArea': "heatmap_item"}
 
+############################################################
+################     boxplot_item       ######################
+###############################################################
 
+boxplot_img = Image.open("assets/boxplot.PNG")
+boxplot_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([
+                       html.Img(src=boxplot_img, style={'width': '800px', 'height': '600px', 'justify-content': 'center', 'align-items': 'center'})
+                       ]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
 
+boxplot_item.style = {'gridArea': "boxplot_item"}
 
+#########################################################################################
+##################    Feature Engineered & Aggregated data SECTION        ############### 
+##################                 outliers_item                          ###############
+#########################################################################################
 
+outliers_img = Image.open("assets/outliers.PNG")
+outliers_item = html.Div(
+    [
+        html.Div(
+            html.Div(
+                [
+                    html.Div([
+                       # html.Img(src=banner_img, style={'width': '100%', 'height': '50%'})
+                        html.Img(src=outliers_img, style={'width': '800px', 'height': '600px', 'justify-content': 'center', 'align-items': 'center'})
+                       # html.Img(src=banner_img, 'width': '50%', 'height': '200px'),               # using the pillow image variable
+                        
+                    ]),
+                    html.Div(className="sidebar-wrapper"),
+                ]
+            ),
+            className="sidebar",
+        ),
+        html.Div(
+            html.Div(
+                html.Div(className="container-fluid"),
+                className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ",
+            ),
+            className="main-panel",
+        ),
+    ]
+)
 
-
-
+outliers_item.style = {'gridArea': "outliers_item"}
 
 
 #########################################################################################
