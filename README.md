@@ -19,13 +19,13 @@
   <li><p>Frame my Hypothesis: </p>
       <p>Increase exercise and healthier eating habits can lessen the probabilty of developing diabetes for all ages</p>
   </li>
-  <li><p>Prepare my data: <a href="https://github.com/yourexodus/capstone_CDC/blob/321061467f18b7f9aa428e2702a2e05b01a06f04/GettingToKnowTheData.ipynb">GettingToKnowTheData</a></p>   
+  <li><p>Prepare my data: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/GettingToKnowTheData.ipynb">GettingToKnowTheData</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p><Feature Engineering: <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Feature_Engineering.ipynb">Addressing Issues with the Data</a></p>
+  <li><p><Feature Engineering: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Feature_Engineering.ipynb">Addressing Issues with the Data</a></p>
         <p> Jupyter Notebook</p>
   </li>
-  <li><p>Analyze using visuals and make some determinations: <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Visualizing%20and%20Interpreting%20Data.ipynb">Visualizing and Interpretting Data</a></p>   
+  <li><p>Analyze using visuals and make some determinations: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Visualizing%20and%20Interpreting%20Data.ipynb">Visualizing and Interpretting Data</a></p>   
       <p> Jupyter Notebook</p>
   </li>
    
@@ -34,11 +34,7 @@
       <p> Jupyter Notebook</p>
      
   </li>
-
-  <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Modeling.ipynb">Modeling</a></p>   
-      <p> Jupyter Notebook</p>
-  </li>
-  
+    
  <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Feature_Engineering.ipynb">Modeling</a></p>   
       <p> Jupyter Notebook</p>
   </li>
@@ -89,8 +85,8 @@
       
   
   </li>
-  <li><p>Youtube:Input Box - Python Dash Plotly  </p>
-      <p><a href="https://www.youtube.com/watch?v=VZ6IdRMc0RI">Input Data Example</a>  </p>
+  <li><p>Ploty Dash Dropdowns  </p>
+      <p><a href="https://dash.plotly.com/persistence">Saving User Input</a>  </p> 
   </li>
 </ul>
 <h2> Available CDC Data </h2> 
