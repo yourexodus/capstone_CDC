@@ -55,21 +55,15 @@
       <p>Tested Callback using dash <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Html_Testing.ipynb">Html_Testing.ipynb</a> </p>
       <p>Jupyter Notebook</p>
   </li>
-  <li>
-      <p>Add interactive Graphs to method in Class <a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
+  <li> <p>Add interactive Graphs to method in Class <a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
       <p>Jupyter Notebook</p>
   </li>
-  <li>
-      
-      <p>Build my app file  <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py">capstoneCDC_app.py</a></p>
+  <li><p>Buildappfile <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py">App file</a></p>.    
       <p>Jupyter Notebook</p>
   </li>
-  <li>
+   <li>
       <p>Failed Deployment using Render 08/07 </p>
       <p>PyCharm</p>
-      
-       
-      
   </li>
 </ul>
 
