@@ -10,7 +10,7 @@ import plotly.express as px
 from prepare import PrepareData
 
 # Initialize user_input_value
-user_input_value = None
+user_input_value = 1
 
 ##########################################################################################
 #################      READ LOCAL DATA :  ALL   ##########################################
@@ -459,8 +459,10 @@ updated_table = prepared_data.create_updated_table(df_prep)
 ############################################################
 ################     graph_01               ################
 ##############################################################
-summary =  prepared_data.read_local_data('summary', 'data/prepared')
-
+df = prepared_data.read_local_data('all', 'data/prepared')
+summary =  prepared_data.create_dataframe_from_counts_part2( df, 'GeneralHealth','Type')
+summary = summary.reset_index()
+ 
 circle_fig = px.pie(summary, values='count', names='percentage', title='Distribution of Health by Type' )  # No filtering
  
 graph_01 = dcc.Graph(figure=circle_fig, style={'gridArea': "graph_01"})
@@ -470,6 +472,7 @@ graph_01 = dcc.Graph(figure=circle_fig, style={'gridArea': "graph_01"})
 #############################################################
 
 summary_table = prepared_data.create_sum_table(summary)
+
 ############################################################
 ################     graph-output      -- OUTPUT     ################
 ###############################################################
@@ -1053,7 +1056,7 @@ def callback_e(diff_value, menu_income_id, gen_health_id, phy_health_id, men_hea
     if not all([menu_income_id, gen_health_id, phy_health_id, men_health_id, diff_value]):
         return 'Youve selected "{}"'.format(diff_value)
     all_input_data = [menu_income_id, gen_health_id, phy_health_id, men_health_id, diff_value]
-    label = prepared_data.get_label_by_value(menu_income, value_to_find)
+    #label = prepared_data.get_label_by_value(menu_income, value_to_find)
     result = prepared_data.make_prediction(all_input_data)
      
     return result + ".  Refresh your browser to start again"

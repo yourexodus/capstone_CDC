@@ -46,8 +46,7 @@ class PrepareData:
         
     def get_label_by_value(self, menu_income, value):
         """
-          Finds the label corresponding to a given value in a list of dictionaries.
-        
+           
           Args:
             menu_income: A list of dictionaries, each with 'label' and 'value' keys.
             value: The value to search for.
@@ -425,7 +424,7 @@ class PrepareData:
         return counts
 
     
-    def create_dataframe_counts_specificGenH_fig(self, df, x, y, z):
+    def create_dataframe_counts_specificGenH_fig(self, df, x, y):
         """Creates a DataFrame from the counts and percentages of two columns.
           
         Args:
@@ -438,6 +437,11 @@ class PrepareData:
         """
         filter1  = df['GeneralHealth'] == x
         filter2 = df['Type'] == y
+        if y == "nondiabetic":
+          z = 0
+        else:
+          z = 1
+        
         filter3 = df['Diabetes_binary'] == z
         
         test = df [filter1 & filter2 & filter3] #
@@ -501,7 +505,8 @@ class PrepareData:
     
         counts = df[[x, y]].value_counts().reset_index(name='count')
         counts.columns = [x, y, 'count']
-        counts['percentage'] = (counts['count'] / len(df)) * 100
+        percentage   = (counts['count'] / len(df)) * 100
+        counts["percentage"] = percentage.apply("{:.1f}%".format)  # Format as percentages
         counts['combined'] = counts[x] + ' and ' + counts[y]
         return counts
     
@@ -693,7 +698,7 @@ class PrepareData:
         
     def create_sum_table(summary):
     
-        used_columns = ["index","combined","count","percentage"]
+        used_columns = ["index","combined","count","percentage","GeneralHealth", "Type"]
         df =summary[used_columns]
         df = df.rename(columns={"combined":"generalhealth_type" ,"count":"total" }) 
         columns = []
