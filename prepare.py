@@ -485,7 +485,7 @@ class PrepareData:
             width=800 
          
         )
-        fig.update(layout_title_text=f'Breakdown Distribution of {y.capitalize()}s in {x.capitalize()}s health',
+        fig.update(layout_title_text=f'Breakdown Distribution of {y.capitalize()} in {x.capitalize()} health',
                    layout_showlegend=True)
         
         fig = go.Figure(fig)

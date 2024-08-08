@@ -467,6 +467,8 @@ circle_fig = px.pie(summary, values='count', names='percentage', title='Distribu
  
 graph_01 = dcc.Graph(figure=circle_fig, style={'gridArea': "graph_01"})
 
+     
+    ,
 ##############################################################
 ################     summary_table           ################
 #############################################################
@@ -902,6 +904,13 @@ app.layout = html.Div([
     ,
      
     html.Div([  graph_01])
+    ,
+     html.Div(
+    children=[
+        html.H3("The 3 Interactive Graphs will update to match your row selection on the summary table to provide additional insights on the data for each row")
+    ])
+    
+     
     ,
      html.Div([ summary_table]   )
     ,
