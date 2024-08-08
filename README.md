@@ -56,12 +56,12 @@
       <p>Jupyter Notebook</p>
   </li>
   <li>
-      <p>Add interactive Graphs to method in Class:Prepared <a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
+      <p>Add interactive Graphs to method in Class <a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
       <p>Jupyter Notebook</p>
   </li>
   <li>
       
-      <p>Build my app file 08/07 completed   <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py">capstoneCDC_app.py</a></p>
+      <p>Build my app file  <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py">capstoneCDC_app.py</a></p>
       <p>Jupyter Notebook</p>
   </li>
   <li>
