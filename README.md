@@ -39,23 +39,23 @@
       <p> Jupyter Notebook</p>
   </li>
   
- <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/210345198aee7833f9aaaa7e5748a4afd14b573d/Feature_Engineering.ipynb">Modeling</a></p>   
+ <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Feature_Engineering.ipynb">Modeling</a></p>   
       <p> Jupyter Notebook</p>
   </li>
 
   
-  <li><p>Short Prediction Program <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Prediction_Menu.py">Prediction_Menu.py</a></p>. Test using Pycharm Terminal   
+  <li><p>Short Prediction Program <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Prediction_Menu.py">Prediction_Menu.py</a></p>. Test using Pycharm Terminal   
        <p> Pycharm Terminal <img src="gif/PredictionProgram.gif" alt="programmenu" height="382px"> </p>
   </li>
   <li>
-      <p>Building & Testing interactive Graphs <a href="https://github.com/yourexodus/capstone_CDC/blob/8fcb6589a1a07b422d2142ae95f5fe162a7eea3d/Plotly_Dash_Interactive_Graphs.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
-      <p>Jupyter Notebook</p> <p>Jupyter Notebook</p>
-      <p>Tested Callback using dash <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Html_Testing.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
+      <p>Building and Testing interactive Graphs <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Plotly_Dash_Interactive_Graphs.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
+      <p>Jupyter Notebook</p>  
+      <p>Tested Callback using dash <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Html_Testing.ipynb">Html_Testing.ipynb</a> </p>
       <p>Jupyter Notebook</p>
-      <p>Add interactive Graphs to method in Class:Prepared<a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
+      <p>Add interactive Graphs to method in Class:Prepared <a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
       <p>Jupyter Notebook</p>
       
-      <p>Build my app file -- 08/07 completed   <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py>capstoneCDC_app.py</a></p>
+      <p>Build my app file -- 08/07 completed   <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py">capstoneCDC_app.py</a></p>
       <p>Jupyter Notebook</p>
       <p>Failed Deployment using Render -- 08/07 </p>
       <p>PyCharm</p>
