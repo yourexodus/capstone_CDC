@@ -374,7 +374,7 @@ app = dash.Dash(__name__)
 
 closed out . opened new pycharm with small program using flask.  rebuilt from there
 EPIC FAIL  -- 08/07/24</td>
-      <td>&nbsp;</td>
+      <td>Added more interactive graphs.  had to modify the fields on my summary table to provide necessary data to recreate the graph in the callback function.  Did that and the callback functions works!</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
