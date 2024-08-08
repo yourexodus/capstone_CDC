@@ -350,8 +350,30 @@ run_cdc_pred_compart(): input: none.  read local file and returns figure of pred
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>08/07/24</td>
+      <td>Completed building my app file.  Attempted to launch using Render. Epic fail.  Issue:  gif file will not run in python
+solution: resaved files as mp4. used html.Iframe tag
+
+  Issue pycharm libraries : dash not recongnized
+  solution:uninstall/reinstall     pip install dash==2.3.1
+
+failing deployment using render
+reference:
+https://www.youtube.com/watch?v=XWJBJoV5yww
+
+issue:  callback for graphs missing data
+solution: added missing data
+
+issue:pycharm not recognized Dash
+solution: pip install jupyter-dash==0.4.2
+from jupyter_dash import JupyterDash
+pip install dash jupyter-dash
+# For standalone web app
+app = dash.Dash(__name__)
+
+
+closed out . opened new pycharm with small program using flask.  rebuilt from there
+EPIC FAIL  -- 08/07/24</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
