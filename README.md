@@ -49,20 +49,26 @@
   </li>
   <li>
       <p>Building and Testing interactive Graphs <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Plotly_Dash_Interactive_Graphs.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
-      <p>Jupyter Notebook</p>  
+      <p>Jupyter Notebook</p> 
+  </li>
+  <li>
       <p>Tested Callback using dash <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Html_Testing.ipynb">Html_Testing.ipynb</a> </p>
       <p>Jupyter Notebook</p>
+  </li>
+  <li>
       <p>Add interactive Graphs to method in Class:Prepared <a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
       <p>Jupyter Notebook</p>
+  </li>
+  <li>
       
-      <p>Build my app file -- 08/07 completed   <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py">capstoneCDC_app.py</a></p>
+      <p>Build my app file 08/07 completed   <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py">capstoneCDC_app.py</a></p>
       <p>Jupyter Notebook</p>
-      <p>Failed Deployment using Render -- 08/07 </p>
+  </li>
+  <li>
+      <p>Failed Deployment using Render 08/07 </p>
       <p>PyCharm</p>
       
-      <p> na</p>
-      <p> na </p>
-      <p> </p>
+       
       
   </li>
 </ul>
