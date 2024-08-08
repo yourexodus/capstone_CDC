@@ -22,7 +22,7 @@
   <li><p>Prepare my data: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/GettingToKnowTheData.ipynb">GettingToKnowTheData</a></p>   
       <p> Jupyter Notebook</p>
   </li>
-  <li><p><Feature Engineering: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Feature_Engineering.ipynb">Addressing Issues with the Data</a></p>
+  <li><p> Addressing Issues: Outliers and Labels <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Feature_Engineering.ipynb">Feature_Engineering.ipynb</a></p>
         <p> Jupyter Notebook</p>
   </li>
   <li><p>Analyze using visuals and make some determinations: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Visualizing%20and%20Interpreting%20Data.ipynb">Visualizing and Interpretting Data</a></p>   
