@@ -58,7 +58,7 @@
   <li> <p>Add interactive Graphs to method in Class <a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
       <p>Jupyter Notebook</p>
   </li>
-  <li><p>Buildappfile <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py">App file</a></p>.    
+  <li><p>Built app file <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py"> capstoneCDC_app.py</a></p>    
       <p>Jupyter Notebook</p>
   </li>
    <li>
