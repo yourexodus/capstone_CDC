@@ -468,7 +468,7 @@ circle_fig = px.pie(summary, values='count', names='percentage', title='Distribu
 graph_01 = dcc.Graph(figure=circle_fig, style={'gridArea': "graph_01"})
 
      
-    ,
+
 ##############################################################
 ################     summary_table           ################
 #############################################################
