@@ -47,13 +47,21 @@
   <li><p>Short Prediction Program <a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Prediction_Menu.py">Prediction_Menu.py</a></p>. Test using Pycharm Terminal   
        <p> Pycharm Terminal <img src="gif/PredictionProgram.gif" alt="programmenu" height="382px"> </p>
   </li>
-  <li><p>Build my app -- 08/06 completed</p>
+  <li>
       <p>Building & Testing interactive Graphs <a href="https://github.com/yourexodus/capstone_CDC/blob/8fcb6589a1a07b422d2142ae95f5fe162a7eea3d/Plotly_Dash_Interactive_Graphs.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
+      <p>Jupyter Notebook</p> <p>Jupyter Notebook</p>
+      <p>Tested Callback using dash <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Html_Testing.ipynb">Plotly_Dash_Interactive_Graphs.ipynb</a> </p>
       <p>Jupyter Notebook</p>
-      <p>Add interactive Graphs to functions<a href="https://github.com/yourexodus/capstone_CDC/blob/ec2add1731d51ed91dbcea7b0bcf327033a6833c/Plotly_Dash_Interactive_Graphs.ipynb">Plotly Dash , HTML, and CSS</a> </p>
+      <p>Add interactive Graphs to method in Class:Prepared<a href="https://github.com/yourexodus/capstone_CDC/blob/main/prepare.py">prepare.py</a> </p>
       <p>Jupyter Notebook</p>
-      <p> Pycharm:  transfer jupyter notebook ipynb files to py files </p>
-      <p> Pycharm:  Make visuals interactive by converting them Dash Plotly </p>
+      
+      <p>Build my app file -- 08/07 completed   <a href="https://github.com/yourexodus/capstone_CDC/blob/main/capstoneCDC_app.py>capstoneCDC_app.py</a></p>
+      <p>Jupyter Notebook</p>
+      <p>Failed Deployment using Render -- 08/07 </p>
+      <p>PyCharm</p>
+      
+      <p> na</p>
+      <p> na </p>
       <p> </p>
       
   </li>
