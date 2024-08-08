@@ -18,8 +18,8 @@ user_input_value = 1
 prepared_data = PrepareData(download_new=False)
 df = prepared_data.read_local_data('all',"data/prepared")
 ##########################################################################################
-app = Dash( __name__ )
-server = app.server
+# Create the app
+app = dash.Dash(__name__)
 
 #########################################################################################
 ########## Header Section Divs: link, Banner, mytable:                              #####
