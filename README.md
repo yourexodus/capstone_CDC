@@ -374,34 +374,14 @@ EPIC FAIL  -- 08/07/24</td>
     </tr>
     <tr>
       <td>08/11/24</td>
-      <td>issues: compatiblityl
-added my class into my app.py
-
-solution pycharm install packages but used req as a guide - trial and error
-
-
-upgrade package to prevent old setuptools - Gemini
+      <td>issues: mixed old and new packages in my requirements file. This called compatibility issues.  Also, I needed to add all the contents of my prepared.py class file to my app.py file. Upgraded packages using pycharm terminal.  Relied on Gemini (AI) to confirm compatibility of my packages.
+Packages:
 pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0 dash_table==5.0.0 matplotlib==3.9.1.post1 numpy==1.24.2 pandas==1.5.3 Pillow==10.4.0 plotly==5.23.0 scikit_learn==1.5.1 gunicorn dash-tools
 
-let pychram install packages
-deployment:   deploy getting yoru data first with  a couple elements at a time 
-document or keep a screen of when your doing
-
-remember to update the repository after changes before reploying
-when making change - use deploy latest commits on the app. 
-if it fails, change the python version manually in the render environment
-
-use the render forum
-
-biggest hurdle
-Running setup.py install for docopt: finished with status 'error'
-    ERROR: Command errored out with exit status 1:
-fix:update python version
+Also referenced help articles in the render forum to help me troubleshoot errors. biggest hurdle Running setup.py install for docopt: finished with status 'error' ERROR: Command errored out with exit status 1. Fixed by updating the python version on the evironments tab on the Render Dashboard
 ================
-had to use a new repository to deploy to render
-I call the repository Sunday because I completed my deployment on Sunday= 8/11/24
-
-   repository: https://github.com/yourexodus/sunday
+I did have to use a new repository to deploy my app to render using a dash-tools utility
+I called the repository Sunday because I completed my deployment on Sunday
      </td>
       <td>web app : https://sunday-1szf.onrender.com/</td>
     </tr>
