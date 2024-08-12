@@ -64,7 +64,7 @@
       
   </li>
    <li><p>My render <a href="https://sunday-1szf.onrender.com">Web App</a></p>
-    <li><p align="center"><img src="gif/app.gif" alt="appgif" height="382px"></p></li>
+    <li><p align="center"><img src="videos/app.gif" alt="appgif" height="382px"></p></li>
 </ul>
 
  
