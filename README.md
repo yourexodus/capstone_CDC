@@ -376,10 +376,7 @@ EPIC FAIL  -- 08/07/24</td>
       <td>08/11/24</td>
       <td>issues: mixed old and new packages in my requirements file. This called compatibility issues.  Also, I needed to add all the contents of my prepared.py class file to my app.py file. Upgraded packages using pycharm terminal.  Relied on Gemini (AI) to confirm compatibility of my packages.
 Packages:
-pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0 dash_table==5.0.0 matplotlib==3.9.1.post1 numpy==1.24.2 pandas==1.5.3 Pillow==10.4.0 plotly==5.23.0 scikit_learn==1.5.1 gunicorn dash-tools
-
-Also referenced help articles in the render forum to help me troubleshoot errors. biggest hurdle Running setup.py install for docopt: finished with status 'error' ERROR: Command errored out with exit status 1. Fixed by updating the python version on the evironments tab on the Render Dashboard
-================
+pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0 dash_table==5.0.0 matplotlib==3.9.1.post1 numpy==1.24.2 pandas==1.5.3 Pillow==10.4.0 plotly==5.23.0 scikit_learn==1.5.1 gunicorn dash-tools. 
 I did have to use a new repository to deploy my app to render using a dash-tools utility
 I called the repository Sunday because I completed my deployment on Sunday
      </td>
