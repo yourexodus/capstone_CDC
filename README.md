@@ -60,7 +60,7 @@
    <li>
       <p>Deployed to Render 08/11 </p>
       <p>Render: https://sunday-1szf.onrender.com .  PLEASE NOTE:  apps will work on my local computer but will not display prediciton for some reason on render</p>
-      <p align="center"><img src="gif/app.gif" alt="MeowMidwest" height="382px"></p>
+      <p align="center"><img src="gif/app.gif" alt="appgif" height="382px"></p>
   </li>
 </ul>
 
