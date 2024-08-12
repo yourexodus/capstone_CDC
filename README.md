@@ -59,6 +59,7 @@
   </li>
    <li>
       <p>Deployed to Render 08/11 </p>
+      <p>Pycharm Terminal <img src="gif/PredictionProgram.gif" alt="programmenu" height="382px"> </p>
       <p>Render: .  PLEASE NOTE:  apps will work on my local computer but will not display prediciton for some reason on render</p>
       
   </li>
