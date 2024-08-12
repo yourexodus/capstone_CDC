@@ -381,7 +381,7 @@ EPIC FAIL  -- 08/07/24</td>
 Packages:
 pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0 dash_table==5.0.0 matplotlib==3.9.1.post1 numpy==1.24.2 pandas==1.5.3 Pillow==10.4.0 plotly==5.23.0 scikit_learn==1.5.1 gunicorn dash-tools. 
 I did have to use a new repository to deploy my app to render using a dash-tools utility
-I called the repository Sunday because I completed my deployment on Sunday
+I called the repository Sunday because I completed my deployment on Sunday.  My deployment launches ok but will not reload.  I failed to launch on PythonAnywhere and failed but I found the error descriptions were more informative. I will circle back to try and fix my reload issue. 
      </td>
       <td>web app : https://sunday-1szf.onrender.com/</td>
     </tr>
