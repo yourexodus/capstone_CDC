@@ -35,7 +35,7 @@
      
   </li>
     
- <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Feature_Engineering.ipynb">Modeling</a></p>   
+ <li><p>Logistic and Random Forest: <a href="https://github.com/yourexodus/capstone_CDC/blob/main/Modeling.ipynb">Modeling</a></p>   
       <p> Jupyter Notebook</p>
   </li>
 
