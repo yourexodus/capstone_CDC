@@ -386,9 +386,9 @@ I called the repository Sunday because I completed my deployment on Sunday.  My 
       <td>web app : https://sunday-1szf.onrender.com/</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td08/15/24</td>
+      <tdFixed all my bugs in my program.  Sent update with detail report of errors that were fixed.  Waiting for servicer to update my python version before I can redeploy</td>
+      <td>Program is working as intended</td>
     </tr>
   </tbody>
 </table>
