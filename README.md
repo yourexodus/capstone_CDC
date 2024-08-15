@@ -366,8 +366,7 @@ solution: added missing data
 issue:pycharm not recognized Dash
 solution: pip install jupyter-dash==0.4.2
 from jupyter_dash import JupyterDash
-pip install dash jupyter-dash
-# For standalone web app
+pip install dash jupyter-dash 
 app = dash.Dash(__name__)
 
 
@@ -378,16 +377,12 @@ EPIC FAIL  -- 08/07/24</td>
     <tr>
       <td>08/11/24</td>
       <td>issues: mixed old and new packages in my requirements file. This called compatibility issues.  Also, I needed to add all the contents of my prepared.py class file to my app.py file. Upgraded packages using pycharm terminal.  Relied on Gemini (AI) to confirm compatibility of my packages.
-Packages:
-pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0 dash_table==5.0.0 matplotlib==3.9.1.post1 numpy==1.24.2 pandas==1.5.3 Pillow==10.4.0 plotly==5.23.0 scikit_learn==1.5.1 gunicorn dash-tools. 
-I did have to use a new repository to deploy my app to render using a dash-tools utility
-I called the repository Sunday because I completed my deployment on Sunday.  My deployment launches ok but will not reload.  I failed to launch on PythonAnywhere and failed but I found the error descriptions were more informative. I will circle back to try and fix my reload issue. 
-     </td>
+Packages: pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0 dash_table==5.0.0 matplotlib==3.9.1.post1 numpy==1.24.2 pandas==1.5.3 Pillow==10.4.0 plotly==5.23.0 scikit_learn==1.5.1 gunicorn dash-tools. I did have to use a new repository to deploy my app to render using a dash-tools utility I called the repository Sunday because I completed my deployment on Sunday.  My deployment launches ok but will not reload.  I failed to launch on PythonAnywhere and failed but I found the error descriptions were more informative. I will circle back to try and fix my reload issue </td>
       <td>web app : https://sunday-1szf.onrender.com/</td>
     </tr>
     <tr>
-      <td08/15/24</td>
-      <tdFixed all my bugs in my program.  Sent update with detail report of errors that were fixed.  Waiting for servicer to update my python version before I can redeploy</td>
+      <td>08/15/24</td>
+      <td> With the help if AI (Gemini) I fixed all the bugs in my program.  I also learned how to bring in a sample set of data and build the prediciton model in the init method.  I used the Lasso Method because the regression model was causing space issues.  Sent update with detail report of errors that were fixed.  Waiting for servicer to update my python version before I can redeploy</td>
       <td>Program is working as intended</td>
     </tr>
   </tbody>
