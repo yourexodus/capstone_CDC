@@ -381,8 +381,8 @@ Packages: pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0
       <td>web app : https://sunday-1szf.onrender.com/</td>
     </tr>
     <tr>
-      <td>08/15/24</td>
-      <td> With the help of AI (Gemini) I fixed all the bugs in my program.  I also learned how to bring in a sample set of data and build the prediciton model in the init method.  I used the Lasso Method because the regression model was causing space issues.  Sent update with detail report of errors that were fixed.  Waiting for servicer to update my python version before I can redeploy</td>
+      <td>08/15/24</td>       
+      <td><p>With the help of AI (Gemini) I fixed all the bugs in my program. Created an <a href="https://github.com/yourexodus/capstone_CDC/blob/main/assets/Error_Report.pdf"> Error Report</a> to show all the issues I resolved.  I am most proud of the solution I added bring in a sample set of data and build the prediciton model in the init method.  I impleted the Lasso Method to address the space issues I encountered using the regression model.  </p>  </td>
       <td>Program is working as intended</td>
     </tr>
   </tbody>
