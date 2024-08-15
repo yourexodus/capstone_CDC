@@ -383,7 +383,13 @@ Packages: pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0
     <tr>
       <td>08/15/24</td>       
       <td><p>With the help of AI (Gemini) I fixed all the bugs in my program. Created an <a href="https://github.com/yourexodus/capstone_CDC/blob/main/assets/Error_Report.pdf"> Error Report</a> to show all the issues I resolved.  I am most proud of the solution I implemented to bring in a sample set of data using Test Train Split to build my prediciton model using the Lasso method in the init function.  The Lasso Method was used to address the space issues I encountered using the regression model.  </p>  </td>
-      <td>Program is working as intended</td>
+      <td>Program is working as intended
+      attached error report
+      <ul><a href="https://github.com/yourexodus/capstone_CDC"> main repository</a> </ul>
+       <ul><a href="https://github.com/yourexodus/sunday"> web app repository</a> </ul> 
+       <ul><a href="https://sunday-2kha.onrender.com"> web app. Allow 5 minute load time</a> </ul> 
+ 
+      </td>
     </tr>
   </tbody>
 </table>
