@@ -389,8 +389,7 @@ Packages: pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0
        <ul><a href="https://github.com/yourexodus/sunday"> Web App Repository</a> </ul> 
        <ul><a href="https://sunday-2kha.onrender.com"> Web App </a>. Allow 5 minute load time </ul> 
  
-      </td>
-    </tr>
+      
   </tbody>
 </table>
 </ul>
