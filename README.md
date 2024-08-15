@@ -382,7 +382,7 @@ Packages: pip install --use-pep517 dash==2.17.1 dash_bootstrap_components==1.6.0
     </tr>
     <tr>
       <td>08/15/24</td>
-      <td> With the help if AI (Gemini) I fixed all the bugs in my program.  I also learned how to bring in a sample set of data and build the prediciton model in the init method.  I used the Lasso Method because the regression model was causing space issues.  Sent update with detail report of errors that were fixed.  Waiting for servicer to update my python version before I can redeploy</td>
+      <td> With the help of AI (Gemini) I fixed all the bugs in my program.  I also learned how to bring in a sample set of data and build the prediciton model in the init method.  I used the Lasso Method because the regression model was causing space issues.  Sent update with detail report of errors that were fixed.  Waiting for servicer to update my python version before I can redeploy</td>
       <td>Program is working as intended</td>
     </tr>
   </tbody>
